@@ -1,1 +1,1 @@
-Project directory for paper # 2
+Project directory for paper 2.
