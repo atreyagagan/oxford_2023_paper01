@@ -1,0 +1,864 @@
+---
+title: "Data Analysis and Visualization <br> Paper 2"
+author: Gagan Atreya 
+date: today
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    theme: lumenR
+    fontsize: large
+    code-fold: true
+    code-tools: true
+    code-summary: "Display code"
+    code-overflow: wrap
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# **Section 1. Data importation and cleaning**
+
+```{r, error = F, message=F, warning = F}
+
+## clear environment:
+rm(list=ls())
+options(digits = 2)
+
+## Correct asterisk pattern for stargazer tables:
+starpattern <- "<em>&#42;p&lt;0.05;&nbsp;&#42;&#42;p&lt;0.01;&nbsp;&#42;&#42;&#42;p&lt;0.001</em>"
+
+## Install "pacman" package if not installed
+# (remove the # symbol from the line below):
+# install.packages("pacman")
+
+## Load R packages:
+pacman::p_load(data.table, tidyverse, haven, labelled, vtable, 
+               psych, scales, weights, clipr, forcats,
+               stargazer, ggthemes, ggcharts, geomtextpath,
+               corrplot, tm, readxl, patchwork, modelsummary,
+               gt, lme4, car, lmerTest, lavaan,
+               ggeffects, magrittr, broom, broom.mixed,
+               backports, effects, interactions, plyr, sjPlot)
+
+## Import datasets. These are cleaned datasets with variables created and named in the individual country R scripts:
+
+# Gambia:
+dsgmb <- fread("~/Dropbox/2023_Gagan/Paper02/data/dsgmb.csv")
+
+# Pakistan:
+dspak <- fread("~/Dropbox/2023_Gagan/Paper02/data/dspak.csv")
+
+# Tanzania:
+dstza <- fread("~/Dropbox/2023_Gagan/Paper02/data/dstza.csv")
+
+# Uganda:
+dsuga <- fread("~/Dropbox/2023_Gagan/Paper02/data/dsuga.csv")
+
+# Combine into one dataset:
+ds <- rbind(dsgmb, dspak, dstza, dsuga)
+
+## Clean demographic variables: 
+
+## gender:
+ds$gender <- ifelse(ds$gender == "Male", "Male",
+             ifelse(ds$gender == "Female", "Female", NA))
+
+## ses:
+ds$ses <- ifelse(ds$ses == "", NA, ds$ses)
+
+## Religion:
+ds$religion <- ifelse(ds$religion == "", NA, ds$religion)
+
+ds$religion <- ifelse(ds$religion == "Christian (Catholic)", "Christian: Catholic", 
+               ifelse(ds$religion == "Christian (Protestant)", "Christian: Protestant",
+               ifelse(ds$religion == "Muslim (Shia)", "Muslim: Shia",
+               ifelse(ds$religion == "Muslim (Sunni)", "Muslim: Sunni", ds$religion))))
+
+## Marital status
+ds$married <- ifelse(ds$married == "Not married", "Unmarried", ds$married)
+ds$married <- ifelse(ds$married == "", NA, ds$married)
+
+## Separate into individual country datasets:
+dsgmb <- ds[ds$country == "Gambia", ]
+dspak <- ds[ds$country == "Pakistan", ]
+dstza <- ds[ds$country == "Tanzania", ]
+dsuga <- ds[ds$country == "Uganda", ]
+
+```
+
+### Missing data: Gambia
+
+```{r, error = F, message=F, warning = F}
+
+missing_ds <- map(dsgmb, ~mean(is.na(.))*100) 
+missing_ds <- as.data.frame(missing_ds)
+missing_ds <- as_tibble(cbind(variable = names(missing_ds), t(missing_ds)))
+missing_ds$percent_missing <- missing_ds$V2
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+
+missing_ds <- select(missing_ds,-c(2))
+missing_ds <- as.data.frame(missing_ds)
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+missing_ds <- as.data.table(missing_ds)
+
+missing_ds_01 <- missing_ds[1:31,]
+missing_ds_02 <- missing_ds[32:61,]
+
+lp01 <- missing_ds_01 %>%
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "Gambia")+
+  theme_bw()
+
+lp02 <- missing_ds_02 %>% 
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "")+
+  theme_bw()
+
+lp01| lp02
+
+```
+
+### Missing data: Pakistan
+
+```{r, error = F, message=F, warning = F}
+
+missing_ds <- map(dspak, ~mean(is.na(.))*100) 
+missing_ds <- as.data.frame(missing_ds)
+missing_ds <- as_tibble(cbind(variable = names(missing_ds), t(missing_ds)))
+missing_ds$percent_missing <- missing_ds$V2
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+
+missing_ds <- select(missing_ds,-c(2))
+missing_ds <- as.data.frame(missing_ds)
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+missing_ds <- as.data.table(missing_ds)
+
+missing_ds_01 <- missing_ds[1:31,]
+missing_ds_02 <- missing_ds[32:61,]
+
+lp01 <- missing_ds_01 %>%
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "Pakistan")+
+  theme_bw()
+
+lp02 <- missing_ds_02 %>% 
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "")+
+  theme_bw()
+
+lp01| lp02
+
+```
+
+### Missing data: Tanzania
+
+```{r, error = F, message=F, warning = F}
+
+missing_ds <- map(dstza, ~mean(is.na(.))*100) 
+missing_ds <- as.data.frame(missing_ds)
+missing_ds <- as_tibble(cbind(variable = names(missing_ds), t(missing_ds)))
+missing_ds$percent_missing <- missing_ds$V2
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+
+missing_ds <- select(missing_ds,-c(2))
+missing_ds <- as.data.frame(missing_ds)
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+missing_ds <- as.data.table(missing_ds)
+
+missing_ds_01 <- missing_ds[1:31,]
+missing_ds_02 <- missing_ds[32:61,]
+
+lp01 <- missing_ds_01 %>%
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "Tanzania")+
+  theme_bw()
+
+lp02 <- missing_ds_02 %>% 
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "")+
+  theme_bw()
+
+lp01| lp02
+
+```
+
+### Missing data: Uganda
+
+```{r, error = F, message=F, warning = F}
+
+missing_ds <- map(dsuga, ~mean(is.na(.))*100) 
+missing_ds <- as.data.frame(missing_ds)
+missing_ds <- as_tibble(cbind(variable = names(missing_ds), t(missing_ds)))
+missing_ds$percent_missing <- missing_ds$V2
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+
+missing_ds <- select(missing_ds,-c(2))
+missing_ds <- as.data.frame(missing_ds)
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+missing_ds <- as.data.table(missing_ds)
+
+missing_ds_01 <- missing_ds[1:31,]
+missing_ds_02 <- missing_ds[32:61,]
+
+lp01 <- missing_ds_01 %>%
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "Uganda")+
+  theme_bw()
+
+lp02 <- missing_ds_02 %>% 
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "")+
+  theme_bw()
+
+lp01| lp02
+
+```
+
+
+### Missing data: full dataset
+
+```{r, error = F, message=F, warning = F}
+
+missing_ds <- map(ds, ~mean(is.na(.))*100) 
+missing_ds <- as.data.frame(missing_ds)
+missing_ds <- as_tibble(cbind(variable = names(missing_ds), t(missing_ds)))
+missing_ds$percent_missing <- missing_ds$V2
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+
+missing_ds <- select(missing_ds,-c(2))
+missing_ds <- as.data.frame(missing_ds)
+missing_ds$percent_missing <- as.numeric(missing_ds$percent_missing)
+missing_ds <- as.data.table(missing_ds)
+
+missing_ds_01 <- missing_ds[1:31,]
+missing_ds_02 <- missing_ds[32:61,]
+
+lp01 <- missing_ds_01 %>%
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "Full dataset")+
+  theme_bw()
+
+lp02 <- missing_ds_02 %>% 
+  lollipop_chart(x = variable,
+                 y = percent_missing,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "% missing data",
+       x = "",
+       title = "")+
+  theme_bw()
+
+lp01| lp02
+
+```
+
+# **Section 2: Demographics**
+
+Demographic variables in the analysis:
+
+- Age
+- Gender
+- Socio-economic status
+- Religious affiliation
+- Education **(NEEDS MAJOR WORK)**
+- Marital status
+- Ethnicity
+
+## Variable: Sample size by Country
+
+```{r, error = F, message = F, warning = F}
+
+tbl01 <- table(ds$country)
+
+## Table of user language by country:
+tbl01
+
+## Sample size by country:
+
+lp01 <- ds %>% 
+  # drop_na(Country) %>%
+  lollipop_chart(x = country,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Sample size by country")+
+  theme_bw()
+
+lp01
+
+```
+
+## Variable: Age
+
+```{r, error = F, message = F, warning = F}
+
+summary(ds$age)
+
+ds %>% drop_na(age)%>%
+ggplot(aes(x = age))+
+  geom_histogram(color = "black",
+                 fill = "gray",
+                 bins = 50)+
+  geom_textvline(label = "Mean = 37.00", 
+                 xintercept = 37.00, 
+                 vjust = 1.1, 
+                 lwd = 1.05, 
+                 linetype = 2)+
+  labs(x = "Age", 
+       y = "Frequency", 
+       title = "Age distribution (full sample)")+
+  theme_bw()
+
+ds %>% drop_na(age)%>%
+ggplot(aes(x = age))+
+  geom_histogram(color = "black",
+                 fill = "gray",
+                 bins = 50)+
+  labs(x = "Age", 
+       y = "Frequency", 
+       title = "Age distribution by country")+
+  facet_wrap(~country, nrow = 2)+
+  theme_bw()
+
+
+```
+
+## Variable: Gender
+
+```{r, error = F, message = F, warning = F}
+
+lp02 <- ds %>% 
+  drop_na(gender, age) %>%
+lollipop_chart(x = gender,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Gender distribution (full sample)")+
+#  facet_wrap(~Country, nrow = 2)+
+  theme_bw()
+
+lp02
+
+
+bp01 <- ds %>% drop_na(gender, age) %>% 
+  ggplot(aes(y = age, 
+             x = gender))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Age",
+       x = "",
+       title = "Age and gender distribution by country")+
+  facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+bp01
+
+```
+
+## Variable: Socio-economic status
+
+```{r, error = F, message = F, warning = F}
+
+ds %>% drop_na(ses) %>%
+lollipop_chart(x = ses,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Socioeconomic status (full sample)")+
+  theme_bw()
+
+
+sesgmb <- dsgmb %>% drop_na(ses) %>%
+lollipop_chart(x = ses,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Gambia")+
+  theme_bw()
+
+
+sespak <- dspak %>% drop_na(ses) %>%
+lollipop_chart(x = ses,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Pakistan")+
+  theme_bw()
+
+
+sestza <- dstza %>% drop_na(ses) %>%
+lollipop_chart(x = ses,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Tanzania")+
+  theme_bw()
+
+sesuga <- dsuga %>% drop_na(ses) %>%
+lollipop_chart(x = ses,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Uganda")+
+  theme_bw()
+
+## All four plots together:
+
+sesplot <- (sesgmb | sespak) / (sestza | sesuga) 
+
+sesplot + plot_annotation("Socio-economic status by country")
+
+```
+
+
+## Variable: Marital status
+
+```{r, error = F, message = F, warning = F}
+
+ds %>% drop_na(married) %>%
+lollipop_chart(x = married,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Marital status (full sample)")+
+  theme_bw()
+
+maritalgmb <- dsgmb %>% drop_na(married) %>%
+lollipop_chart(x = married,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Gambia")+
+  theme_bw()
+
+
+maritalpak <- dspak %>% drop_na(married) %>%
+lollipop_chart(x = married,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Pakistan")+
+  theme_bw()
+
+
+maritaltza <- dstza %>% drop_na(married) %>%
+lollipop_chart(x = married,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Tanzania")+
+  theme_bw()
+
+maritaluga <- dsuga %>% drop_na(married) %>%
+lollipop_chart(x = married,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Uganda")+
+  theme_bw()
+
+## All four plots together:
+
+maritalplot <- (maritalgmb | maritalpak) / (maritaltza | maritaluga) 
+
+maritalplot + plot_annotation("Marital status by country")
+
+```
+
+## Variable: Religious affiliation
+
+```{r, error = F, message = F, warning = F}
+
+lp05 <- ds %>% drop_na(religion) %>%
+lollipop_chart(x = religion,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Religious distribution (full sample)")+
+  theme_bw()
+
+lp05
+
+
+religiongmb <- dsgmb %>% drop_na(religion) %>%
+lollipop_chart(x = religion,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Gambia")+
+  theme_bw()
+
+
+religionpak <- dspak %>% drop_na(religion) %>%
+lollipop_chart(x = religion,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Pakistan")+
+  theme_bw()
+
+
+religiontza <- dstza %>% drop_na(religion) %>%
+lollipop_chart(x = religion,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Tanzania")+
+  theme_bw()
+
+religionuga <- dsuga %>% drop_na(religion) %>%
+lollipop_chart(x = religion,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Uganda")+
+  theme_bw()
+
+## All four plots together:
+
+religionplot <- (religiongmb | religionpak) / (religiontza | religionuga) 
+
+religionplot + plot_annotation("Religious affiliation by country")
+
+```
+
+## Variable: Education
+
+**EDUCATION VARIABLE NEEDS A LOT OF WORK. SPECIFICALLY FOR GAMBIA AND TANZANIA**
+
+```{r, error = F, message = F, warning = F}
+
+# table(dsgmb$education)
+# table(dspak$education)
+# table(dstza$education)
+# table(dsuga$education)
+
+```
+
+
+## Variable: Ethnicity
+
+```{r, error = F, message = F, warning = F}
+
+## Gambia:
+eth <- as.data.frame(table(dsgmb$ethnicity))
+eth$Var1 <- as.character(eth$Var1)
+eth$ethnicity <- ifelse(eth$Freq < 2, "Other", eth$Var1)
+l1 <- as.list(eth$ethnicity)
+
+dsgmb2 <- dsgmb[, c("ethnicity")]
+
+dsgmb2$ethnicity <- ifelse(dsgmb2$ethnicity %in% l1, dsgmb2$ethnicity, "Other")
+dsgmb2$ethnicity <- ifelse(dsgmb2$ethnicity == "Serere", "Serer",
+                 ifelse(dsgmb2$ethnicity == "", NA, dsgmb2$ethnicity))
+
+ethgmb <- dsgmb2 %>% drop_na(ethnicity) %>%
+lollipop_chart(x = ethnicity,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Gambia")+
+  theme_bw()
+
+## Pakistan:
+eth <- as.data.frame(table(dspak$ethnicity))
+eth$Var1 <- as.character(eth$Var1)
+eth$ethnicity <- ifelse(eth$Freq < 7, "Other", eth$Var1)
+l1 <- as.list(eth$ethnicity)
+
+dspak2 <- dspak[, c("ethnicity")]
+
+dspak2$ethnicity <- ifelse(dspak2$ethnicity %in% l1, dspak2$ethnicity, "Other")
+dspak2$ethnicity <- ifelse(dspak2$ethnicity == "Urduspeaking", "Urdu speaking",
+                 ifelse(dspak2$ethnicity == "", NA, dspak2$ethnicity))
+
+ethpak <- dspak2 %>% drop_na(ethnicity) %>%
+lollipop_chart(x = ethnicity,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Pakistan")+
+  theme_bw()
+
+## Tanzania:
+eth <- as.data.frame(table(dstza$ethnicity))
+eth$Var1 <- as.character(eth$Var1)
+eth$ethnicity <- ifelse(eth$Freq < 7, "Other", eth$Var1)
+l1 <- as.list(eth$ethnicity)
+
+dstza2 <- dstza[, c("ethnicity")]
+
+dstza2$ethnicity <- ifelse(dstza2$ethnicity %in% l1, dstza2$ethnicity, "Other")
+dstza2$ethnicity <- ifelse(dstza2$ethnicity == "Serere", "Serer",
+                 ifelse(dstza2$ethnicity == "", NA, dstza2$ethnicity))
+
+ethtza <- dstza2 %>% drop_na(ethnicity) %>%
+lollipop_chart(x = ethnicity,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Tanzania")+
+  theme_bw()
+
+## Uganda:
+eth <- as.data.frame(table(dsuga$ethnicity))
+eth$Var1 <- as.character(eth$Var1)
+eth$ethnicity <- ifelse(eth$Freq < 7, "Other", eth$Var1)
+l1 <- as.list(eth$ethnicity)
+
+dsuga2 <- dsuga[, c("ethnicity")]
+
+dsuga2$ethnicity <- ifelse(dsuga2$ethnicity %in% l1, dsuga2$ethnicity, "Other")
+dsuga2$ethnicity <- ifelse(dsuga2$ethnicity == "japhadollah", "Japhadollah",
+                    ifelse(dsuga2$ethnicity == "Atesot", "Iteso",
+                    ifelse(dsuga2$ethnicity == "Etesot", "Iteso",
+                    ifelse(dsuga2$ethnicity == "Itesot", "Iteso",
+                    ifelse(dsuga2$ethnicity == "", NA, dsuga2$ethnicity)))))
+
+ethuga <- dsuga2 %>% drop_na(ethnicity) %>%
+lollipop_chart(x = ethnicity,
+               line_color = "black",
+               point_color = "black")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Uganda")+
+  theme_bw()
+
+## All four plots together:
+
+ethplot <- (ethgmb | ethpak) / (ethtza | ethuga) 
+
+ethplot + plot_annotation("Ethnic distribution by country")
+
+```
+
+# **Section 3. Measures of interest**
+
+Variables of interest in this analysis: 
+
+- Endorsement of Barrier Bound Leadership (BBL)
+- Endorsement of Barrier Crossing Leadership (BCL)
+
+- Imagistic items:
+  - Event: Positive affect
+  - Event: Negative affect
+  - Event: Episodic recall
+  - Event: Shared perception
+  - Event: Reflection
+  - Event: Transformative for individual
+  - Event: Transformative for group
+  
+- Ingroup fusion
+- Ingroup identification
+- Outgroup fusion
+- Outgroup identification
+- Perception of religious freedom
+- Experience of religious freedom
+- Empathic concern
+- Perspective taking
+
+# **Section 4: TO DO**
+
+- Replicate Table 2 from paper 1 for all of the above variables
+  - This is quite easy. Copy R code from one of the individual country Rpubs files.
+
+- Replicate Figure 6 from Paper 1
+  - This will take a bit of work.
+ 
+- Replicate Table 3 from paper 1 (CFA for BCL and BBL)  
+  - Done. See section 5 below
+
+- Replicate Table 4 from paper 1 (CFA for imagistic items)
+  
+- Replicate Table 5 from paper 1 (Standardized Loadings from Three Factor EFA)
+
+- Replicate Table 6 from paper 1 (CFA for Fusion/Identification measures)
+  - Done. See sections 6 and 7 below
+
+- Everything else from Table 6 onwards... 
+
+# **Section 5: EFA and CFA: BCL and BBL**
+
+## EFA:
+
+```{r, error = F, message = F, warning = F}
+
+leadership <- cbind.data.frame(ds$ENDBCL01, ds$ENDBCL02, ds$ENDBCL03, 
+                               ds$ENDBBL01, ds$ENDBBL02, ds$ENDBBL03)
+
+leadership <- na.omit(leadership)
+
+scree(leadership)
+
+fit02 <- factanal(leadership, 2, rotation="promax")
+fit02
+
+```
+
+## CFA: 
+
+```{r, error = F, message = F, warning = F}
+
+## Remove 'ds$END' from variable names:
+names(leadership) <- sub(".*\\END", "", names(leadership))
+
+#correlated two factor solution, marker method
+twofacs <- 'BCL =~ BCL01+BCL02+BCL03
+            BBL =~ BBL01+BBL02+BBL03' 
+
+cfa02 <- cfa(twofacs, 
+             data=leadership, 
+             std.lv=TRUE) 
+
+summary(cfa02,
+        fit.measures=TRUE,
+        standardized=TRUE)
+
+```
+
+# **Section 6: EFA and CFA: Ingroup Fusion and Identification**
+
+## EFA
+
+```{r, error = F, message = F, warning = F}
+
+## IG IGbonds dataframe:
+IGbonds <- cbind.data.frame(ds$IGF01, ds$IGF02, ds$IGF03,
+                            ds$IGI01, ds$IGI02, ds$IGI03)
+
+names(IGbonds) <- sub('ds\\$', '', names(IGbonds))
+
+IGbonds <- na.omit(IGbonds)
+
+scree(IGbonds)
+
+fit02 <- factanal(IGbonds, 2, rotation="promax")
+fit02
+
+```
+
+## CFA
+
+```{r, error = F, message = F, warning = F}
+
+#correlated two factor solution, marker method
+twofacs <- 'IGFusion =~ IGF01+IGF02+IGF03
+            IGIdentification =~ IGI01+IGI02+IGI03' 
+
+cfa02 <- cfa(twofacs, 
+             data=IGbonds, 
+             std.lv=TRUE) 
+
+summary(cfa02,
+        fit.measures=TRUE,
+        standardized=TRUE)
+
+```
+
+
+# **Section 7: EFA and CFA: Outgroup Fusion and Identification**
+
+## EFA
+
+```{r, error = F, message = F, warning = F}
+
+## OG OGbonds dataframe:
+OGbonds <- cbind.data.frame(ds$OGF01, ds$OGF02, ds$OGF03,
+                            ds$OGI01, ds$OGI02, ds$OGI03)
+
+names(OGbonds) <- sub('ds\\$', '', names(OGbonds))
+
+OGbonds <- na.omit(OGbonds)
+
+scree(OGbonds)
+
+fit02 <- factanal(OGbonds, 2, rotation="promax")
+fit02
+
+```
+
+## CFA
+
+```{r, error = F, message = F, warning = F}
+
+#correlated two factor solution, marker method
+twofacs <- 'OGFusion =~ OGF01+OGF02+OGF03
+            OGIdentification =~ OGI01+OGI02+OGI03' 
+
+cfa02 <- cfa(twofacs, 
+             data=OGbonds, 
+             std.lv=TRUE) 
+
+summary(cfa02,
+        fit.measures=TRUE,
+        standardized=TRUE)
+
+```
+
