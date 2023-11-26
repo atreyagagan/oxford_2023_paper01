@@ -1,353 +1,353 @@
-id,country,age,gender,ses,fses,religion,married,education,ethnicity,IGF01,IGF02,IGF03,IGI01,IGI02,IGI03,OGF01,OGF02,OGF03,OGI01,OGI02,OGI03,ENDBCL01,ENDBCL02,ENDBCL03,ENDBBL01,ENDBBL02,ENDBBL03,empathic_concern_01,empathic_concern_02,empathic_concern_03,perspective_taking_01,perspective_taking_02,perspective_taking_03,perspective_taking_04,event_positive_affect,event_negative_affect,event_episodic_recall_01,event_episodic_recall_02,event_shared_perception_01,event_shared_perception_02,event_reflection_01,event_reflection_02,event_transformative_indiv_01,event_transformative_indiv_02,event_transformative_group_01,event_transformative_group_02,religious_freedom_per_01,religious_freedom_per_02,religious_freedom_per_03,religious_freedom_per_04,religious_freedom_per_05,religious_freedom_per_06,religious_freedom_per_07,religious_freedom_per_08,religious_freedom_exp_01,religious_freedom_exp_02,religious_freedom_exp_03,religious_freedom_exp_04,religious_freedom_exp_05,religious_freedom_exp_06
-TZA1,Tanzania,39,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,7,3,6,6,7,3,5,6,7,6,7,5,3,6,7,5,2,7,5,3,6,7,6,6,4,3,5,6,3,5,7,6,6,7,5,2,7,5,3,6,7,5,1,3,2,1,1,1
-TZA2,Tanzania,40,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,6,7,4,5,6,7,7,3,6,6,7,5,6,7,4,6,5,6,,,,,,,,7,6,3,6,7,3,5,7,6,7,5,7,6,5,5,6,7,3,6,6,,,,,,
-TZA3,Tanzania,38,Female,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,5,6,3,6,7,3,7,3,7,6,7,6,6,6,3,6,5,6,6,1,5,6,7,5,6,5,7,6,3,6,6,7,3,5,6,5,6,6,1,6,7,3,6,7,6,3,1,5,2,3,3
-TZA4,Tanzania,52,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,7,6,5,3,6,7,7,3,6,6,7,3,6,7,5,6,6,7,6,1,6,,5,6,7,6,7,3,6,7,3,5,7,6,7,5,6,6,1,6,7,5,6,7,6,2,1,2,2,2,2
-TZA5,Tanzania,52,Female,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,7,6,3,6,5,6,7,5,7,5,3,6,5,6,7,5,3,6,7,3,7,3,6,7,5,5,7,,3,6,7,7,3,5,6,5,6,6,2,6,7,6,7,5,6,3,1,5,2,3,3
-TZA6,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,5,7,4,6,3,,6,3,6,7,6,7,3,6,6,6,7,5,6,7,5,6,7,7,6,4,6,6,5,6,7,6,3,3,6,6,1,6,7,5,6,7,3,3,2,1,5,3,3
-TZA7,Tanzania,30,Female,Middle,2,Christian: Catholic,Unmarried,Form Six,Maasai,6,7,7,7,6,6,5,6,5,5,7,6,7,5,6,5,6,7,7,6,2,6,4,6,5,2,7,2,6,7,5,5,2,5,2,6,2,7,1,7,6,7,2,7,7,5,,3,7,5,5
-TZA8,Tanzania,33,Female,"",,Christian: Catholic,Married,Form Six,Maasai,6,7,6,5,,6,5,6,,2,5,2,6,2,1,6,7,7,1,6,7,6,7,7,6,2,6,7,6,7,6,7,7,2,6,2,7,6,1,6,7,6,5,7,6,5,6,4,3,5,5
-TZA9,Tanzania,32,Female,Middle,2,Christian: Catholic,Married,Form Five,Maasai,6,7,6,6,7,6,5,5,5,7,5,5,6,2,1,7,6,7,2,,6,7,6,6,5,7,2,6,7,6,7,6,5,6,5,6,5,7,2,7,7,5,7,6,7,6,5,2,3,6,6
-TZA10,Tanzania,52,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,3,6,5,7,3,6,3,6,7,5,6,7,3,5,6,7,3,6,5,3,6,7,7,6,3,6,7,3,6,6,6,3,7,4,3,3,7,5,6,3,6,7,3,1,5,2,3,3
-TZA11,Tanzania,35,Male,Middle,2,Christian: Catholic,Married,Form Six,Maasai,6,7,3,5,6,7,7,3,6,6,7,3,6,7,3,6,7,5,6,1,5,6,7,3,6,7,6,3,6,7,3,6,7,7,3,5,7,6,1,6,7,6,7,5,6,3,2,1,5,3,3
-TZA12,Tanzania,55,Male,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,6,7,5,6,7,3,3,6,7,7,6,5,6,7,2,6,7,5,6,1,3,6,5,6,3,7,6,3,6,7,3,3,6,6,7,7,3,6,1,6,7,3,6,7,6,3,1,5,2,3,3
-TZA13,Tanzania,52,Male,Middle,2,Christian: Protestant,Married,Form Four,Maasai,6,7,3,6,3,6,,6,7,4,6,7,6,7,3,5,6,7,7,3,6,3,6,7,3,3,7,6,5,6,7,7,3,3,6,6,7,6,1,3,5,6,7,3,6,3,1,5,2,3,3
-TZA14,Tanzania,25,Female,Middle,2,Christian: Pentecostal,Unmarried,Chuo Ckikuu,Maasai,2,6,7,6,7,5,6,7,2,6,7,7,5,6,2,6,6,5,6,3,7,2,6,7,2,2,7,7,7,6,5,5,5,6,6,7,2,7,2,7,6,5,6,5,7,3,6,2,4,3,3
-TZA15,Tanzania,35,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,7,6,2,6,,7,7,5,,6,7,2,6,7,2,5,6,7,2,2,5,7,7,5,2,2,7,6,5,7,5,5,2,6,7,6,2,7,1,6,5,6,2,6,7,3,6,2,1,3,3
-TZA16,Tanzania,30,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,7,6,7,5,6,2,3,6,7,1,7,6,5,7,7,6,3,7,7,7,6,7,5,3,7,7,6,5,5,6,7,7,7,3,2,3,1,3,7,6,3,6,7,7,6,7,6,7,7
-TZA17,Tanzania,32,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,5,7,6,5,7,3,6,,6,7,6,6,7,2,6,5,7,7,6,5,3,6,7,6,2,7,5,6,5,6,2,3,7,5,6,7,7,2,7,7,6,5,7,7,3,1,6,2,3,3
-TZA18,Tanzania,25,Male,Lower middle,1,Christian: Catholic,Unmarried,Kidato chaune,Maasai,7,3,,6,6,,6,2,3,3,3,2,7,7,6,6,7,7,2,5,7,6,,7,6,6,7,7,6,5,5,6,7,7,7,3,1,3,2,6,7,7,7,6,7,6,5,,6,6,6
-TZA19,Tanzania,54,Male,Middle,2,Christian: Catholic,Unmarried,Shule ya msingi,Maasai,7,6,5,7,6,7,1,1,1,1,1,1,7,2,5,6,7,1,7,3,5,6,6,6,1,1,7,6,7,2,2,5,6,7,6,1,1,7,1,7,7,7,7,7,6,6,7,7,7,6,6
-TZA20,Tanzania,40,Female,Upper middle,3,Christian: Catholic,Married,Form Four,Maasai,5,6,7,7,6,7,6,7,5,6,7,5,6,3,6,5,7,5,5,2,7,5,7,5,6,3,5,6,6,5,6,5,6,5,7,5,7,7,2,7,5,6,7,5,6,3,4,2,3,3,3
-TZA21,Tanzania,28,Female,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,7,6,7,7,6,7,5,3,5,5,2,3,7,5,7,2,2,6,7,2,5,7,6,5,6,2,7,7,7,6,5,7,3,6,5,5,2,7,2,7,6,7,3,6,7,6,4,3,7,6,6
-TZA22,Tanzania,35,Female,Middle,2,Christian: Catholic,Married,Chuo kikuu,Maasai,6,7,2,5,3,7,7,6,,5,7,6,7,6,6,5,7,5,7,6,5,7,6,3,6,2,6,7,5,7,6,5,6,2,7,2,7,7,1,6,7,5,7,6,7,2,3,2,6,2,2
-TZA23,Tanzania,40,Female,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,6,5,7,2,7,6,6,7,3,7,5,6,6,3,7,5,6,7,6,1,2,5,6,7,5,2,7,6,3,5,6,7,5,7,5,7,6,7,2,7,6,7,2,7,7,7,7,3,3,7,7
-TZA24,Tanzania,38,Female,Middle,2,Christian: Catholic,Unmarried,Form Two,Maasai,7,5,6,5,2,7,2,4,6,7,5,7,7,2,,6,7,5,7,3,6,7,5,6,5,7,6,5,2,7,5,6,5,6,7,6,7,6,1,5,7,7,6,7,,3,2,4,,3,3
-TZA25,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,7,5,6,2,7,5,5,7,6,7,5,6,7,3,5,6,3,2,6,7,3,6,5,7,7,6,6,2,7,2,6,5,7,3,7,1,6,6,7,2,7,7,3,1,5,2,3,3
-TZA26,Tanzania,,Female,Upper middle,3,Christian: Catholic,Married,4,Maasai,6,5,7,7,5,6,6,7,5,5,6,7,6,5,6,7,5,6,6,3,3,5,6,5,6,7,6,5,6,7,5,7,5,6,5,6,7,5,2,7,6,7,5,7,6,3,2,3,2,3,3
-TZA27,Tanzania,18,Female,Middle,2,Christian: Catholic,Unmarried,4,Maasai,7,7,7,7,7,7,5,5,3,6,3,3,7,2,3,7,,6,5,5,7,6,7,7,6,7,1,7,6,1,7,5,1,7,,7,5,5,1,7,7,7,3,6,5,7,6,4,4,7,7
-TZA28,Tanzania,28,Female,Middle,2,Christian: Pentecostal,Married,Form Six,Maasai,7,2,5,5,6,7,5,7,,7,5,6,6,2,7,5,6,6,6,6,7,5,,6,7,5,7,6,2,6,5,6,7,7,,5,6,7,2,5,7,6,2,6,7,5,2,4,,5,5
-TZA29,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,6,7,5,5,6,6,7,3,6,5,6,7,6,6,7,5,5,7,6,1,5,6,6,7,5,3,5,7,6,3,6,6,5,5,7,6,7,6,1,5,3,5,6,7,6,3,2,1,4,3,3
-TZA30,Tanzania,20,Male,Middle,2,Christian: Catholic,Married,Darasa la Saba,Maasai,6,7,3,6,7,3,6,7,5,7,3,6,7,5,6,7,3,5,7,3,3,6,7,5,7,5,7,6,6,5,3,3,5,6,7,6,7,5,2,2,6,5,7,6,7,3,5,2,1,3,3
-TZA31,Tanzania,27,Male,Upper middle,3,Christian: Catholic,Unmarried,Form Four,Maasai,6,7,5,5,6,7,2,6,3,5,6,7,6,7,5,3,6,6,7,3,6,3,6,7,3,6,5,2,6,3,6,3,6,7,5,7,5,7,2,5,6,7,6,7,6,3,4,2,3,3,3
-TZA32,Tanzania,26,Male,Upper middle,3,Christian: Catholic,Married,Form Two,Maasai,7,5,7,2,6,7,6,5,7,3,6,7,7,5,7,5,2,6,6,3,2,6,6,2,6,5,7,,3,5,7,2,6,5,7,5,2,7,2,5,6,7,5,6,7,3,6,2,3,3,3
-TZA33,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Mkura,7,5,,3,7,6,6,5,7,7,6,7,6,7,5,2,6,6,7,3,6,2,6,5,6,5,6,3,5,6,7,3,6,5,7,5,7,7,2,6,7,5,7,6,7,3,6,2,3,3,3
-TZA34,Tanzania,22,Male,Middle,2,Christian: Pentecostal,Unmarried,Chuo,Iraq,7,6,7,6,7,7,2,6,2,3,3,1,7,6,6,6,7,4,3,6,7,6,6,7,7,1,7,6,6,7,6,6,7,7,6,5,5,5,6,6,5,7,7,6,6,7,6,1,7,7,7
-TZA35,Tanzania,50,Male,Lower middle,1,Christian: Catholic,Married,Shule Msiry,Maasai,7,7,7,7,7,7,1,1,1,2,5,2,7,6,6,6,7,7,6,7,6,5,6,6,6,1,7,6,5,7,7,1,1,1,1,1,1,1,1,6,6,7,6,6,6,7,7,6,7,7,7
-TZA36,Tanzania,35,Male,Middle,2,Christian: Catholic,Unmarried,Form Two,Maasai,5,3,7,2,7,6,2,3,2,1,2,1,7,6,6,6,7,7,3,7,7,5,6,6,7,1,7,7,6,5,5,6,7,7,7,3,1,3,1,7,7,7,6,7,7,7,6,7,7,7,7
-TZA37,Tanzania,35,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,5,6,7,3,6,6,7,3,5,6,7,6,7,4,6,7,5,6,3,7,5,3,6,7,6,5,5,6,7,5,6,7,6,3,3,6,6,1,6,7,5,6,7,6,3,2,1,3,3,3
-TZA38,Tanzania,38,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,6,7,3,6,7,4,4,6,7,6,7,6,7,5,6,3,6,7,6,1,3,6,7,5,6,5,7,6,7,3,6,6,3,7,5,6,7,6,1,6,7,3,6,7,6,3,2,1,5,3,3
-TZA39,Tanzania,44,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,5,7,5,6,7,6,4,6,6,7,5,6,7,3,5,6,7,6,1,3,6,7,5,6,3,6,6,3,6,6,6,7,7,3,5,6,5,2,7,3,6,7,5,6,3,2,1,5,3,3
-TZA40,Tanzania,45,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,5,7,3,6,7,6,5,7,6,,3,7,5,6,3,6,7,7,3,6,7,3,6,7,5,7,6,7,3,6,6,5,7,4,7,6,6,5,6,7,5,3,6,7,3,2,5,2,3,3
-TZA41,Tanzania,48,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,5,7,,2,7,3,,,5,7,7,5,3,6,7,5,7,3,6,2,6,7,3,5,7,6,7,3,6,6,7,7,5,5,7,5,2,3,6,7,5,6,7,3,2,1,5,3,3
-TZA42,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,3,6,7,5,4,6,7,7,3,6,5,6,7,3,6,7,6,1,3,6,7,3,6,5,6,4,6,7,5,3,6,6,7,7,4,5,1,3,6,7,3,6,7,3,2,1,5,3,3
-TZA43,Tanzania,38,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,3,6,7,3,6,5,7,3,6,3,6,7,7,6,7,3,5,6,6,1,3,6,7,3,6,4,6,6,7,5,6,6,5,7,3,6,7,6,1,6,7,6,7,6,7,3,2,1,3,3,3
-TZA44,Tanzania,40,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,5,7,4,7,3,6,7,6,7,6,7,3,6,7,3,6,1,3,6,7,3,6,7,6,3,5,6,7,6,7,6,3,5,6,6,1,6,3,6,7,6,7,3,1,5,2,3,3
-TZA45,Tanzania,58,Male,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,5,6,3,3,6,7,7,3,6,6,3,6,6,7,3,6,7,6,6,1,4,6,7,3,6,7,6,3,6,7,4,3,6,6,7,7,6,5,1,2,6,7,3,6,7,3,1,5,2,3,3
-TZA46,Tanzania,48,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,3,6,7,7,3,6,5,6,7,6,7,3,6,7,6,5,1,3,6,7,3,6,7,6,4,6,7,3,4,6,5,7,7,5,7,4,6,7,3,6,7,5,3,2,1,5,3,3
-TZA47,Tanzania,42,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,5,5,3,6,7,3,6,3,6,7,5,6,7,3,5,6,6,1,3,6,7,5,6,7,6,5,6,7,5,3,5,6,7,6,7,6,1,6,7,6,3,6,7,2,1,3,1,2,2
-TZA48,Tanzania,30,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,5,6,3,4,6,7,7,3,6,6,7,3,5,6,7,3,6,7,5,2,7,3,6,7,3,7,6,3,6,7,3,6,5,6,3,6,3,5,1,3,6,7,3,6,7,3,2,1,5,3,3
-TZA49,Tanzania,50,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,5,3,6,7,7,3,6,6,7,3,6,7,5,6,7,5,6,1,3,6,7,3,6,7,6,5,7,5,6,7,3,3,6,5,7,6,1,6,7,3,6,7,6,3,2,1,5,3,3
-TZA50,Tanzania,45,Male,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,5,6,7,7,4,6,6,7,4,5,6,7,6,7,3,6,7,5,6,1,3,6,7,3,6,7,6,3,6,7,3,3,5,6,7,6,7,5,2,7,3,5,6,7,6,3,1,2,3,3,3
-TZA51,Tanzania,35,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,5,6,7,7,3,6,6,7,5,5,6,7,3,5,6,6,1,5,6,7,6,3,7,6,3,6,7,3,3,6,6,7,7,3,4,2,7,3,6,7,6,5,2,3,1,3,2,2
-TZA52,Tanzania,30,Male,Upper middle,3,Christian: Catholic,Other,Form Four,Maasai,6,7,5,5,3,6,,5,7,5,6,7,5,7,6,5,6,7,6,1,5,6,7,5,6,5,7,6,7,5,6,7,5,7,5,6,7,6,1,5,7,3,5,7,6,3,1,2,3,3,3
-TZA53,Tanzania,34,Male,Upper middle,3,Christian: Catholic,Unmarried,Form Five,Maasai,6,3,6,3,6,5,6,3,6,5,6,7,5,6,7,2,5,6,5,2,3,5,6,7,5,7,6,5,6,7,5,7,5,3,5,6,7,5,2,7,3,6,7,5,6,3,2,3,2,3,3
-TZA54,Tanzania,24,Male,Upper middle,3,Christian: Catholic,Married,Form Four,Maasai,6,7,5,7,6,3,,,5,,6,3,6,7,5,6,7,6,6,3,7,4,6,5,7,5,6,7,3,6,5,5,6,6,7,5,7,5,2,3,6,7,2,5,7,3,1,2,,3,3
-TZA55,Tanzania,22,Female,Middle,2,Christian: Catholic,Unmarried,Form Six,Maasai,6,2,7,6,3,6,7,6,7,5,6,7,7,5,6,7,2,5,7,3,6,7,5,6,7,7,5,5,7,5,6,7,6,2,5,5,6,7,2,7,6,5,,7,6,3,1,2,3,3,3
-TZA56,Tanzania,30,Male,Middle,2,Christian: Catholic,Married,Form Two,Maasai,7,6,5,7,3,6,5,7,3,7,5,6,7,6,5,2,6,6,6,3,3,6,5,6,3,7,6,5,6,5,3,5,7,6,7,5,7,7,3,7,5,6,6,5,7,3,2,5,3,3,3
-TZA57,Tanzania,29,Male,Upper middle,3,Christian: Catholic,Unmarried,Chuo Kikuu,Maasai,5,7,6,7,6,3,7,5,7,7,5,7,7,5,6,7,5,6,6,4,7,2,6,7,4,5,7,,3,5,7,6,6,5,7,7,5,7,3,6,7,5,6,6,3,2,3,1,5,2,2
-TZA58,Tanzania,33,Male,Upper middle,3,Christian: Catholic,Married,Form Five 5,Maasai,7,5,3,6,2,6,5,7,6,2,7,5,7,2,5,7,3,6,7,3,2,6,7,5,6,5,7,7,5,6,2,6,5,6,3,7,6,7,3,3,6,,3,6,7,3,1,5,3,3,3
-TZA59,Tanzania,23,Male,Upper middle,3,Christian: Catholic,Married,Form Four 4,Maasai,7,6,3,2,5,6,3,7,5,5,3,6,7,2,6,5,6,7,7,3,2,7,3,6,7,5,7,6,3,6,3,7,3,6,5,6,7,7,3,7,6,5,3,7,5,3,1,5,2,3,3
-TZA60,Tanzania,18,Female,Middle,2,Christian: Catholic,Unmarried,Form Three,Maasai,6,7,6,7,6,6,5,2,1,2,5,2,7,5,6,7,5,7,7,3,7,6,7,5,6,5,7,6,7,5,2,5,7,5,7,6,5,7,2,7,7,6,5,7,7,4,7,3,6,4,4
-TZA61,Tanzania,,"","",,"",Other,"","",6,7,6,7,6,6,5,5,5,5,5,6,5,5,6,7,6,7,,,,,,,,6,1,7,7,7,6,6,7,7,5,6,5,7,2,7,6,5,7,6,6,,,,,,
-TZA62,Tanzania,18,Female,Upper middle,3,Christian: Catholic,Unmarried,Form Two 2,Maasai,7,6,7,7,6,7,2,6,3,1,2,1,7,6,5,6,5,7,3,7,7,6,5,6,7,1,7,6,7,6,5,6,7,7,7,3,1,3,1,1,7,6,3,6,7,7,6,7,7,7,7
-TZA63,Tanzania,19,Male,Lower middle,1,Christian: Catholic,Unmarried,Form Four,Maasai,7,5,6,5,2,7,5,7,2,2,1,2,7,6,3,6,5,7,7,3,6,7,5,6,2,6,7,5,6,7,5,5,6,7,7,7,6,7,2,7,6,7,6,7,7,3,2,1,2,3,3
-TZA64,Tanzania,20,Female,Middle,2,"",Unmarried,Form Four,Maasai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA65,Tanzania,22,Female,Upper middle,3,Christian: Catholic,Married,Form Four 4,Maasai,5,6,6,7,6,6,5,1,6,1,6,2,5,3,1,6,7,6,2,7,6,7,6,7,6,1,7,6,5,7,6,7,6,1,7,1,6,6,1,6,7,7,6,7,7,5,6,4,3,5,5
-TZA66,Tanzania,18,Female,Middle,2,Christian: Catholic,Unmarried,Form Two,Maasai,7,5,2,7,6,2,5,7,6,6,2,6,7,5,2,6,7,6,7,3,6,5,7,2,6,5,7,2,5,6,7,5,7,6,2,6,5,7,2,7,6,7,5,7,7,3,1,6,3,3,3
-TZA67,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,5,6,7,6,7,6,7,5,,5,6,7,5,6,7,5,6,7,6,1,5,6,7,5,6,7,6,5,6,7,5,5,6,7,6,7,6,6,1,5,6,7,5,6,7,3,1,3,1,3,3
-TZA68,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,6,7,5,6,7,3,6,5,7,6,7,6,6,7,5,6,5,6,6,1,5,6,7,5,6,7,6,4,6,5,6,6,7,7,5,5,7,6,3,6,7,5,6,7,5,3,2,1,3,3,3
-TZA69,Tanzania,22,Female,Middle,2,Christian: Catholic,Unmarried,4,Maasai,5,6,3,7,3,5,6,7,3,7,6,7,5,6,5,6,7,6,6,3,6,7,5,6,3,5,6,6,7,5,6,7,6,7,5,6,7,7,3,6,7,3,6,7,5,3,2,4,2,3,3
-TZA70,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,Form One 1,Maasai,6,7,5,6,5,6,7,5,7,5,6,7,5,7,5,7,5,7,6,5,7,6,,5,6,5,7,7,5,6,7,7,5,5,6,6,7,7,2,7,6,7,6,7,5,3,1,2,3,3,3
-TZA71,Tanzania,21,Male,Middle,2,Christian: Catholic,Unmarried,Form Five 5,Maasai,7,6,5,6,7,5,5,7,5,3,6,7,6,7,3,6,5,4,6,1,5,6,6,5,6,5,7,7,5,3,6,3,5,7,6,7,6,6,1,3,5,7,6,5,7,3,5,2,1,3,3
-TZA72,Tanzania,20,Male,Middle,2,Christian: Catholic,Unmarried,Chuo Kikuu,Maasai,6,7,5,3,6,7,5,7,5,6,7,5,7,6,5,7,5,7,6,1,5,7,3,6,5,5,7,7,6,5,6,7,6,7,5,6,7,5,1,6,3,6,7,3,6,3,1,5,2,3,3
-TZA73,Tanzania,22,Male,Middle,2,Christian: Catholic,Unmarried,Form Four 4,Maasai,6,3,7,2,7,3,6,4,7,6,7,6,7,2,6,5,7,6,6,4,7,2,6,5,7,5,7,3,6,7,5,7,3,2,5,6,5,7,3,3,6,3,5,7,6,3,6,3,1,3,3
-TZA74,Tanzania,19,Male,Middle,2,Christian: Catholic,Unmarried,Form Four 5,Maasai,6,7,6,3,6,7,6,7,5,7,2,6,6,7,5,6,5,6,7,5,7,3,7,3,5,5,7,6,3,6,5,6,2,7,3,5,6,7,3,7,3,6,7,2,6,3,1,5,2,3,3
-TZA75,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,5,6,7,7,5,6,6,7,3,5,6,7,7,5,6,7,5,6,7,3,6,5,6,7,5,7,6,5,6,7,2,3,6,6,5,5,6,7,2,7,6,5,6,7,6,3,1,5,3,3,3
-TZA76,Tanzania,42,Male,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,7,6,7,6,7,1,2,1,2,1,1,5,6,3,7,7,6,6,7,7,5,6,5,3,1,7,6,6,3,5,5,5,7,2,3,3,7,1,5,6,7,6,3,6,6,4,7,3,6,6
-TZA77,Tanzania,23,Female,Lower middle,1,Muslim: Shia,Unmarried,Form Four,Maasai,7,7,7,6,5,7,1,2,3,2,1,1,6,5,3,7,6,7,7,7,7,3,6,6,5,1,7,5,6,5,3,2,5,6,3,4,4,7,1,5,6,7,5,3,5,7,7,7,5,7,7
-TZA78,Tanzania,49,Female,Lower middle,1,Spiritual not religious,Married,"",Maasai,6,6,6,6,6,6,2,1,2,2,2,2,7,6,2,2,6,6,6,6,6,7,6,6,7,2,6,6,6,6,6,6,6,2,2,2,6,6,2,6,2,6,6,2,2,7,5,4,4,7,7
-TZA79,Tanzania,26,Female,Middle,2,Other,Unmarried,Cheti,Maasai,7,7,7,7,7,7,6,2,5,3,1,3,7,6,5,2,6,2,1,6,7,7,7,7,5,7,1,7,7,1,6,2,6,7,6,7,6,7,2,7,7,7,7,7,7,7,7,7,7,7,7
-TZA80,Tanzania,29,Female,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,7,6,6,5,6,2,1,1,1,2,3,3,6,5,5,3,6,6,7,7,5,5,6,3,1,7,6,6,5,6,5,2,6,5,5,3,7,1,5,6,6,3,7,4,7,6,4,4,7,7
-TZA81,Tanzania,24,Female,Lower middle,1,Christian: Catholic,Married,LA 7,Mhilaki,7,6,5,7,6,7,2,3,1,3,3,2,5,6,3,4,6,7,1,6,7,6,5,6,6,1,7,6,6,3,3,5,6,7,6,6,4,7,2,3,7,7,2,7,4,7,6,1,6,7,7
-TZA82,Tanzania,40,Female,Lower middle,1,Christian: Other,Married,7,Maasai,7,5,5,7,7,7,1,3,3,3,2,1,3,4,5,6,6,7,6,7,7,5,5,6,3,1,7,5,6,5,5,5,5,6,3,5,2,7,2,3,6,6,4,7,5,7,7,6,4,7,7
-TZA83,Tanzania,50,Female,Upper middle,3,Christian: Protestant,Married,Form Four,Maasai,7,5,6,7,5,7,3,2,3,1,3,1,5,4,6,7,6,7,5,7,7,5,3,6,2,1,7,6,7,5,6,5,6,3,3,2,1,7,1,5,7,6,3,6,5,6,4,4,3,6,6
-TZA84,Tanzania,51,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,7,6,6,7,7,5,5,3,3,2,5,5,5,3,6,7,6,7,6,5,6,7,7,1,1,6,6,5,6,6,6,7,2,5,3,7,2,5,7,7,7,6,6,7,6,4,7,7,7
-TZA85,Tanzania,30,Female,Middle,2,Christian: Other,Unmarried,Form Four,Maasai,7,7,6,7,6,7,6,5,5,3,2,1,5,5,5,6,6,7,6,7,6,5,6,7,7,1,7,6,6,5,6,6,6,7,2,5,3,7,2,5,7,7,7,6,6,7,6,4,7,7,7
-TZA86,Tanzania,50,Female,Upper middle,3,Christian: Catholic,Married,Form Four,Maasai,7,6,6,7,7,6,7,5,5,3,2,1,6,5,5,2,6,7,7,6,7,5,6,7,3,7,1,6,7,5,6,3,5,2,1,7,2,7,2,3,7,5,2,7,1,7,4,6,4,7,7
-TZA87,Tanzania,40,Female,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,6,6,7,6,5,2,3,3,1,1,1,5,3,6,7,6,7,3,7,7,6,5,6,4,2,1,6,7,5,,6,3,6,5,6,5,1,1,6,5,7,6,7,5,7,7,7,6,7,7
-TZA88,Tanzania,49,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,6,6,7,7,2,1,2,2,1,2,1,2,6,2,6,6,6,6,6,6,6,6,2,1,2,6,6,6,7,6,6,2,2,2,2,6,2,6,6,7,2,2,1,7,1,4,4,7,7
-TZA89,Tanzania,37,Female,Lower middle,1,Christian: Catholic,Married,La saba 7,Maasai,7,6,7,6,7,6,2,2,1,1,1,6,6,2,1,2,2,2,6,6,6,6,2,6,2,2,6,6,6,6,6,6,7,2,6,2,2,6,6,6,6,6,2,6,6,7,4,3,3,7,7
-TZA90,Tanzania,29,Female,Middle,2,Spiritual not religious,Married,Form Four,Maasai,7,7,6,6,6,6,6,5,5,7,,1,5,5,5,6,6,7,6,7,6,5,6,7,7,1,7,6,6,5,6,6,7,6,1,7,7,7,2,5,7,7,6,6,6,7,6,4,7,7,7
-TZA91,Tanzania,39,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,6,7,7,7,2,6,6,1,2,2,5,5,5,6,6,7,6,7,6,5,6,7,7,1,3,6,6,5,4,6,6,6,2,5,3,6,1,5,7,7,7,6,6,6,6,4,7,6,6
-TZA92,Tanzania,52,Female,Middle,2,Christian: Catholic,Married,La saba 7,Maasai,7,7,6,6,7,3,6,5,5,2,1,3,5,5,5,7,6,7,6,7,7,6,5,6,6,7,6,6,5,7,6,6,6,7,2,5,3,7,2,5,7,7,7,7,7,7,6,4,7,7,7
-TZA93,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,6,6,7,6,5,5,5,3,1,2,5,5,5,6,6,7,6,1,6,7,5,7,7,7,1,6,6,5,7,6,6,6,1,4,3,7,2,5,7,7,7,6,7,7,6,4,7,7,7
-TZA94,Tanzania,37,Female,Middle,2,Spiritual not religious,Married,Form Four,Maasai,7,7,6,6,7,7,6,5,5,3,2,1,5,5,4,6,6,7,7,1,7,7,5,6,7,2,6,6,7,5,7,7,5,6,1,5,2,7,1,4,6,6,6,7,7,7,6,4,7,7,7
-TZA95,Tanzania,58,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,6,6,7,7,2,1,2,2,2,2,1,2,2,6,6,2,6,6,6,6,6,6,6,1,2,6,7,6,5,6,6,2,2,2,2,6,2,6,7,7,7,2,2,7,4,4,7,7,7
-TZA96,Tanzania,32,Female,Middle,2,Christian: Catholic,Married,7,Maasai,6,6,6,7,7,3,5,5,6,1,2,3,5,5,5,6,6,6,6,7,6,5,6,6,7,1,7,6,6,5,7,6,7,6,1,5,3,7,2,5,7,7,6,6,6,7,6,4,7,7,7
-TZA97,Tanzania,28,Male,Middle,2,Spiritual not religious,Unmarried,7,Maasai,6,6,7,7,6,6,2,1,2,2,1,2,2,1,2,2,6,6,7,7,7,6,6,7,4,1,2,6,6,7,7,6,6,7,2,2,2,6,1,6,7,6,7,2,1,7,4,3,1,7,7
-TZA98,Tanzania,29,Male,Lower middle,1,Christian: Other,Unmarried,Chuo,Maasai,7,6,5,6,6,7,2,3,2,3,1,2,7,1,6,5,7,3,6,7,7,6,5,6,3,1,7,6,5,5,5,3,3,6,6,2,1,6,1,7,5,6,2,6,5,7,6,4,7,7,7
-TZA99,Tanzania,48,Male,Middle,2,Muslim: Shia,Married,Diploma,Makonde,7,5,6,7,6,7,3,5,6,2,1,2,5,3,4,7,6,7,7,7,7,5,6,3,2,1,7,5,6,7,3,3,6,6,7,7,6,6,1,6,6,7,5,6,7,7,6,4,5,7,7
-TZA100,Tanzania,37,Male,Lower middle,1,Christian: Other,Married,La saba 7,Maasai,6,7,7,1,7,6,2,1,3,3,3,3,7,6,4,2,6,4,5,7,7,6,4,5,5,7,,6,7,6,7,5,6,7,5,6,3,4,4,6,5,7,4,4,4,7,6,7,5,7,7
-TZA101,Tanzania,,"","",,Christian: Pentecostal,Other,"",Maasai,,,,,,,,,,,,,1,3,4,7,7,7,7,7,7,5,6,7,6,7,1,6,6,5,5,5,2,6,6,6,3,,,,,,,,,7,7,7,4,7,7
-TZA102,Tanzania,,"","",,Christian: Catholic,Other,"",Maasai,,,,,,,,,,,,,1,2,1,6,6,1,7,1,7,7,7,3,3,2,1,1,6,6,7,6,2,1,2,7,6,,,,,,,,,,4,7,4,,
-TZA103,Tanzania,,"","",,Christian: Other,Other,"",Maasai,,,,,,,,,,,,,1,2,5,2,6,,7,7,7,7,7,7,7,1,2,7,6,6,7,,2,2,2,6,7,,,,,,,,,7,4,5,7,7,7
-TZA104,Tanzania,,"","",,Christian: Catholic,Other,"","",,,,,,,,,,,,,6,6,2,1,2,1,7,7,7,7,6,5,5,1,7,7,7,7,7,3,5,6,3,6,6,,,,,,,,,7,7,6,7,7,7
-TZA105,Tanzania,25,Female,Middle,2,Christian: Pentecostal,Unmarried,Form Four,Maasai,6,7,5,7,7,7,1,1,1,5,1,1,1,3,4,7,7,7,7,7,7,5,6,7,6,7,1,6,6,5,5,5,2,6,6,6,3,7,1,6,7,6,5,7,6,7,7,7,4,7,7
-TZA106,Tanzania,55,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,7,6,6,6,1,2,,2,1,1,1,2,1,6,6,1,7,1,7,7,7,3,3,2,1,1,6,6,7,6,2,1,2,7,6,6,1,7,6,6,6,2,1,,4,7,4,,
-TZA107,Tanzania,39,Male,Middle,2,Christian: Other,Married,Darsa La 7,Maasai,7,6,6,6,7,6,2,1,3,1,2,1,1,2,5,2,6,,7,7,7,7,7,7,7,1,2,7,6,6,7,,2,2,2,6,7,7,1,7,6,6,6,1,2,7,4,5,7,7,7
-TZA108,Tanzania,26,Female,Middle,2,Christian: Catholic,Unmarried,Degree,Maasai,6,6,5,5,5,5,2,1,1,1,1,1,6,6,1,2,2,1,7,7,7,7,6,5,5,1,7,7,7,7,7,3,5,6,3,6,6,7,2,7,6,7,7,7,7,7,7,6,7,7,7
-TZA109,Tanzania,37,Male,Lower middle,1,Christian: Catholic,Married,Diploma,Maasai,7,5,6,5,5,6,2,1,1,1,3,2,5,5,2,6,7,7,7,7,7,6,5,6,2,7,1,6,5,6,6,3,3,5,5,6,3,4,5,5,7,6,2,7,5,7,7,7,6,7,7
-TZA110,Tanzania,30,Male,Lower middle,1,Christian: Pentecostal,Married,Diploma,Maasai,6,7,5,7,7,7,3,5,1,2,1,1,7,5,4,2,7,5,5,7,7,5,3,6,2,1,7,5,6,3,6,3,2,6,7,3,1,6,1,5,6,6,5,2,3,2,4,7,7,2,2
-TZA111,Tanzania,42,Male,Lower middle,1,Christian: Protestant,Married,Form Four,Maasai,7,6,5,7,7,7,3,6,2,5,1,2,5,3,4,6,7,6,7,7,7,5,3,6,5,5,3,6,7,5,6,5,5,5,3,7,5,7,1,3,6,7,4,7,5,7,6,6,4,7,7
-TZA112,Tanzania,24,Male,Middle,2,Christian: Catholic,Married,Chuo,Mchaga,7,6,7,7,6,7,2,2,1,4,2,1,6,3,2,7,6,5,6,7,7,5,5,6,3,1,7,5,2,6,3,3,2,6,2,3,1,4,2,7,6,7,6,5,7,7,4,7,7,7,7
-TZA113,Tanzania,29,Male,Middle,2,Christian: Pentecostal,Married,Secondary,Maasai,7,7,7,7,7,7,2,2,2,1,1,1,7,6,7,7,7,1,1,6,2,7,7,7,7,7,1,7,7,1,7,7,1,7,7,7,1,7,1,7,7,7,7,2,7,7,7,7,7,7,7
-TZA114,Tanzania,58,Male,Middle,2,Spiritual not religious,Married,La saba 7,Maasai,7,6,6,7,6,6,1,2,1,1,2,2,1,1,7,1,6,7,6,3,1,6,7,2,4,2,1,7,6,6,7,7,6,1,1,2,1,6,1,6,7,6,2,1,2,7,2,4,4,7,7
-TZA115,Tanzania,72,Male,Middle,2,Spiritual not religious,Married,"",Maasai,6,7,7,6,6,1,2,1,2,1,2,2,1,2,,6,,7,6,3,2,6,7,2,4,1,2,6,7,6,6,6,7,1,2,2,1,7,2,7,6,2,2,1,2,7,2,4,3,7,7
-TZA116,Tanzania,38,Male,Lower middle,1,Christian: Other,Married,Form Four,Maasai,7,5,6,7,5,7,1,2,2,2,3,1,5,3,4,6,7,6,7,7,7,6,5,6,3,,7,6,5,3,5,2,1,2,3,4,3,5,1,6,2,7,5,1,7,7,7,7,7,7,7
-TZA117,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,7,5,6,7,7,7,3,3,4,2,2,1,5,5,6,6,7,6,3,7,7,6,4,5,1,1,7,6,6,2,5,6,5,6,3,3,2,1,2,5,5,7,5,2,7,7,7,7,7,7,7
-TZA118,Tanzania,28,Male,Lower middle,1,Christian: Other,Unmarried,LA 7,Maasai,6,7,5,7,6,7,2,1,2,3,1,1,2,6,7,6,7,5,3,7,7,5,3,6,7,1,7,5,6,3,4,6,6,7,2,5,1,6,1,5,7,6,7,7,6,7,6,4,4,7,7
-TZA119,Tanzania,32,Male,Middle,2,Spiritual not religious,Married,Darsa La 7,Maasai,6,6,7,7,6,6,1,2,1,2,1,2,,6,6,6,7,7,1,2,6,6,6,2,2,1,6,2,6,7,7,2,6,6,6,6,6,6,6,6,6,6,6,2,6,7,6,6,5,7,7
-TZA120,Tanzania,46,Male,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,6,6,5,6,7,1,1,2,3,2,2,3,2,2,7,5,6,5,7,7,5,5,6,6,1,7,6,7,5,7,5,5,6,6,6,5,7,1,6,6,3,2,5,6,7,7,4,6,7,7
-TZA121,Tanzania,43,Male,Lower middle,1,Spiritual not religious,Married,"",Maasai,7,6,7,6,7,6,2,2,1,2,1,1,6,2,1,6,2,2,6,6,6,6,2,6,2,2,6,6,6,6,6,6,7,2,6,2,2,6,6,6,6,6,6,2,6,7,4,3,3,7,7
-TZA122,Tanzania,28,Male,Lower middle,1,Christian: Other,Married,Form Four,Maasai,6,7,7,6,7,7,1,2,3,1,3,3,7,6,5,2,6,4,5,7,7,6,4,5,5,1,7,6,7,6,7,5,6,7,5,6,3,4,4,6,6,7,4,4,4,7,6,7,5,7,7
-TZA123,Tanzania,52,Male,Middle,2,Spiritual not religious,Married,"",Maasai,6,7,7,7,6,6,1,1,3,3,3,1,7,6,4,2,6,4,5,7,7,6,4,5,5,2,7,7,6,7,7,5,6,3,5,6,3,4,4,3,5,7,4,4,4,7,6,7,5,7,7
-TZA124,Tanzania,27,Male,Middle,2,Christian: Protestant,Unmarried,Bachelor Degree,Maasai,3,3,2,3,4,4,4,4,4,4,4,3,6,5,4,4,4,4,3,5,4,4,3,4,4,4,4,5,5,4,5,5,3,3,2,3,3,6,3,1,4,7,5,6,7,7,7,5,3,7,7
-TZA125,Tanzania,47,Male,Lower middle,1,Christian: Other,Married,Darsa La 7,Maasai,6,7,6,7,6,6,1,2,1,2,2,2,,6,3,7,6,7,5,2,7,6,4,4,6,2,1,6,6,7,6,6,6,2,1,2,6,6,6,7,6,6,6,6,2,7,4,2,4,7,7
-TZA126,Tanzania,49,Male,Lower middle,1,Spiritual not religious,Married,"",Maasai,6,,2,6,6,6,1,6,6,6,6,6,,5,6,6,7,6,1,2,6,6,6,2,2,2,6,6,7,7,6,6,6,6,6,6,6,6,6,6,6,6,2,3,6,7,6,7,5,7,7
-TZA127,Tanzania,50,Male,Upper middle,3,Christian: Pentecostal,Married,Shahada,Maasai,5,6,6,5,5,5,2,2,2,1,1,1,7,6,5,4,6,6,1,6,5,6,6,7,5,1,7,6,7,3,5,6,5,3,5,5,2,7,1,7,5,6,7,7,1,6,7,7,4,6,6
-TZA128,Tanzania,29,Male,Lower middle,1,Other,Married,Form Four,Maasai,7,6,5,7,7,7,1,3,2,3,1,2,4,3,3,5,6,7,6,1,7,5,4,5,3,1,7,6,6,5,3,5,2,5,3,6,1,1,1,6,7,6,6,3,5,7,7,7,7,7,7
-TZA129,Tanzania,29,Female,Upper middle,3,Christian: Pentecostal,Unmarried,Degree,Maasai,6,6,6,6,6,6,6,,4,4,4,5,5,5,2,1,7,1,2,6,4,6,4,5,6,,,,,,,,,,,,,7,1,6,6,6,6,6,6,7,7,7,7,7,7
-TZA130,Tanzania,42,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Mwela,7,7,7,7,7,7,6,1,1,1,1,1,7,6,5,5,4,7,7,1,7,6,2,7,2,7,7,7,7,7,7,4,5,6,4,6,6,7,1,7,7,7,7,7,7,4,4,1,1,4,4
-TZA131,Tanzania,40,Male,Middle,2,Christian: Protestant,Other,Diploma,Mnyakyusa,3,4,,4,3,4,,5,,2,2,4,6,5,,4,4,2,4,6,6,5,3,1,4,3,1,,4,,4,,4,,4,3,1,2,4,3,2,3,4,7,5,1,5,,6,1,1
-TZA132,Tanzania,29,Male,Lower middle,1,Other,Unmarried,Chuo,Digo,5,5,5,3,5,5,3,3,3,3,3,3,5,5,3,5,5,3,3,7,6,6,6,5,5,6,1,6,7,3,6,3,1,7,3,1,1,3,3,5,5,7,7,7,5,4,4,4,5,4,4
-TZA133,Tanzania,30,Male,Middle,2,Christian: Catholic,Unmarried,O Level,Auhehe,5,5,6,6,5,6,5,1,6,2,3,3,5,6,6,6,6,6,5,2,3,5,5,6,6,2,6,6,6,6,6,6,2,6,2,6,2,6,5,2,3,6,5,6,6,6,7,7,5,6,6
-TZA134,Tanzania,28,Female,Upper middle,3,Christian: Protestant,Unmarried,Post Graduate,Nyakyusa,7,6,6,7,6,6,7,6,6,5,5,5,7,6,6,4,6,6,7,1,6,6,5,5,6,7,7,6,7,1,7,2,2,7,1,7,1,7,1,7,6,6,6,6,5,4,4,3,5,4,4
-TZA135,Tanzania,38,Female,Middle,2,Christian: Other,Unmarried,College,Jauo,4,4,4,1,1,4,2,2,2,1,1,1,6,6,6,4,4,4,7,7,1,7,5,7,2,7,1,7,7,7,7,2,4,7,4,7,4,7,6,3,7,7,7,7,2,7,7,7,7,7,7
-TZA136,Tanzania,28,Male,Middle,2,Muslim: Shia,Married,Chuo,Mzaramo,7,7,7,1,1,1,7,7,7,6,6,6,7,7,6,7,6,6,4,1,6,3,6,6,6,7,7,7,7,7,1,7,7,1,7,7,7,7,1,7,7,7,5,7,7,7,7,7,7,7,7
-TZA137,Tanzania,41,Male,Middle,2,Christian: Protestant,Other,Form Four,Muha,1,7,6,6,6,6,2,3,2,1,2,1,7,6,5,7,3,2,7,7,4,6,6,6,6,4,1,7,3,5,6,2,3,2,1,6,5,7,2,7,2,7,6,6,7,6,7,3,2,6,6
-TZA138,Tanzania,22,Female,Middle,2,Spiritual not religious,Unmarried,Didato channe,Msukuma,,,,,,,,,,,,,6,1,1,7,7,7,,,,,,,,7,1,3,7,5,7,7,5,7,5,7,5,1,3,7,7,7,1,2,2,,,,,,
-TZA139,Tanzania,30,Male,Lower middle,1,Christian: Catholic,Married,Primary,Mruguru,6,7,7,6,6,6,5,4,4,5,5,5,6,5,5,6,7,5,5,7,3,5,5,6,5,3,5,3,3,6,6,5,6,1,3,5,6,5,3,6,5,6,6,6,5,6,7,6,6,6,6
-TZA140,Tanzania,49,Male,Middle,2,Christian: Catholic,Other,Diploma,Mhaya,2,,5,4,4,5,4,1,1,1,1,1,7,7,6,7,7,7,,,,,,,,7,3,7,7,7,7,5,4,7,6,4,6,,,,,,,,,,,,,,
-TZA141,Tanzania,29,Male,Middle,2,Other,Married,STD VII,Matumbi,6,6,6,6,6,6,6,6,6,5,5,6,7,6,6,5,7,5,7,7,7,7,7,7,7,7,2,7,7,7,7,6,7,7,7,7,7,7,2,7,7,7,7,7,4,7,7,2,4,7,7
-TZA142,Tanzania,56,Male,Middle,2,Christian: Catholic,Married,Diploma,Nyaturu,6,6,6,5,6,6,7,,6,,5,6,7,6,6,7,7,7,,,,,,,,7,7,7,5,7,7,6,1,7,1,6,6,7,6,7,7,7,6,6,6,,,,,,
-TZA143,Tanzania,53,Male,Lower middle,1,Christian: Protestant,Married,Cheti,Msambaa,5,5,6,5,,6,6,,4,2,2,2,6,6,6,6,6,1,6,3,6,,6,5,6,3,2,,2,3,5,2,2,6,,2,2,6,6,6,6,2,6,6,6,5,2,6,2,5,5
-TZA144,Tanzania,22,Female,Middle,2,Spiritual not religious,Unmarried,Form Four,Mfumbaa,7,7,7,7,7,7,2,2,2,,2,2,5,7,2,5,5,5,7,7,5,7,7,7,7,7,2,7,7,7,7,5,7,7,3,7,2,2,1,7,7,7,5,7,2,7,7,6,7,7,7
-TZA145,Tanzania,35,Male,Middle,2,Spiritual not religious,Unmarried,Secondary,Msambaa,3,5,2,2,5,6,3,5,4,1,4,6,3,2,2,4,5,5,3,4,6,4,4,3,4,6,4,4,6,3,3,5,6,,2,5,3,4,3,4,5,5,4,4,3,5,4,3,4,5,5
-TZA146,Tanzania,36,Female,Middle,2,Christian: Protestant,Unmarried,Form Four,Mhehe,6,6,6,6,6,6,1,1,1,2,2,1,7,6,6,2,2,7,6,3,5,6,5,6,5,1,1,7,7,7,2,7,3,1,7,7,1,6,2,7,7,7,6,7,6,7,7,7,6,7,7
-TZA147,Tanzania,47,Female,Lower middle,1,Christian: Pentecostal,Married,STD VII,Mhehe,7,7,7,6,6,6,2,2,2,1,1,1,7,7,1,1,7,7,6,2,6,5,6,5,5,2,7,7,7,6,6,5,1,6,2,2,2,7,1,7,7,6,7,7,7,,,,,,
-TZA148,Tanzania,23,Female,Middle,2,"",Unmarried,LA 7,Msukuma,2,,2,,,5,4,4,2,2,1,1,2,5,,6,6,2,6,6,2,6,7,7,6,6,4,,4,2,6,,1,2,2,1,1,,2,6,6,6,1,2,2,7,7,6,7,7,7
-TZA149,Tanzania,40,Male,Middle,2,Muslim: Sunni,Married,Uzamili,Nyawne 21,7,5,7,7,5,7,7,4,6,6,7,5,7,7,7,1,7,7,,,,,,,,5,7,,7,3,7,4,4,,7,5,5,7,1,7,7,7,7,7,7,,,,,,
-TZA150,Tanzania,65,Female,Upper middle,3,Christian: Protestant,Married,Shahada,Nyakusa,7,7,7,7,7,7,1,1,1,2,2,2,6,6,6,7,7,7,5,3,4,5,4,5,5,2,2,2,3,2,3,2,2,3,3,3,3,7,1,7,6,7,7,7,7,7,7,7,7,7,7
-TZA151,Tanzania,20,Male,Middle,2,Christian: Other,Unmarried,Kidato cha 6,Mpare,5,7,6,7,7,7,5,2,2,1,1,5,6,3,3,5,7,6,2,7,5,5,6,6,2,1,1,7,7,6,7,,1,5,6,5,1,7,3,7,7,7,7,7,7,5,7,7,7,5,5
-TZA152,Tanzania,20,Female,Middle,2,Muslim: Sunni,Unmarried,4m  4,Mnyamweu,7,7,7,6,6,6,2,2,2,2,2,1,6,6,6,2,1,1,5,4,5,5,5,5,5,2,2,6,2,6,3,6,6,6,6,6,6,6,2,6,6,5,5,6,6,7,6,7,7,7,7
-TZA153,Tanzania,30,Female,Middle,2,"",Married,VII Std,Mgogo,5,7,6,6,5,6,5,2,1,5,5,3,6,6,5,6,5,2,4,7,5,5,6,7,6,1,6,6,7,7,6,5,7,3,6,7,5,5,1,6,6,7,6,7,3,7,6,4,4,7,7
-TZA154,Tanzania,51,Female,Middle,2,Christian: Protestant,Married,STD VII,Chagg A,7,7,7,7,7,6,1,1,1,1,1,1,7,7,7,1,1,1,6,2,5,6,6,1,1,2,2,6,6,6,2,6,1,6,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7,7,7
-TZA155,Tanzania,52,Male,Lower middle,1,Christian: Pentecostal,Married,STD VII,Mkaguru,6,6,6,7,7,6,1,1,6,2,1,2,7,6,2,2,6,6,5,3,6,5,5,6,5,,6,6,6,6,6,6,1,7,1,7,1,6,2,5,6,6,6,6,6,7,7,7,6,7,7
-TZA156,Tanzania,34,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Rugulu,6,6,7,7,7,7,1,1,1,2,2,2,6,7,7,2,2,2,6,2,6,6,6,6,5,2,2,6,6,2,6,6,6,6,2,2,2,6,2,7,7,6,7,7,7,7,6,6,6,7,7
-TZA157,Tanzania,45,Male,Middle,2,Muslim: Sunni,Married,Form IV,Mdigo,6,7,7,7,7,7,2,2,2,2,2,2,7,7,7,2,7,2,5,3,6,6,5,6,6,7,2,7,7,2,4,7,6,7,7,7,7,6,2,7,6,7,7,6,7,7,6,7,7,7,7
-TZA158,Tanzania,19,Male,Lower middle,1,Muslim: Sunni,Unmarried,STD VII,Myao,7,7,7,7,7,7,1,1,1,1,1,1,7,7,7,2,2,2,7,7,7,7,7,7,7,2,2,7,7,7,7,7,7,7,1,1,1,6,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA159,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Unmarried,Form Four,Mjukuna,6,6,6,5,7,7,5,5,6,1,1,1,5,5,5,6,6,7,5,3,6,5,6,5,6,2,2,1,6,6,6,7,7,6,7,7,6,6,6,5,2,2,7,7,7,2,2,2,2,2,2
-TZA160,Tanzania,27,Male,Middle,2,Muslim: Sunni,Other,Chuo,Npale,6,6,6,7,6,6,6,6,6,7,6,7,6,6,6,7,5,,6,2,5,6,5,6,7,6,6,7,6,6,7,6,7,6,7,6,6,6,2,6,6,6,5,6,6,2,2,2,2,2,2
-TZA161,Tanzania,25,Male,Middle,2,Christian: Protestant,Unmarried,Chuo Kikuu,Nyakyusa,7,7,7,7,7,5,1,1,1,1,1,4,7,7,5,3,5,7,1,4,7,,5,6,3,7,1,6,7,7,6,6,7,7,2,7,3,7,4,7,7,6,4,4,6,4,5,5,6,4,4
-TZA162,Tanzania,22,Male,Lower middle,1,Muslim: Shia,Unmarried,Form Two,Mshirazi,6,6,7,5,5,6,5,5,3,5,5,5,7,5,5,5,3,2,3,6,5,4,5,5,6,1,7,7,7,6,5,6,5,5,6,5,5,6,3,5,6,6,5,7,6,6,5,4,6,6,6
-TZA163,Tanzania,64,Male,Middle,2,Christian: Pentecostal,Married,Degree,Shona,7,7,7,7,7,7,1,2,1,1,1,1,7,7,6,4,7,2,7,6,6,7,7,7,6,1,7,7,7,7,7,7,6,7,7,7,6,7,1,7,7,7,7,7,7,6,7,7,7,6,6
-TZA164,Tanzania,25,Female,Middle,2,Christian: Catholic,Unmarried,Shahada,Mpare,5,5,5,5,5,5,5,4,4,4,4,6,5,2,4,6,6,2,7,7,5,7,7,6,6,1,7,6,6,7,6,6,5,5,5,3,4,5,3,5,5,5,5,7,5,7,7,7,7,7,7
-TZA165,Tanzania,29,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Mngoni,7,6,6,6,6,6,5,5,2,2,2,2,2,6,6,6,6,6,6,6,6,6,6,6,6,1,3,7,4,7,6,6,3,6,2,3,1,6,3,5,5,5,5,6,6,7,7,5,7,7,7
-TZA166,Tanzania,28,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Msukuma,2,1,4,4,7,6,6,5,6,4,5,3,6,2,4,6,3,1,,,,,,,,1,6,4,4,5,3,7,6,1,2,5,6,7,2,5,2,1,2,5,7,7,6,4,1,7,7
-TZA167,Tanzania,23,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Muha,1,7,7,7,7,7,1,1,2,6,,5,6,3,2,5,2,5,6,7,5,5,,3,5,7,7,7,3,7,6,7,5,1,5,1,5,1,1,5,7,7,1,5,1,7,7,5,2,7,7
-TZA168,Tanzania,35,Male,Lower middle,1,Muslim: Shia,Married,7,Mluguru,2,1,2,6,7,6,2,1,2,1,2,4,2,1,2,6,1,6,7,1,6,2,6,7,6,2,1,7,7,3,6,7,2,7,7,1,2,7,2,1,2,6,1,6,7,4,7,7,7,4,4
-TZA169,Tanzania,34,Male,Middle,2,"",Unmarried,Shadada,Mluguru,5,5,7,7,6,7,3,2,2,2,2,5,6,5,6,7,6,5,4,7,6,5,4,6,6,2,5,7,7,7,7,2,4,4,2,6,3,4,3,7,6,7,2,6,6,7,7,7,6,7,7
-TZA170,Tanzania,34,Male,Middle,2,Muslim: Shia,Married,Form Four,Msambaa,5,6,7,6,6,6,5,2,2,2,6,2,5,6,6,6,7,6,6,6,6,5,6,6,6,1,7,7,4,7,7,6,7,2,6,7,6,7,2,7,7,7,7,7,7,7,7,7,7,7,7
-TZA171,Tanzania,30,Male,Middle,2,Muslim: Shia,Married,Form Four,Mrkuguku,5,6,,6,6,6,3,2,2,2,6,2,7,6,6,6,7,6,6,6,6,5,6,6,6,1,7,7,4,7,7,6,7,2,6,7,6,7,2,7,7,7,7,7,7,7,7,7,7,7,7
-TZA172,Tanzania,30,Male,Middle,2,Christian: Catholic,Unmarried,Shadada,Mluguru,6,7,7,6,5,7,2,1,1,5,3,4,7,6,5,4,6,6,6,7,7,7,7,7,7,7,7,7,7,6,7,7,7,6,6,7,7,7,1,6,6,6,6,7,7,7,7,7,4,7,7
-TZA173,Tanzania,18,Female,Middle,2,Christian: Pentecostal,Unmarried,STD VII,Mfipa,4,4,5,6,4,7,2,1,3,2,3,2,3,4,1,5,6,2,6,7,5,4,6,7,5,1,6,4,4,2,7,4,2,1,3,1,4,7,2,7,4,6,5,4,5,6,5,6,7,6,6
-TZA174,Tanzania,23,Female,Middle,2,"",Unmarried,Shadada,Mzigua,6,6,6,6,6,7,4,4,4,4,4,3,5,4,,2,1,1,5,7,5,1,3,5,5,6,2,4,4,4,2,6,4,6,3,6,1,6,2,7,3,7,6,7,6,7,7,7,6,7,7
-TZA175,Tanzania,40,Female,Middle,2,Christian: Pentecostal,Unmarried,Diploma,Mluguru,7,7,7,7,7,7,4,1,1,5,5,4,5,7,4,7,1,1,7,7,6,5,5,6,5,1,7,6,6,5,5,6,5,5,6,5,5,6,3,6,7,7,6,5,6,6,5,4,7,6,6
-TZA176,Tanzania,34,Female,Upper middle,3,Muslim: Shia,Married,STD VII,Mkwere,7,7,7,7,7,7,1,1,1,1,1,1,2,3,6,,2,2,7,7,7,7,7,7,7,1,7,7,7,7,7,6,7,2,4,7,6,1,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA177,Tanzania,51,Male,Middle,2,Muslim: Sunni,Married,Form Four,Mshirazii,7,7,7,7,7,7,2,1,1,2,2,5,6,6,7,7,3,3,5,7,6,6,6,6,6,1,6,6,6,6,6,7,7,3,7,6,6,4,1,7,6,6,6,7,7,7,7,7,7,7,7
-TZA178,Tanzania,33,Male,Middle,2,Muslim: Shia,Unmarried,STD VII,Mzarhim,5,5,5,6,6,6,3,2,2,5,5,5,2,5,5,5,6,5,3,2,6,7,6,7,7,6,6,6,6,6,6,6,6,6,6,6,1,2,1,6,6,6,6,5,6,1,1,6,6,1,1
-TZA179,Tanzania,29,Female,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mdigo,6,6,6,7,7,7,2,2,2,2,1,1,6,6,7,2,3,7,5,3,6,6,5,5,5,1,1,,4,1,,,5,2,2,1,1,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA180,Tanzania,26,Male,Upper,4,Christian: Pentecostal,Unmarried,Form Four,Muha,7,7,2,7,7,7,3,3,1,1,1,5,7,6,6,5,2,2,5,7,6,5,5,7,6,1,7,6,7,7,7,6,2,7,2,1,1,6,3,5,5,7,5,7,6,7,7,7,6,7,7
-TZA181,Tanzania,42,Female,Middle,2,Christian: Protestant,Married,7,Chaga,4,4,5,5,4,4,4,4,,4,4,4,6,6,,2,3,2,4,2,5,4,4,6,4,4,6,6,4,4,4,7,7,4,4,6,6,6,2,6,6,6,6,6,6,7,7,1,7,7,7
-TZA182,Tanzania,35,Male,Middle,2,Christian: Other,Married,Degree,Chaga,7,7,7,7,7,7,,5,5,2,2,4,6,7,6,7,7,7,2,6,6,6,7,7,7,1,6,6,7,1,7,1,1,1,1,4,2,6,1,7,4,7,7,7,7,7,7,7,5,7,7
-TZA183,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Unmarried,IV,Mchaga,6,6,7,6,6,6,2,2,2,2,2,2,6,7,6,7,1,1,6,3,6,6,5,5,5,2,2,6,6,6,7,7,7,2,7,2,7,7,1,7,6,7,7,7,7,7,7,7,7,7,7
-TZA184,Tanzania,36,Female,Middle,2,Muslim: Sunni,Unmarried,Lasaba,Muzinguw,6,6,6,5,6,5,3,3,3,3,3,3,4,5,6,6,7,6,4,5,4,4,3,6,6,5,6,5,6,6,6,5,6,5,5,5,5,5,2,5,6,6,6,7,7,5,5,6,6,5,5
-TZA185,Tanzania,31,Male,Upper,4,Christian: Catholic,Unmarried,Form Four,Mmakonde,7,7,6,7,7,7,1,2,2,1,2,2,5,5,5,3,3,5,5,5,5,6,6,6,5,1,7,6,7,5,5,6,5,6,6,6,5,6,2,7,7,7,6,5,5,7,7,5,3,7,7
-TZA186,Tanzania,30,Male,Middle,2,Christian: Catholic,Other,Kidato Channe,Haya,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,2,2,2,2,2,2,2,2,2,2,2,2,7,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA187,Tanzania,28,Male,Middle,2,Muslim: Sunni,Unmarried,Diploma,Mnyamuezi,6,6,6,7,7,7,2,2,2,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA188,Tanzania,49,Male,Middle,2,Muslim: Sunni,Married,Secondary,Mrangi,6,6,6,6,6,6,2,2,2,2,2,2,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA189,Tanzania,40,Female,Middle,2,Christian: Other,Married,Secondary,Mhehe,6,6,6,6,6,6,2,2,2,2,2,2,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,7,7,6,7,7,6,6,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA190,Tanzania,58,Female,Middle,2,Christian: Protestant,Unmarried,Msingi,Mbena,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,1,1,1,1,2,2,4,4,2,2,7,7,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA191,Tanzania,24,Male,Middle,2,Muslim: Sunni,Unmarried,Degree,Ndengereko,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,7,6,7,7,7,7,7,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA192,Tanzania,46,Male,Middle,2,Other,Married,Secondary,Mdigo,7,7,7,7,7,7,1,1,1,1,1,1,6,7,7,7,7,1,6,2,6,6,6,6,6,2,2,2,2,2,2,3,3,2,3,3,3,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA193,Tanzania,25,Female,Middle,2,Christian: Pentecostal,Unmarried,Chuo kikuu,Mranda,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,7,6,2,6,7,7,7,6,7,7,7,6,7,7,7,7,7,7,7,7,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA194,Tanzania,29,Male,Middle,2,Muslim: Sunni,Other,Form 6,Mpare,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,7,7,7,7,1,7,7,1,7,1,7,7,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA195,Tanzania,28,Male,Middle,2,Christian: Catholic,Other,Advance level,Mzigua,4,6,6,6,6,6,4,4,4,4,4,4,7,,,7,7,7,5,5,5,5,5,6,6,3,3,5,6,5,5,5,7,5,5,5,5,6,3,7,5,7,5,7,4,6,7,7,7,6,6
-TZA196,Tanzania,22,Female,Middle,2,Christian: Pentecostal,Unmarried,La saba,Muha,7,7,6,6,7,6,1,2,2,2,5,5,5,6,6,6,4,5,7,6,7,6,6,6,7,7,1,6,7,5,6,6,7,6,6,7,7,6,2,7,6,6,6,6,6,7,7,6,5,7,7
-TZA197,Tanzania,32,Male,Middle,2,Christian: Protestant,Unmarried,Form Four,Muha,2,6,7,6,6,7,,2,2,2,2,2,6,6,7,6,6,7,6,6,6,6,6,6,6,2,7,6,6,3,6,6,3,2,2,2,2,7,1,7,2,7,6,6,7,7,7,7,7,7,7
-TZA198,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Mtanga,7,7,6,7,7,6,2,3,3,2,5,3,5,6,6,3,5,3,6,6,5,5,6,6,5,1,7,6,6,5,5,7,5,6,7,5,5,6,3,6,6,7,6,6,5,7,6,6,6,7,7
-TZA199,Tanzania,38,Female,Middle,2,Christian: Catholic,Married,Darsa la 7,Mbona,7,6,6,7,7,7,2,3,3,2,4,5,6,5,5,5,5,5,5,6,6,6,5,6,5,7,1,7,7,5,6,6,6,6,6,5,5,5,2,6,6,,6,6,7,7,7,6,6,7,7
-TZA200,Tanzania,33,Male,Middle,2,Muslim: Shia,Unmarried,Form Four,Mdigo,7,6,6,6,6,6,2,2,2,2,2,5,5,5,5,5,5,5,5,5,5,5,6,5,3,1,7,7,7,6,6,7,6,7,7,5,5,6,1,6,6,6,7,7,6,7,7,7,4,7,7
-TZA201,Tanzania,32,Male,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mluguru,7,7,6,6,6,6,6,6,5,4,5,6,5,5,3,3,5,5,2,7,7,4,6,6,4,1,7,6,7,7,6,7,6,2,7,6,5,5,2,7,6,7,7,7,6,6,6,7,7,6,6
-TZA202,Tanzania,19,Male,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mzaramo,7,7,7,7,7,7,2,1,2,2,5,5,5,5,6,5,6,5,6,6,5,5,6,6,5,1,7,6,6,6,7,6,6,7,6,5,5,6,1,7,7,6,6,6,6,6,6,7,5,6,6
-TZA203,Tanzania,51,Female,Middle,2,Muslim: Sunni,Married,La saba,Mzaramo,7,7,6,7,7,7,2,2,2,2,3,5,5,5,3,3,4,5,5,7,5,5,5,5,3,1,7,7,7,7,7,6,6,2,6,2,3,7,1,7,6,6,7,6,3,7,7,7,5,7,7
-TZA204,Tanzania,43,Male,Middle,2,Christian: Pentecostal,Married,La saba,Mpogoro,7,7,7,7,7,7,3,3,2,2,6,5,5,5,5,3,5,5,3,5,5,5,5,6,5,1,7,7,7,7,6,6,6,6,6,5,5,7,2,6,6,6,6,6,7,7,7,6,5,7,7
-TZA205,Tanzania,28,Female,Middle,2,Christian: Catholic,Married,La saba,Mluguru,7,7,7,7,6,6,1,1,1,2,5,6,5,5,5,2,4,4,2,3,5,5,5,5,5,7,2,7,7,2,6,6,6,3,3,6,5,6,2,7,6,6,6,6,6,7,7,6,6,7,7
-TZA206,Tanzania,67,Female,Lower middle,1,Muslim: Sunni,Other,Darsa la 7,Mzigua,7,7,7,7,7,7,1,1,1,1,1,1,6,6,5,6,6,6,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,7,1,6,6,6,6,7,7,6,6,6,6,6,6
-TZA207,Tanzania,42,Male,Lower middle,1,Muslim: Sunni,Married,La saba,Mzigua,7,7,7,7,7,6,1,1,2,2,3,5,5,5,3,5,5,3,6,5,5,5,6,5,5,7,1,7,7,3,6,7,6,5,7,5,5,5,2,6,6,5,7,6,6,7,6,6,5,7,7
-TZA208,Tanzania,24,Male,Lower middle,1,Christian: Protestant,Unmarried,Msingi,Masai,7,7,7,7,7,7,1,1,1,1,1,1,6,6,5,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,7,6,7,7,7,7,6,2,5,6,,6,6,7,2,7,7,7,2,2
-TZA209,Tanzania,34,Male,Lower middle,1,Christian: Protestant,Unmarried,Elimu Msingi,Masai,6,6,6,6,6,6,1,1,1,1,1,1,6,6,6,7,6,6,4,4,4,4,4,4,4,2,2,1,1,1,2,2,2,1,2,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA210,Tanzania,26,Female,Middle,2,Muslim: Shia,Unmarried,Form Four,Mpogoro,,,,,,,,,,,,,7,5,5,1,2,1,,,,,,,,1,7,7,7,7,7,7,7,7,7,7,7,,,,,,,,,,,,,,
-TZA211,Tanzania,35,Female,Lower middle,1,Christian: Pentecostal,Unmarried,VI,Mnfoni,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA212,Tanzania,23,Female,Lower middle,1,Christian: Catholic,Unmarried,Degree,Mchaga,6,6,6,7,7,7,2,2,2,3,3,3,7,7,6,,6,7,6,2,6,6,6,6,6,5,5,5,6,6,6,5,5,6,,6,6,6,2,6,6,6,7,7,7,7,7,7,7,7,7
-TZA213,Tanzania,39,Male,Lower middle,1,Christian: Pentecostal,Unmarried,Form Four,Mkinga,6,6,6,6,6,6,2,2,2,2,1,1,6,7,7,6,7,6,6,2,6,6,6,6,6,7,6,7,7,7,6,,6,7,7,6,6,7,1,6,6,6,7,7,7,7,7,7,7,7,7
-TZA214,Tanzania,22,Female,Lower middle,1,Christian: Catholic,Other,Shahada,Mhehe,6,6,6,7,7,7,2,2,2,2,2,2,3,,6,6,,6,6,2,6,6,6,6,6,4,5,4,5,,6,4,4,5,,6,6,6,2,6,7,7,6,7,6,7,7,7,7,7,7
-TZA215,Tanzania,29,Female,Lower middle,1,Christian: Other,Unmarried,Form Four,Mnyiha,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,7,7,6,6,2,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA216,Tanzania,39,Male,Upper,4,Muslim: Sunni,Married,Form Six,Mmakonde,7,7,6,7,6,7,1,1,2,1,2,2,7,7,6,6,6,7,6,2,6,6,6,6,6,6,6,5,6,5,6,2,2,6,,2,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA217,Tanzania,43,Male,Middle,2,Christian: Protestant,Unmarried,Cheti,Haya,6,6,6,6,6,6,2,2,2,2,2,2,4,4,4,4,4,4,6,2,6,6,6,6,6,2,2,2,2,2,7,7,7,7,7,2,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA218,Tanzania,33,Male,Middle,2,Christian: Protestant,Unmarried,Sekonorw,Masai,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA219,Tanzania,37,Female,Middle,2,Christian: Protestant,Other,Std VII,Mpare,7,7,7,7,7,6,1,1,1,2,2,1,6,6,6,6,6,7,6,2,6,6,6,6,6,6,6,6,6,6,7,2,2,7,2,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA220,Tanzania,38,Female,Upper,4,Christian: Pentecostal,Unmarried,Std VII,Muhangaza,6,6,6,7,7,7,2,2,2,2,2,2,6,7,7,6,6,7,6,2,6,6,6,6,6,6,6,7,6,6,6,1,2,7,1,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA221,Tanzania,27,Female,Middle,2,Muslim: Sunni,Unmarried,Secondary,Mjita,7,7,7,7,7,7,2,2,2,2,2,2,7,7,7,7,6,6,7,1,6,6,7,6,7,7,7,7,7,7,7,1,1,7,1,7,7,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA222,Tanzania,31,Female,Upper middle,3,Christian: Catholic,Unmarried,Sokondal,Msambaa,7,7,7,6,6,6,2,2,2,1,1,1,6,6,6,6,7,7,6,2,6,6,6,6,6,6,6,7,7,6,6,6,7,6,7,6,6,7,2,7,7,6,6,6,7,7,7,7,7,7,7
-TZA223,Tanzania,28,Male,Middle,2,Christian: Protestant,Unmarried,Shahada,Msukuma,6,6,6,6,6,7,2,1,1,2,2,1,6,7,6,7,6,6,6,2,6,6,6,6,6,2,2,2,2,2,2,2,2,6,2,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA224,Tanzania,37,Female,Middle,2,Christian: Catholic,Unmarried,Darsa la saba,Mpogolo,7,7,6,6,7,7,2,2,2,2,1,1,6,6,6,6,7,7,7,1,7,6,6,7,7,6,6,7,6,7,7,2,2,7,2,7,7,7,2,6,7,7,7,7,7,7,7,7,7,7,7
-TZA225,Tanzania,43,Female,Middle,2,Christian: Catholic,Unmarried,Form Four,Mngoni,6,7,7,6,6,6,2,2,2,2,7,7,6,6,6,7,7,7,6,1,7,6,6,6,7,6,6,6,6,6,6,2,1,6,2,1,1,6,2,6,6,6,6,6,6,7,7,7,7,7,7
-TZA226,Tanzania,50,Female,Upper middle,3,Christian: Protestant,Other,Msingi,Mbena,7,7,7,7,7,7,1,1,1,2,2,1,6,6,6,7,7,6,7,1,6,6,6,7,6,6,6,6,6,7,7,6,7,7,7,7,6,6,1,6,6,7,6,6,7,7,7,7,7,7,7
-TZA227,Tanzania,33,Male,Lower middle,1,Christian: Pentecostal,Unmarried,Std VII,Muhangaza,6,6,6,7,6,6,1,,2,2,2,1,6,6,6,7,7,7,6,2,6,6,6,6,6,7,7,6,7,6,7,7,6,7,7,6,6,6,2,6,6,6,6,6,7,7,7,7,7,7,7
-TZA228,Tanzania,28,Male,Middle,2,Christian: Protestant,Unmarried,Form Four,Msambaa,1,4,3,4,4,4,4,4,2,4,4,4,5,5,5,5,5,4,4,3,1,5,4,5,5,1,1,1,,4,4,3,5,1,5,1,1,5,2,4,4,4,4,4,4,4,4,4,4,4,4
-TZA229,Tanzania,35,Female,Middle,2,Christian: Protestant,Married,Diploma,Mzigua,6,6,7,7,7,7,2,2,3,2,3,5,6,5,5,3,5,3,5,5,5,6,6,5,5,1,,5,6,6,6,4,4,6,3,5,5,5,2,6,7,7,6,5,6,7,6,4,5,7,7
-TZA230,Tanzania,37,Male,Middle,2,Christian: Pentecostal,Unmarried,Degree,Mlambia,7,7,6,7,7,7,2,1,3,7,3,3,5,2,2,5,6,5,7,7,6,5,5,5,3,1,7,6,6,7,7,5,2,6,2,6,2,7,1,6,7,7,1,1,1,7,7,7,7,7,7
-TZA231,Tanzania,24,Male,Lower middle,1,Spiritual not religious,Unmarried,Kidato Cha seta,Mandali,6,6,6,6,7,4,1,1,1,1,1,1,7,7,6,7,7,6,7,7,6,7,6,7,2,7,1,6,7,1,5,2,1,7,1,2,2,7,2,7,7,7,5,7,5,6,7,7,7,6,6
-TZA232,Tanzania,49,Female,Middle,2,Christian: Catholic,Married,La saba 7,Mgogo,7,7,7,7,7,7,7,7,7,7,7,7,7,7,2,1,7,7,7,7,5,1,5,7,3,1,7,5,7,7,7,7,1,1,1,1,1,7,5,3,1,7,1,1,1,7,7,7,7,7,7
-TZA233,Tanzania,21,Female,Lower middle,1,Christian: Catholic,Unmarried,La 7,Mluguru,7,7,7,7,7,7,3,7,3,3,6,6,6,2,2,6,6,6,6,6,7,6,5,6,5,1,7,5,7,5,3,5,6,7,7,6,7,7,1,5,6,6,5,6,6,7,7,6,7,7,7
-TZA234,Tanzania,23,Female,"",,Muslim: Shia,Married,La saba,Muha,5,7,6,7,7,7,3,3,3,3,3,3,7,6,6,7,7,7,5,6,6,7,6,7,7,7,1,7,7,7,5,7,7,3,7,7,2,1,1,7,5,7,7,6,1,7,7,7,7,7,7
-TZA235,Tanzania,50,Male,Lower middle,1,Muslim: Shia,Married,La saba,Mpogoro,7,6,6,6,6,6,3,3,3,3,2,2,7,1,2,1,1,6,6,6,6,6,5,5,5,1,7,6,6,5,5,5,6,6,6,5,5,7,1,5,6,7,5,3,3,7,7,7,7,7,7
-TZA236,Tanzania,24,Male,Lower middle,1,Muslim: Shia,Unmarried,La 7,Msukuma,7,7,7,6,6,6,2,2,2,1,2,2,5,3,2,5,5,7,7,7,7,7,6,5,5,3,7,7,6,7,5,5,6,6,7,3,,7,1,6,7,7,5,6,5,7,7,6,4,7,7
-TZA237,Tanzania,51,Male,Lower middle,1,Christian: Catholic,Married,Darasa 7,Mluguru,7,7,7,7,7,7,7,,1,1,1,7,7,7,1,1,1,1,7,7,1,7,7,7,7,1,7,7,7,7,7,7,7,1,7,1,1,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA238,Tanzania,41,Male,Middle,2,Christian: Catholic,Married,Degree,Mfipa,6,5,5,6,6,6,2,2,3,3,2,2,3,2,5,5,6,5,6,6,7,6,5,7,6,7,1,6,6,3,3,3,3,5,1,5,1,6,2,7,7,7,5,5,7,7,7,7,7,7,7
-TZA239,Tanzania,32,Male,Middle,2,Muslim: Sunni,Married,La 4,Mluguru,7,7,6,6,7,7,5,4,5,3,3,4,7,7,6,5,4,5,6,6,7,6,7,6,7,1,7,6,7,4,6,7,3,5,5,5,4,7,1,7,7,7,7,7,2,7,7,7,7,7,7
-TZA240,Tanzania,67,Male,Lower middle,1,Christian: Catholic,Married,Darasa 7,Msukuma,3,6,2,4,7,4,3,7,3,3,7,3,7,1,3,4,5,5,7,7,7,7,7,4,3,7,7,6,3,5,2,,6,5,7,7,7,7,4,7,6,7,7,6,7,1,7,4,3,1,1
-TZA241,Tanzania,24,Male,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mnyaturu,7,7,7,7,7,7,1,1,1,1,1,1,7,1,1,7,5,6,7,7,7,6,6,7,6,1,7,7,7,7,7,7,5,3,5,6,5,7,1,5,7,5,5,3,3,7,4,6,6,7,7
-TZA242,Tanzania,45,Female,Lower middle,1,Christian: Other,Married,La saba,Msambaa,7,7,6,6,7,7,3,3,3,3,3,2,7,2,2,6,6,6,7,7,7,6,6,6,6,7,3,7,7,6,3,3,3,3,5,3,3,7,2,6,6,5,5,6,6,7,7,7,4,7,7
-TZA243,Tanzania,22,Female,Lower middle,1,Muslim: Shia,Unmarried,Chuo kikuu,Muwa,6,6,6,7,7,6,,1,1,1,1,1,7,2,2,,2,2,6,,6,6,6,6,6,7,1,6,6,2,6,2,,6,2,,2,5,2,6,6,6,6,6,6,6,6,6,6,6,6
-TZA244,Tanzania,24,Male,Middle,2,Muslim: Sunni,Unmarried,Degree-Shahada,Mmajongo,7,6,7,6,7,7,,2,1,1,2,1,7,7,6,7,6,7,1,6,2,7,6,6,6,6,1,6,6,4,4,,6,7,5,6,1,7,1,7,7,7,7,7,7,7,7,4,,7,7
-TZA245,Tanzania,27,Male,Middle,2,Muslim: Sunni,Other,Diploma,Mndekeleko,6,7,7,,6,6,2,3,3,1,1,1,3,3,7,1,7,6,7,7,7,7,7,1,7,1,7,7,7,3,2,2,6,7,7,3,3,7,1,3,7,7,7,3,3,7,7,7,7,7,7
-TZA246,Tanzania,30,Male,Middle,2,Muslim: Shia,Unmarried,La saba,Mluguru,7,5,6,7,5,7,2,2,1,,2,2,2,3,6,5,2,6,1,7,7,1,7,6,2,7,2,6,7,2,7,5,5,6,5,6,3,7,3,7,2,6,3,7,6,7,6,7,7,7,7
-TZA247,Tanzania,27,Male,Middle,2,Christian: Other,Unmarried,Form Four,Msambaa,1,7,1,7,7,7,2,1,1,1,1,1,7,7,7,5,7,5,7,7,2,7,7,7,7,7,1,7,7,1,7,7,6,1,7,7,7,7,3,7,1,7,3,7,7,7,7,7,7,7,7
-TZA248,Tanzania,80,Male,Lower middle,1,Muslim: Shia,Other,La saba,Mluguru,7,6,7,7,7,6,5,3,4,1,1,2,2,2,2,2,6,6,7,6,3,6,7,5,6,1,7,7,7,5,5,3,7,7,1,6,6,7,1,7,7,7,7,7,1,7,7,7,7,7,7
-TZA249,Tanzania,63,Male,Middle,2,Christian: Catholic,Married,Cheti,Mkwaya,7,6,6,6,6,7,2,2,2,6,2,2,7,7,7,3,7,6,7,7,7,6,5,6,5,1,7,7,7,1,6,5,5,5,6,6,5,7,3,7,7,7,5,5,5,7,7,7,7,7,7
-TZA250,Tanzania,30,Male,Middle,2,Christian: Catholic,Unmarried,Certificate,Mnyakywa,6,5,5,6,6,5,6,3,6,6,6,5,6,1,6,5,5,6,7,7,7,7,6,6,1,7,1,7,7,6,7,6,6,1,7,7,6,7,1,1,3,7,7,7,7,7,7,7,7,7,7
-TZA251,Tanzania,42,Male,"",,Christian: Catholic,Other,Diploma,Mwaturu,7,7,7,7,7,7,7,2,7,1,3,2,7,7,7,7,7,7,7,7,6,5,5,6,7,1,7,6,7,5,5,1,2,7,6,3,7,7,5,7,5,7,7,6,3,1,1,7,1,1,1
-TZA252,Tanzania,40,Male,Middle,2,Christian: Catholic,Married,Diploma,Mpogoro,2,6,7,6,4,6,7,7,5,7,5,6,7,6,7,5,6,7,7,7,7,7,7,7,7,1,7,7,7,6,6,6,6,1,7,7,5,7,2,7,6,7,6,7,6,7,7,7,7,7,7
-TZA253,Tanzania,35,Male,Middle,2,Christian: Other,Unmarried,Digri/Shahada,Mnyakywa,6,7,7,7,7,5,6,6,7,7,6,6,7,7,7,6,6,7,6,1,7,7,6,6,7,7,6,7,7,6,3,6,5,7,6,7,6,7,2,7,7,7,6,7,7,1,2,2,1,1,1
-TZA254,Tanzania,36,Male,Middle,2,Muslim: Shia,Married,Chuo kikuu,Mzanaki,7,7,7,6,6,7,2,2,2,1,1,1,6,2,2,5,5,6,7,7,7,7,7,6,6,1,7,6,6,5,3,6,7,6,5,6,3,7,2,3,2,7,7,6,1,7,7,6,7,7,7
-TZA255,Tanzania,,"","",,Christian: Catholic,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA256,Tanzania,84,Male,Lower middle,1,"",Other,Lanne Mkoloni,Mnyaturu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA257,Tanzania,,"","",,"",Other,"","",7,7,6,7,7,7,1,7,1,1,1,1,,,,,,,,,,,,,,7,1,7,7,3,3,7,2,7,3,2,2,7,2,3,7,7,7,5,2,,,,,,
-TZA258,Tanzania,,"","",,"",Other,"","",,,,,,,,,,,,,7,6,7,1,5,1,7,6,7,6,5,5,5,,,,,,,,,,,,,,,,,,,,,7,7,7,4,7,7
-TZA259,Tanzania,,"","",,Christian: Other,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA260,Tanzania,,"","",,Muslim: Shia,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA261,Tanzania,,"","",,"",Other,"","",7,7,7,7,7,7,7,7,7,7,7,7,,,,,,,7,7,7,7,6,5,7,,,,,,,,,,,,,,,,,,,,,7,7,7,7,7,7
-TZA262,Tanzania,,"","",,"",Other,"","",7,7,7,6,6,6,3,2,5,6,6,6,,,,,,,,,,,,,,,,,,,,,,,,,,6,2,7,7,7,6,7,7,,,,,,
-TZA263,Tanzania,25,Male,Middle,2,"",Unmarried,Diploma,Mnyamwezi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA264,Tanzania,25,Male,Middle,2,"",Unmarried,Diploma,Mnyamwezi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA265,Tanzania,,"","",,"",Other,"","",7,7,7,6,6,6,3,2,5,6,6,6,,,,,,,,,,,,,,,,,,,,,,,,,,6,2,7,7,7,6,7,7,,,,,,
-TZA266,Tanzania,,"","",,"",Other,"","",7,7,7,7,7,7,7,7,7,7,7,7,,,,,,,7,7,7,7,6,5,7,,,,,,,,,,,,,,,,,,,,,7,7,7,7,7,7
-TZA267,Tanzania,,"","",,Muslim: Shia,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA268,Tanzania,,"","",,Christian: Other,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA269,Tanzania,,"","",,"",Other,"","",7,7,6,7,7,7,1,7,1,1,1,1,7,6,7,1,5,1,7,6,7,6,5,5,5,7,1,7,7,3,3,7,2,7,3,2,2,,,,,,,,,7,7,7,4,7,7
-TZA270,Tanzania,84,Male,Lower middle,1,"",Other,Lanne Mkoloni,Mnyaturu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,3,7,7,7,5,2,,,,,,
-TZA271,Tanzania,36,Male,Middle,2,Christian: Catholic,Married,Chuo kikuu,Mzanaki,7,7,7,6,6,7,2,2,2,1,1,1,6,2,2,5,5,6,7,7,7,7,7,6,6,1,7,6,6,5,3,6,7,6,5,6,3,7,2,3,2,7,7,6,1,7,7,6,7,7,7
-TZA272,Tanzania,,"","",,Muslim: Shia,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-TZA273,Tanzania,43,Male,Lower middle,1,Christian: Catholic,Unmarried,La 7,Mlugulu,7,7,7,7,7,7,6,6,7,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,5,1,7,7,7,2,2,7,5,7,7,3,2,7,1,1,7,7,7,1,1,7,7,7,7,7,7
-TZA274,Tanzania,37,Male,Upper middle,3,Muslim: Sunni,Married,Kidato cha nne,Matum,7,7,7,7,7,7,2,2,2,2,2,2,6,2,2,6,5,5,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,2,7,7,3,7,1,7,7,7,7,3,3,7,7,7,7,7,7
-TZA275,Tanzania,79,Male,Lower middle,1,Christian: Other,Other,La nne,Mnyiramba,6,7,7,7,7,7,2,2,2,2,2,2,7,6,7,7,7,6,7,7,7,7,7,7,7,1,7,7,7,7,7,2,6,1,,7,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA276,Tanzania,21,Male,Lower middle,1,Christian: Catholic,Married,Darasa 7,Muwa,7,7,7,7,7,7,7,1,7,1,1,1,7,7,7,1,7,1,7,1,7,7,7,7,7,7,1,7,7,,1,7,7,7,7,1,1,7,1,7,7,7,7,7,1,7,7,7,7,7,7
-TZA277,Tanzania,52,Male,Middle,2,Muslim: Sunni,Married,Chuo kikuu,Msukuma,7,7,7,7,6,7,7,6,7,7,6,7,7,6,7,5,7,6,7,7,6,4,6,7,5,1,7,,7,5,7,5,6,6,7,7,6,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA278,Tanzania,30,Male,Lower middle,1,Muslim: Shia,Married,La 7,Mugua,5,7,7,7,7,7,1,1,1,1,1,1,7,7,7,7,7,7,7,2,7,7,7,7,7,7,1,7,7,7,7,7,3,3,6,5,3,7,2,6,5,7,2,1,6,7,7,7,7,7,7
-TZA279,Tanzania,22,Male,Lower middle,1,Christian: Other,Other,Kidato 4,Muha,6,7,6,7,7,7,4,5,3,2,3,3,7,7,7,7,7,7,7,7,7,6,7,7,7,1,7,7,6,7,6,,5,3,3,7,3,7,1,7,1,7,7,6,7,7,7,7,6,7,7
-TZA280,Tanzania,61,Male,Middle,2,Muslim: Sunni,Other,La nne (4),Mpogolo,7,7,7,7,7,7,3,5,5,2,2,2,7,7,6,6,7,6,7,7,6,6,7,5,5,1,7,7,7,2,2,7,3,6,6,2,2,7,2,3,7,7,7,7,1,7,7,7,4,7,7
-TZA281,Tanzania,48,Male,Lower middle,1,Christian: Other,Married,La saba 7,Msukuma,7,7,7,7,7,7,1,1,7,1,1,1,7,7,7,7,7,7,7,7,7,7,7,5,5,7,7,7,7,7,7,7,3,1,3,6,1,7,2,5,7,7,7,3,3,7,7,7,7,7,7
-TZA282,Tanzania,42,Male,Middle,2,Muslim: Shia,Other,Darasa 7,Mngoni,7,7,7,7,7,7,7,7,1,1,1,1,7,7,1,2,2,1,7,7,1,7,7,7,7,1,7,7,7,7,7,7,7,7,7,1,1,7,1,7,7,7,7,1,7,7,7,7,7,7,7
-TZA283,Tanzania,35,Male,Upper middle,3,Muslim: Sunni,Married,Chuo kikuu,Mngoni,5,7,7,7,7,7,4,5,3,2,5,3,6,7,7,5,5,3,3,7,6,7,7,7,5,1,4,7,7,6,7,7,5,3,5,6,3,7,3,7,6,7,7,7,7,7,7,7,7,7,7
-TZA284,Tanzania,49,Male,Middle,2,Muslim: Shia,Married,Darasa 7,Mlugulu,6,7,7,7,6,7,2,4,5,3,5,4,7,7,6,5,6,3,5,7,6,7,7,6,7,1,7,7,7,6,7,7,3,2,7,6,3,7,3,7,7,7,7,5,2,7,7,7,7,7,7
-TZA285,Tanzania,31,Male,Middle,2,Muslim: Shia,Married,Kidato cha 4,Mlugulu,5,7,7,7,7,7,2,4,5,1,2,3,7,7,7,4,5,2,6,7,7,7,7,7,6,7,1,7,7,3,5,7,3,2,6,4,3,7,3,7,7,7,7,7,5,7,7,7,7,7,7
-TZA286,Tanzania,39,Male,Lower middle,1,Muslim: Shia,Married,La 4,Mlugulu,7,7,7,7,7,7,1,1,7,1,1,2,7,6,7,6,3,3,7,2,6,7,6,7,3,1,7,7,7,7,7,7,5,5,3,5,3,7,1,6,7,6,7,1,2,7,7,6,7,7,7
-TZA287,Tanzania,28,Male,Lower middle,1,Muslim: Shia,Unmarried,Form 4,Mngoni,7,7,5,5,7,7,1,1,1,,3,3,1,2,2,4,5,5,5,6,6,6,7,3,3,1,7,6,6,3,6,3,3,7,7,2,1,7,2,5,6,7,5,5,5,7,7,6,4,7,7
-TZA288,Tanzania,41,Male,Middle,2,Christian: Catholic,Married,Darasa 7,Mhehe,6,7,7,7,7,7,3,3,4,2,3,2,6,7,6,3,5,6,6,7,6,5,6,7,3,,7,7,,7,7,7,3,,,,,7,1,1,1,7,1,1,1,7,7,7,7,7,7
-TZA289,Tanzania,50,Male,Middle,2,Christian: Catholic,Married,Darasa 8,Mnyachusa,7,7,7,7,4,7,6,5,7,1,1,2,7,6,7,3,6,5,7,1,7,7,6,7,7,7,1,7,7,6,7,6,1,1,7,2,3,7,1,7,1,7,1,1,7,7,7,7,7,7,7
-TZA290,Tanzania,82,Male,Lower middle,1,Christian: Other,Unmarried,La nne,Mpogolo,7,7,7,5,7,6,4,,6,5,7,,6,7,5,7,7,7,7,7,5,6,7,6,7,1,7,7,7,7,7,6,6,7,5,6,7,7,1,7,7,7,7,7,6,7,7,7,7,7,7
-TZA291,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Married,La 4,Msambaa,6,7,7,7,3,7,3,7,5,2,2,3,,,,,,,7,2,7,6,5,5,5,1,7,7,7,6,3,3,5,7,5,1,1,7,1,7,7,7,6,7,1,7,7,7,7,7,7
-TZA292,Tanzania,48,Male,Lower middle,1,Christian: Protestant,Married,Form 4,Mbena,7,7,7,6,6,6,3,3,4,2,3,2,6,7,7,7,7,7,7,5,6,7,7,7,5,7,1,7,7,3,2,7,7,7,7,7,1,7,1,7,7,7,7,4,3,7,7,7,7,7,7
-TZA293,Tanzania,49,Male,Lower middle,1,Christian: Catholic,Other,Form 5,Mzigua,7,7,7,6,6,6,2,2,2,2,2,2,7,7,1,2,2,1,7,6,7,7,6,6,6,1,7,7,7,2,2,7,7,7,7,3,1,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA294,Tanzania,43,Male,Lower middle,1,Christian: Pentecostal,Married,La saba,Mchaga,7,7,7,5,7,7,5,5,5,5,5,5,7,7,7,7,7,7,6,6,7,6,7,7,6,1,7,7,6,2,3,7,7,6,7,3,1,7,1,7,7,7,7,5,5,7,7,7,7,7,7
-TZA295,Tanzania,78,Male,Lower middle,1,Muslim: Shia,Married,La nne,Mmakonde,7,7,7,6,6,6,6,6,6,6,6,6,7,6,7,7,6,5,7,7,7,5,6,7,3,1,7,7,7,4,7,7,3,5,3,3,1,7,1,7,7,7,7,2,1,7,7,7,7,7,7
-TZA296,Tanzania,33,Female,Lower middle,1,Christian: Other,Other,La 7,Mmakua,7,7,7,6,6,6,2,6,2,2,2,2,7,1,1,1,1,6,7,7,6,6,6,6,6,6,3,6,6,2,3,5,6,6,3,6,5,7,1,6,6,6,5,2,3,7,7,6,6,7,7
-TZA297,Tanzania,34,Male,Lower middle,1,Christian: Catholic,Other,Form 4,Mgogo,7,7,7,7,7,7,3,3,3,2,2,2,7,7,7,7,7,7,7,7,6,7,6,7,5,1,7,7,7,2,2,7,7,7,7,2,2,7,3,3,7,7,7,6,1,7,7,7,7,7,7
-TZA298,Tanzania,30,Male,Lower middle,1,Muslim: Shia,Unmarried,La saba,Mluguru,7,7,7,6,6,6,3,3,3,2,2,2,7,1,2,6,6,6,7,6,6,6,6,6,5,2,7,6,6,3,3,5,3,6,6,6,2,6,2,7,6,6,5,2,1,7,7,6,6,7,7
-TZA299,Tanzania,19,Female,Lower middle,1,Christian: Pentecostal,Unmarried,Form 4,Mbondai,7,7,7,7,7,7,5,5,7,3,2,5,7,7,7,7,7,7,7,7,7,7,7,7,1,1,7,3,1,7,7,1,2,1,1,1,1,7,1,7,1,7,1,1,7,7,7,7,7,7,7
-TZA300,Tanzania,48,Female,Middle,2,Christian: Catholic,Married,Kidato 4,Mnyiramba,6,7,7,7,7,7,2,2,2,2,2,2,7,7,7,3,7,6,7,7,7,6,5,6,6,1,7,7,7,1,5,7,7,5,7,2,2,7,3,7,7,7,7,7,7,7,7,7,7,7,7
-TZA301,Tanzania,39,Male,Middle,2,Christian: Protestant,Married,Certificate,Mngoni,7,7,7,7,7,7,5,5,5,5,5,5,6,6,7,3,6,6,7,7,6,7,7,5,5,1,7,7,7,3,3,7,5,6,2,2,1,7,1,7,7,7,7,3,3,7,7,7,7,7,7
-TZA302,Tanzania,81,Male,Middle,2,Christian: Other,Other,La nne mkoloni,Muhaya,7,7,6,7,7,7,7,7,6,6,6,6,7,7,7,5,5,5,7,7,6,7,7,3,5,1,7,7,7,6,7,7,5,2,4,7,2,7,1,7,7,7,7,6,7,7,7,7,7,7,7
-TZA303,Tanzania,62,Male,Middle,2,Muslim: Shia,Unmarried,La saba 7,Msukuma,7,7,7,6,6,6,3,3,3,3,3,5,6,5,6,6,7,6,7,7,7,6,6,6,7,7,1,7,7,3,5,7,7,3,7,3,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA304,Tanzania,40,Male,Middle,2,Christian: Other,Married,Form 4,Mtipa,6,6,6,7,7,7,2,2,2,1,3,3,7,7,7,6,6,5,7,7,6,7,6,6,3,7,1,7,7,5,5,7,3,3,6,5,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA305,Tanzania,42,Female,Middle,2,Christian: Other,Married,Shahada yai,Mjita,2,5,6,7,7,7,4,7,7,7,7,5,7,7,7,5,6,1,7,2,6,7,7,7,7,1,7,7,7,7,7,7,6,7,7,7,5,7,4,7,7,7,7,7,7,7,7,4,4,7,7
-TZA306,Tanzania,47,Male,Lower middle,1,Christian: Other,Other,Diploma,Mpare,7,6,6,7,7,7,5,3,6,1,1,1,7,7,5,5,6,6,5,3,7,7,7,7,5,1,7,7,6,7,7,7,5,1,7,6,5,1,7,7,1,7,7,7,1,7,7,7,6,7,7
-TZA307,Tanzania,32,Female,Middle,2,Christian: Other,Married,StaShahada,Msukuma,7,6,7,7,6,7,5,5,5,5,5,5,7,6,,,6,6,6,7,7,5,6,7,,6,1,6,6,1,6,6,5,6,6,7,6,2,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA308,Tanzania,39,Female,Upper middle,3,Christian: Other,Married,Degree,Mchaga,7,7,7,7,7,7,3,3,1,6,1,2,2,1,1,5,7,7,6,2,7,5,5,3,,1,1,7,7,5,5,5,5,6,7,3,3,7,2,5,6,7,3,7,6,7,7,6,7,7,7
-TZA309,Tanzania,64,Female,Middle,2,Muslim: Shia,Married,Cheti,Msambaa,7,7,7,6,6,6,2,2,2,3,3,3,7,7,7,7,7,7,7,7,6,7,7,5,5,7,1,7,7,5,7,5,5,6,5,6,5,7,2,5,7,7,7,3,3,7,7,7,7,7,7
-TZA310,Tanzania,60,Male,Middle,2,Christian: Pentecostal,Married,La 7,Mungulimi,7,7,7,7,7,6,2,6,6,6,2,2,3,2,2,5,5,5,6,6,6,6,5,6,6,6,5,6,6,3,3,5,5,6,5,6,3,7,2,5,6,6,5,2,2,7,7,7,7,7,7
-TZA311,Tanzania,23,Male,Middle,2,Christian: Pentecostal,Married,Chuo kikuu,Mchaga,3,7,5,5,7,7,5,,6,2,2,2,7,6,5,4,3,1,7,2,7,7,7,6,4,7,1,7,7,7,7,7,5,5,7,5,2,7,1,7,7,6,6,5,7,7,7,7,1,7,7
-TZA312,Tanzania,48,Female,Lower middle,1,Muslim: Shia,Married,La saba,Msambaa,7,7,5,7,6,6,1,1,3,1,1,1,3,5,2,3,5,5,7,7,7,,7,1,7,1,7,6,7,5,6,5,3,6,7,5,1,7,2,5,7,7,5,7,5,7,7,6,4,7,7
-TZA313,Tanzania,33,Female,Lower middle,1,Muslim: Shia,Unmarried,Cheti,Mlugulu,7,7,7,7,7,7,3,5,5,2,2,2,7,7,2,2,1,1,7,7,6,6,7,5,5,1,7,7,7,2,2,7,3,6,6,2,2,7,2,3,7,7,7,7,1,7,7,7,4,7,7
-TZA314,Tanzania,35,Female,Lower middle,1,Christian: Catholic,Married,La saba,Mnyamwezi,7,6,5,7,7,7,2,6,,1,1,1,1,5,5,3,5,5,7,7,7,6,5,6,7,1,7,7,7,7,5,2,7,7,5,5,1,7,2,7,7,7,7,6,5,7,7,7,7,7,7
-TZA315,Tanzania,39,Female,"",,Christian: Catholic,Unmarried,La saba,Mfipa,6,7,7,7,6,4,3,7,4,2,7,1,7,6,6,5,3,3,6,1,,6,7,5,6,7,7,7,7,7,6,7,7,7,7,7,6,1,1,7,7,7,7,5,1,1,1,7,7,1,1
-TZA316,Tanzania,18,Female,Middle,2,Christian: Other,Other,Kidato 4,Mpare,6,6,6,7,7,7,2,2,2,1,1,1,7,7,7,5,2,3,6,6,6,7,7,5,6,1,7,7,7,3,3,7,7,2,7,2,1,7,1,2,7,7,7,5,1,7,7,7,7,7,7
-TZA317,Tanzania,30,Female,Middle,2,Christian: Catholic,Married,Form 6,Mlugulu,7,7,6,7,2,7,3,3,2,2,1,3,7,6,7,6,7,6,7,6,3,7,3,6,7,7,1,6,7,2,3,7,7,2,7,1,1,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA318,Tanzania,28,Female,Lower middle,1,Muslim: Shia,Other,Chuo kikuu,Mzigua,6,7,7,7,7,7,3,3,3,2,2,2,7,7,2,2,1,1,7,7,7,7,6,6,3,1,7,7,7,1,1,7,2,7,7,1,1,7,3,5,7,7,7,4,4,7,7,7,7,7,7
-TZA319,Tanzania,29,Female,Middle,2,Christian: Catholic,Unmarried,StaShahada,Mchaga,7,7,7,7,7,7,6,5,5,6,2,2,7,6,7,1,6,1,7,6,7,6,5,5,5,7,1,7,7,5,5,5,5,6,5,6,5,7,6,7,6,5,6,6,6,7,7,7,7,7,7
-TZA320,Tanzania,27,Female,Lower middle,1,Christian: Catholic,Other,Degree,Mlugulu,7,7,7,7,7,7,1,1,1,6,1,1,6,2,2,5,5,5,7,7,7,6,5,5,5,1,7,7,7,5,5,5,6,6,7,3,3,7,1,5,7,7,5,5,5,7,7,7,7,7,7
-TZA321,Tanzania,25,Female,Lower middle,1,Muslim: Sunni,Unmarried,Degree,Mnyaturu,5,6,5,5,6,7,3,4,,3,2,1,6,6,3,1,6,5,6,2,7,6,7,6,2,7,2,7,7,6,6,5,5,6,7,6,4,7,2,7,7,7,6,7,7,7,7,7,6,7,7
-TZA322,Tanzania,34,Female,Middle,2,Muslim: Shia,Married,La saba,Mluguru,6,6,5,7,6,6,1,5,1,1,1,1,1,5,5,6,5,5,6,7,7,6,5,6,6,7,1,7,7,1,5,6,5,7,5,5,1,7,1,7,7,7,7,6,5,7,7,7,4,7,7
-TZA323,Tanzania,22,Female,Middle,2,Christian: Pentecostal,Other,Form 4,Mgogo,6,6,7,7,7,7,3,2,1,2,2,3,7,6,7,2,2,2,7,7,7,6,5,7,1,7,1,7,7,6,7,7,3,3,7,7,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA324,Tanzania,42,Female,Lower middle,1,Christian: Catholic,Married,Darasa 7,Wanyamwezi,7,7,4,,6,5,5,,6,3,4,1,6,6,7,7,6,7,6,1,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,4,2,7,1,7,7,7,7,5,2,1,5,4,7,1,1
-TZA325,Tanzania,23,Female,Middle,2,Muslim: Sunni,Unmarried,Form 4,Mpare,7,7,7,2,7,7,5,7,7,3,3,3,6,7,3,5,4,2,5,6,6,6,5,5,5,1,7,6,6,6,6,7,6,7,3,6,2,5,2,6,6,6,6,5,5,7,7,7,7,7,7
-TZA326,Tanzania,23,Female,Lower middle,1,Muslim: Shia,Unmarried,Degree,Mnyaturu,2,3,1,5,3,5,2,2,3,2,3,4,6,5,5,6,6,6,2,7,2,2,2,1,1,5,2,4,5,3,5,6,6,5,5,5,6,6,1,7,7,7,7,7,7,7,6,5,7,7,7
-TZA327,Tanzania,27,Female,Middle,2,Christian: Protestant,Married,Chuo kikuu,Mpare,6,7,7,7,7,7,6,5,4,1,2,3,7,7,4,5,6,2,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,7,7,1,1,1,1,7,1,1,1
-TZA328,Tanzania,41,Female,Lower middle,1,Christian: Catholic,Married,7,Mpogoro,6,5,5,6,6,7,2,2,6,2,2,1,5,2,2,5,5,5,6,6,6,6,5,6,5,1,7,6,6,2,1,3,3,5,3,3,3,7,2,6,,6,2,6,3,7,7,7,7,7,7
-TZA329,Tanzania,33,Female,Middle,2,Muslim: Shia,Unmarried,Degree,Mngoni,6,4,2,2,6,6,2,3,2,2,,,6,5,2,1,6,2,6,6,6,6,6,5,6,7,3,6,6,5,5,3,2,5,3,5,2,6,2,,2,2,6,6,7,7,7,6,7,7,7
-TZA330,Tanzania,29,Female,Middle,2,Muslim: Shia,Other,Form 4,Mpogoro,7,7,7,7,7,7,7,7,6,2,2,2,5,2,2,6,1,1,6,6,6,6,5,5,5,1,7,6,6,2,2,6,2,7,6,2,2,7,2,6,7,7,5,5,7,7,7,7,7,7,7
-TZA331,Tanzania,56,Female,Middle,2,Christian: Catholic,Other,La saba 7,Mngoni,7,7,7,7,7,7,1,1,1,1,1,1,7,3,7,7,7,7,7,1,7,7,7,7,7,1,7,7,7,7,7,7,7,1,6,2,2,7,1,7,7,7,7,7,7,7,7,3,2,7,7
-TZA332,Tanzania,30,Female,Middle,2,Christian: Other,Other,Chuo kikuu,Mkaguru,6,7,7,6,6,7,3,2,3,3,5,5,7,6,7,5,5,6,6,7,6,7,7,7,7,7,1,7,7,7,7,7,6,2,5,7,5,7,1,7,7,7,7,5,5,7,7,7,7,7,7
-TZA333,Tanzania,68,Female,Lower middle,1,Christian: Catholic,Other,La nne,Mlugulu,7,7,7,7,7,7,7,7,7,7,7,7,6,7,6,3,4,2,7,7,6,5,6,6,7,1,7,7,7,2,6,7,6,7,7,2,1,7,1,7,7,7,7,5,5,7,7,7,7,7,7
-TZA334,Tanzania,31,Female,Middle,2,Christian: Catholic,Married,Form 4,Mgogo,6,7,6,7,2,7,2,3,1,1,1,1,7,6,6,1,1,2,7,7,7,7,7,7,7,7,1,7,7,5,7,7,5,1,7,5,5,1,1,7,7,7,7,1,1,7,7,7,7,7,7
-TZA335,Tanzania,32,Female,Middle,2,Christian: Other,Married,Degree,Mchaga,7,7,7,7,7,7,1,6,6,1,1,1,1,3,2,3,1,5,3,5,5,5,5,5,5,7,1,6,6,3,4,2,3,6,5,7,6,7,3,6,7,7,3,7,5,7,7,6,6,7,7
-TZA336,Tanzania,60,Female,Lower middle,1,Muslim: Shia,Other,La 7,Mlugulu,6,5,7,7,1,2,7,5,7,3,2,1,7,5,6,7,6,3,7,7,6,7,6,6,7,1,7,7,7,6,7,7,6,3,7,6,7,7,1,7,5,7,7,6,6,7,7,7,1,7,7
-TZA337,Tanzania,36,Female,Lower middle,1,Christian: Protestant,Married,Form 4,Mlugulu,6,7,7,7,6,5,7,7,7,4,7,6,6,7,4,6,7,6,6,1,5,,6,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,1,7,7,7,7,7,3,1,1,3,5,1,1
-TZA338,Tanzania,27,Female,Lower middle,1,Muslim: Shia,Other,Certtificate,Muhaya,7,7,7,6,6,6,1,1,1,1,3,3,3,2,2,5,5,6,7,7,6,6,6,7,6,1,7,6,7,2,1,7,7,7,6,3,2,7,3,5,6,7,5,3,3,7,6,7,7,7,7
-TZA339,Tanzania,23,Female,Lower middle,1,"",Unmarried,Kidato cha 6,Mluguru,6,5,6,6,7,3,6,5,6,5,3,6,6,5,7,6,7,5,7,2,6,5,7,5,6,1,7,7,7,7,7,1,2,7,7,7,7,6,1,7,7,7,7,7,7,7,7,7,,7,7
-TZA340,Tanzania,45,Female,Lower middle,1,Muslim: Shia,Unmarried,7,Msambaa,7,7,7,7,7,7,2,2,2,,2,2,7,5,2,6,6,6,7,1,6,6,6,6,6,1,7,6,6,6,3,6,,6,6,3,3,6,1,2,2,6,2,2,7,7,7,7,7,7,7
-TZA341,Tanzania,51,Female,Middle,2,Christian: Other,Unmarried,Darasa 7,Mgogo,5,7,6,7,6,7,2,2,2,2,3,3,7,7,7,3,6,3,,,,,,,,,7,7,6,6,3,7,2,6,2,3,1,7,1,7,7,7,7,7,2,,,,,,
-TZA342,Tanzania,25,Female,"",,Christian: Pentecostal,Other,Form 4,Mnyaturu,7,7,7,6,6,7,1,1,1,2,2,2,7,7,6,7,6,6,7,6,7,6,6,6,6,1,7,7,7,7,7,7,7,7,2,7,7,7,1,7,5,7,7,7,7,7,7,7,7,7,7
-TZA343,Tanzania,62,Female,Middle,2,Muslim: Shia,Other,Claiasa nne,Mlugulu,5,7,7,7,7,7,3,3,3,2,3,,7,7,7,7,7,7,7,7,6,5,5,6,5,1,7,7,7,7,7,6,5,2,7,6,2,7,1,7,7,7,7,6,5,7,7,7,7,7,7
-TZA344,Tanzania,54,Female,Middle,2,Christian: Other,Married,Form 4,Mrangi,7,6,7,7,6,6,6,5,5,7,6,6,7,7,6,7,6,7,7,6,6,7,6,7,6,7,1,7,7,6,5,7,5,7,7,3,2,7,1,7,7,7,7,3,2,7,7,7,7,7,7
-TZA345,Tanzania,24,Female,Lower middle,1,Christian: Catholic,Other,Kidato cha 1,Mnyamwezi,7,7,7,7,7,7,3,7,7,3,3,7,7,7,7,6,7,6,6,5,6,7,6,7,5,1,7,7,7,7,3,7,7,6,7,3,1,7,1,7,7,7,7,5,2,7,7,7,7,7,7
-TZA346,Tanzania,36,Female,Lower middle,1,Christian: Catholic,Unmarried,Darasa la 7,Miraki,7,6,7,6,6,6,7,6,7,3,5,5,6,7,6,7,6,7,6,7,6,7,7,7,7,1,7,7,7,2,2,7,5,7,7,2,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7
-TZA347,Tanzania,22,Female,Middle,2,Muslim: Sunni,Unmarried,Kidato cha nne,Mluguru,6,6,6,7,6,6,5,4,5,,4,2,6,5,6,5,2,3,4,7,6,6,7,6,,7,1,6,7,1,6,2,2,7,4,5,4,6,2,7,5,7,6,5,4,7,7,,7,7,7
-TZA348,Tanzania,40,Female,Middle,2,Christian: Catholic,Married,Form 4,Mhaya,7,5,5,7,7,7,2,2,2,1,1,1,5,5,5,5,6,5,7,7,6,7,5,7,5,1,7,7,7,5,5,6,6,6,5,3,3,7,2,5,7,7,5,3,3,7,7,6,6,7,7
-TZA349,Tanzania,30,Female,Middle,2,Christian: Catholic,Unmarried,Degree,Mpare,6,6,6,6,6,7,5,3,3,3,3,3,6,7,5,4,5,6,6,7,6,6,7,6,7,2,7,6,7,7,7,7,5,7,5,7,7,6,2,5,6,7,5,7,6,7,6,5,6,7,7
-TZA350,Tanzania,45,Female,Middle,2,Christian: Other,Unmarried,LA 7,Mgogo,7,7,7,7,7,7,2,2,2,2,2,2,7,7,7,6,7,6,7,6,7,7,7,7,7,1,7,7,7,7,7,7,7,2,7,3,3,7,1,7,7,7,7,5,5,7,7,7,7,7,7
-TZA351,Tanzania,43,Female,Lower middle,1,Christian: Catholic,Other,La saba,Mgogo,7,6,7,7,7,7,2,2,2,2,2,2,7,3,3,6,6,6,7,7,6,7,6,6,6,1,7,6,7,7,6,6,7,7,7,3,3,7,2,6,6,7,5,6,6,7,7,7,4,7,7
-TZA352,Tanzania,25,Female,Middle,2,Christian: Catholic,Unmarried,Form 4,Mchaga,7,5,7,7,7,7,7,7,7,7,7,7,7,3,2,3,2,7,2,7,7,2,4,1,2,7,1,7,7,1,7,4,3,6,1,7,1,7,1,6,6,7,6,7,7,7,7,5,7,7,7
+id,country,age,gender,ses,fses,religion,married,education,ethnicity,IGF01,IGF02,IGF03,IGI01,IGI02,IGI03,OGF01,OGF02,OGF03,OGI01,OGI02,OGI03,ENDBCL01,ENDBCL02,ENDBCL03,ENDBBL01,ENDBBL02,ENDBBL03,empathic_concern_01,empathic_concern_02,empathic_concern_03,perspective_taking_01,perspective_taking_02,perspective_taking_03,perspective_taking_04,event_positive_affect,event_negative_affect,event_episodic_recall_01,event_episodic_recall_02,event_shared_perception_01,event_shared_perception_02,event_reflection_01,event_reflection_02,event_transformative_indiv_01,event_transformative_indiv_02,event_transformative_group_01,event_transformative_group_02,religious_freedom_per_01,religious_freedom_per_02,religious_freedom_per_03,religious_freedom_per_04,religious_freedom_per_05,religious_freedom_per_06,religious_freedom_per_07,religious_freedom_per_08,religious_freedom_exp_01,religious_freedom_exp_02,religious_freedom_exp_03,religious_freedom_exp_04,religious_freedom_exp_05,religious_freedom_exp_06,history_discrimination,freq_positive_contact,freq_negative_contact,fight_outgroup,og_host_01,og_host_02,og_hostility,og_coop_01,og_coop_02,og_cooperation,NegativeToPositive,HostileToFriendly,SuspiciousToTrusting,ContemptToRespect,ThreatenedToRelaxed,og_affect
+TZA1,Tanzania,39,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,7,3,6,6,7,3,5,6,7,6,7,5,3,6,7,5,2,7,5,3,6,7,6,6,4,3,5,6,3,5,7,6,6,7,5,2,7,5,3,6,7,5,1,3,2,1,1,1,3,,,4,6,7,6.5,6,7,6.5,2,2,2,2,2,2
+TZA2,Tanzania,40,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,6,7,4,5,6,7,7,3,6,6,7,5,6,7,4,6,5,6,,,,,,,,7,6,3,6,7,3,5,7,6,7,5,7,6,5,5,6,7,3,6,6,,,,,,,7,,,5,7,6,6.5,5,6,5.5,5,5,5,5,5,5
+TZA3,Tanzania,38,Female,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,5,6,3,6,7,3,7,3,7,6,7,6,6,6,3,6,5,6,6,1,5,6,7,5,6,5,7,6,3,6,6,7,3,5,6,5,6,6,1,6,7,3,6,7,6,3,1,5,2,3,3,5,3,3,5,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA4,Tanzania,52,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,7,6,5,3,6,7,7,3,6,6,7,3,6,7,5,6,6,7,6,1,6,,5,6,7,6,7,3,6,7,3,5,7,6,7,5,6,6,1,6,7,5,6,7,6,2,1,2,2,2,2,3,,,3,6,7,6.5,7,6,6.5,5,5,5,5,5,5
+TZA5,Tanzania,52,Female,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,7,6,3,6,5,6,7,5,7,5,3,6,5,6,7,5,3,6,7,3,7,3,6,7,5,5,7,,3,6,7,7,3,5,6,5,6,6,2,6,7,6,7,5,6,3,1,5,2,3,3,3,3,3,7,5,6,5.5,7,5,6,3,3,3,3,3,3
+TZA6,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,5,7,4,6,3,,6,3,6,7,6,7,3,6,6,6,7,5,6,7,5,6,7,7,6,4,6,6,5,6,7,6,3,3,6,6,1,6,7,5,6,7,3,3,2,1,5,3,3,6,,,6,3,5,4,7,5,6,6,6,6,6,6,6
+TZA7,Tanzania,30,Female,Middle,2,Christian: Catholic,Unmarried,Form Six,Maasai,6,7,7,7,6,6,5,6,5,5,7,6,7,5,6,5,6,7,7,6,2,6,4,6,5,2,7,2,6,7,5,5,2,5,2,6,2,7,1,7,6,7,2,7,7,5,,3,7,5,5,2,3,2,2,2,5,3.5,7,6,6.5,2,2,2,2,2,2
+TZA8,Tanzania,33,Female,"",,Christian: Catholic,Married,Form Six,Maasai,6,7,6,5,,6,5,6,,2,5,2,6,2,1,6,7,7,1,6,7,6,7,7,6,2,6,7,6,7,6,7,7,2,6,2,7,6,1,6,7,6,5,7,6,5,6,4,3,5,5,7,3,2,2,6,6,6,1,6,3.5,7,7,7,7,7,7
+TZA9,Tanzania,32,Female,Middle,2,Christian: Catholic,Married,Form Five,Maasai,6,7,6,6,7,6,5,5,5,7,5,5,6,2,1,7,6,7,2,,6,7,6,6,5,7,2,6,7,6,7,6,5,6,5,6,5,7,2,7,7,5,7,6,7,6,5,2,3,6,6,7,2,2,6,6,7,6.5,5,6,5.5,6,6,6,6,6,6
+TZA10,Tanzania,52,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,3,6,5,7,3,6,3,6,7,5,6,7,3,5,6,7,3,6,5,3,6,7,7,6,3,6,7,3,6,6,6,3,7,4,3,3,7,5,6,3,6,7,3,1,5,2,3,3,3,,,5,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA11,Tanzania,35,Male,Middle,2,Christian: Catholic,Married,Form Six,Maasai,6,7,3,5,6,7,7,3,6,6,7,3,6,7,3,6,7,5,6,1,5,6,7,3,6,7,6,3,6,7,3,6,7,7,3,5,7,6,1,6,7,6,7,5,6,3,2,1,5,3,3,3,,,3,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA12,Tanzania,55,Male,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,6,7,5,6,7,3,3,6,7,7,6,5,6,7,2,6,7,5,6,1,3,6,5,6,3,7,6,3,6,7,3,3,6,6,7,7,3,6,1,6,7,3,6,7,6,3,1,5,2,3,3,5,,,7,7,5,6,6,7,6.5,3,3,3,3,3,3
+TZA13,Tanzania,52,Male,Middle,2,Christian: Protestant,Married,Form Four,Maasai,6,7,3,6,3,6,,6,7,4,6,7,6,7,3,5,6,7,7,3,6,3,6,7,3,3,7,6,5,6,7,7,3,3,6,6,7,6,1,3,5,6,7,3,6,3,1,5,2,3,3,3,,,4,6,7,6.5,6,7,6.5,3,3,3,3,3,3
+TZA14,Tanzania,25,Female,Middle,2,Christian: Pentecostal,Unmarried,Chuo Ckikuu,Maasai,2,6,7,6,7,5,6,7,2,6,7,7,5,6,2,6,6,5,6,3,7,2,6,7,2,2,7,7,7,6,5,5,5,6,6,7,2,7,2,7,6,5,6,5,7,3,6,2,4,3,3,5,5,2,6,7,5,6,2,6,4,3,3,3,3,3,3
+TZA15,Tanzania,35,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,7,6,2,6,,7,7,5,,6,7,2,6,7,2,5,6,7,2,2,5,7,7,5,2,2,7,6,5,7,5,5,2,6,7,6,2,7,1,6,5,6,2,6,7,3,6,2,1,3,3,5,6,2,5,7,,,7,2,4.5,5,5,5,5,5,5
+TZA16,Tanzania,30,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,7,6,7,5,6,2,3,6,7,1,7,6,5,7,7,6,3,7,7,7,6,7,5,3,7,7,6,5,5,6,7,7,7,3,2,3,1,3,7,6,3,6,7,7,6,7,6,7,7,1,4,3,6,2,7,4.5,7,3,5,6,4,2,2,2,3.2
+TZA17,Tanzania,32,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,5,7,6,5,7,3,6,,6,7,6,6,7,2,6,5,7,7,6,5,3,6,7,6,2,7,5,6,5,6,2,3,7,5,6,7,7,2,7,7,6,5,7,7,3,1,6,2,3,3,2,5,1,6,7,5,6,6,7,6.5,3,3,3,3,3,3
+TZA18,Tanzania,25,Male,Lower middle,1,Christian: Catholic,Unmarried,Kidato chaune,Maasai,7,3,,6,6,,6,2,3,3,3,2,7,7,6,6,7,7,2,5,7,6,,7,6,6,7,7,6,5,5,6,7,7,7,3,1,3,2,6,7,7,7,6,7,6,5,,6,6,6,6,2,2,7,7,6,6.5,1,2,1.5,2,3,3,3,3,2.8
+TZA19,Tanzania,54,Male,Middle,2,Christian: Catholic,Unmarried,Shule ya msingi,Maasai,7,6,5,7,6,7,1,1,1,1,1,1,7,2,5,6,7,1,7,3,5,6,6,6,1,1,7,6,7,2,2,5,6,7,6,1,1,7,1,7,7,7,7,7,6,6,7,7,7,6,6,1,4,2,5,7,7,7,1,2,1.5,2,2,2,2,6,2.8
+TZA20,Tanzania,40,Female,Upper middle,3,Christian: Catholic,Married,Form Four,Maasai,5,6,7,7,6,7,6,7,5,6,7,5,6,3,6,5,7,5,5,2,7,5,7,5,6,3,5,6,6,5,6,5,6,5,7,5,7,7,2,7,5,6,7,5,6,3,4,2,3,3,3,7,3,3,6,5,7,6,5,6,5.5,3,3,3,3,3,3
+TZA21,Tanzania,28,Female,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,7,6,7,7,6,7,5,3,5,5,2,3,7,5,7,2,2,6,7,2,5,7,6,5,6,2,7,7,7,6,5,7,3,6,5,5,2,7,2,7,6,7,3,6,7,6,4,3,7,6,6,3,2,2,6,6,2,4,7,6,6.5,6,2,2,2,2,2.8
+TZA22,Tanzania,35,Female,Middle,2,Christian: Catholic,Married,Chuo kikuu,Maasai,6,7,2,5,3,7,7,6,,5,7,6,7,6,6,5,7,5,7,6,5,7,6,3,6,2,6,7,5,7,6,5,6,2,7,2,7,7,1,6,7,5,7,6,7,2,3,2,6,2,2,6,5,3,6,5,7,6,6,2,4,6,6,6,6,6,6
+TZA23,Tanzania,40,Female,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,6,5,7,2,7,6,6,7,3,7,5,6,6,3,7,5,6,7,6,1,2,5,6,7,5,2,7,6,3,5,6,7,5,7,5,7,6,7,2,7,6,7,2,7,7,7,7,3,3,7,7,2,2,2,7,5,6,5.5,6,7,6.5,2,2,2,2,2,2
+TZA24,Tanzania,38,Female,Middle,2,Christian: Catholic,Unmarried,Form Two,Maasai,7,5,6,5,2,7,2,4,6,7,5,7,7,2,,6,7,5,7,3,6,7,5,6,5,7,6,5,2,7,5,6,5,6,7,6,7,6,1,5,7,7,6,7,,3,2,4,,3,3,2,2,2,6,7,5,6,6,7,6.5,3,3,3,3,3,3
+TZA25,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,7,5,6,2,7,5,5,7,6,7,5,6,7,3,5,6,3,2,6,7,3,6,5,7,7,6,6,2,7,2,6,5,7,3,7,1,6,6,7,2,7,7,3,1,5,2,3,3,6,3,3,7,2,5,3.5,7,5,6,3,3,3,3,3,3
+TZA26,Tanzania,,Female,Upper middle,3,Christian: Catholic,Married,4,Maasai,6,5,7,7,5,6,6,7,5,5,6,7,6,5,6,7,5,6,6,3,3,5,6,5,6,7,6,5,6,7,5,7,5,6,5,6,7,5,2,7,6,7,5,7,6,3,2,3,2,3,3,5,2,2,5,6,7,6.5,6,7,6.5,3,3,3,3,3,3
+TZA27,Tanzania,18,Female,Middle,2,Christian: Catholic,Unmarried,4,Maasai,7,7,7,7,7,7,5,5,3,6,3,3,7,2,3,7,,6,5,5,7,6,7,7,6,7,1,7,6,1,7,5,1,7,,7,5,5,1,7,7,7,3,6,5,7,6,4,4,7,7,5,4,3,2,5,3,4,5,7,6,5,4,5,2,4,4
+TZA28,Tanzania,28,Female,Middle,2,Christian: Pentecostal,Married,Form Six,Maasai,7,2,5,5,6,7,5,7,,7,5,6,6,2,7,5,6,6,6,6,7,5,,6,7,5,7,6,2,6,5,6,7,7,,5,6,7,2,5,7,6,2,6,7,5,2,4,,5,5,6,5,2,7,2,6,4,7,5,6,3,3,3,3,3,3
+TZA29,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,6,7,5,5,6,6,7,3,6,5,6,7,6,6,7,5,5,7,6,1,5,6,6,7,5,3,5,7,6,3,6,6,5,5,7,6,7,6,1,5,3,5,6,7,6,3,2,1,4,3,3,7,4,4,6,5,3,4,5,6,5.5,5,5,5,5,5,5
+TZA30,Tanzania,20,Male,Middle,2,Christian: Catholic,Married,Darasa la Saba,Maasai,6,7,3,6,7,3,6,7,5,7,3,6,7,5,6,7,3,5,7,3,3,6,7,5,7,5,7,6,6,5,3,3,5,6,7,6,7,5,2,2,6,5,7,6,7,3,5,2,1,3,3,6,4,4,7,3,6,4.5,7,5,6,5,5,5,5,5,5
+TZA31,Tanzania,27,Male,Upper middle,3,Christian: Catholic,Unmarried,Form Four,Maasai,6,7,5,5,6,7,2,6,3,5,6,7,6,7,5,3,6,6,7,3,6,3,6,7,3,6,5,2,6,3,6,3,6,7,5,7,5,7,2,5,6,7,6,7,6,3,4,2,3,3,3,6,3,3,6,7,3,5,7,5,6,5,5,5,5,5,5
+TZA32,Tanzania,26,Male,Upper middle,3,Christian: Catholic,Married,Form Two,Maasai,7,5,7,2,6,7,6,5,7,3,6,7,7,5,7,5,2,6,6,3,2,6,6,2,6,5,7,,3,5,7,2,6,5,7,5,2,7,2,5,6,7,5,6,7,3,6,2,3,3,3,6,2,2,7,2,6,4,7,5,6,3,3,3,3,3,3
+TZA33,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Mkura,7,5,,3,7,6,6,5,7,7,6,7,6,7,5,2,6,6,7,3,6,2,6,5,6,5,6,3,5,6,7,3,6,5,7,5,7,7,2,6,7,5,7,6,7,3,6,2,3,3,3,3,3,3,7,5,6,5.5,7,5,6,6,6,6,6,6,6
+TZA34,Tanzania,22,Male,Middle,2,Christian: Pentecostal,Unmarried,Chuo,Iraq,7,6,7,6,7,7,2,6,2,3,3,1,7,6,6,6,7,4,3,6,7,6,6,7,7,1,7,6,6,7,6,6,7,7,6,5,5,5,6,6,5,7,7,6,6,7,6,1,7,7,7,7,3,3,6,3,5,4,1,5,3,3,2,2,2,6,3
+TZA35,Tanzania,50,Male,Lower middle,1,Christian: Catholic,Married,Shule Msiry,Maasai,7,7,7,7,7,7,1,1,1,2,5,2,7,6,6,6,7,7,6,7,6,5,6,6,6,1,7,6,5,7,7,1,1,1,1,1,1,1,1,6,6,7,6,6,6,7,7,6,7,7,7,3,6,2,1,3,2,2.5,2,5,3.5,2,2,2,2,2,2
+TZA36,Tanzania,35,Male,Middle,2,Christian: Catholic,Unmarried,Form Two,Maasai,5,3,7,2,7,6,2,3,2,1,2,1,7,6,6,6,7,7,3,7,7,5,6,6,7,1,7,7,6,5,5,6,7,7,7,3,1,3,1,7,7,7,6,7,7,7,6,7,7,7,7,7,3,3,6,6,7,6.5,2,3,2.5,2,2,2,2,2,2
+TZA37,Tanzania,35,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,5,6,7,3,6,6,7,3,5,6,7,6,7,4,6,7,5,6,3,7,5,3,6,7,6,5,5,6,7,5,6,7,6,3,3,6,6,1,6,7,5,6,7,6,3,2,1,3,3,3,5,5,5,7,3,6,4.5,7,6,6.5,5,5,5,5,5,5
+TZA38,Tanzania,38,Female,Middle,2,Christian: Catholic,Married,Form Six,Maasai,6,7,3,6,7,4,4,6,7,6,7,6,7,5,6,3,6,7,6,1,3,6,7,5,6,5,7,6,7,3,6,6,3,7,5,6,7,6,1,6,7,3,6,7,6,3,2,1,5,3,3,3,,,6,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA39,Tanzania,44,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,5,7,5,6,7,6,4,6,6,7,5,6,7,3,5,6,7,6,1,3,6,7,5,6,3,6,6,3,6,6,6,7,7,3,5,6,5,2,7,3,6,7,5,6,3,2,1,5,3,3,7,,,7,3,5,4,5,6,5.5,3,3,3,3,3,3
+TZA40,Tanzania,45,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,5,7,3,6,7,6,5,7,6,,3,7,5,6,3,6,7,7,3,6,7,3,6,7,5,7,6,7,3,6,6,5,7,4,7,6,6,5,6,7,5,3,6,7,3,2,5,2,3,3,6,2,2,7,3,6,4.5,7,5,6,2,2,2,2,2,2
+TZA41,Tanzania,48,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,5,7,,2,7,3,,,5,7,7,5,3,6,7,5,7,3,6,2,6,7,3,5,7,6,7,3,6,6,7,7,5,5,7,5,2,3,6,7,5,6,7,3,2,1,5,3,3,7,3,3,6,5,7,6,6,3,4.5,3,3,3,3,3,3
+TZA42,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,3,6,7,5,4,6,7,7,3,6,5,6,7,3,6,7,6,1,3,6,7,3,6,5,6,4,6,7,5,3,6,6,7,7,4,5,1,3,6,7,3,6,7,3,2,1,5,3,3,3,,,6,6,7,6.5,6,7,6.5,3,3,3,3,3,3
+TZA43,Tanzania,38,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,3,6,7,3,6,5,7,3,6,3,6,7,7,6,7,3,5,6,6,1,3,6,7,3,6,4,6,6,7,5,6,6,5,7,3,6,7,6,1,6,7,6,7,6,7,3,2,1,3,3,3,3,,,3,5,7,6,6,7,6.5,5,5,5,5,5,5
+TZA44,Tanzania,40,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,5,7,4,7,3,6,7,6,7,6,7,3,6,7,3,6,1,3,6,7,3,6,7,6,3,5,6,7,6,7,6,3,5,6,6,1,6,3,6,7,6,7,3,1,5,2,3,3,3,,,5,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA45,Tanzania,58,Male,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,5,6,3,3,6,7,7,3,6,6,3,6,6,7,3,6,7,6,6,1,4,6,7,3,6,7,6,3,6,7,4,3,6,6,7,7,6,5,1,2,6,7,3,6,7,3,1,5,2,3,3,5,4,3,3,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA46,Tanzania,48,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,3,6,7,7,3,6,5,6,7,6,7,3,6,7,6,5,1,3,6,7,3,6,7,6,4,6,7,3,4,6,5,7,7,5,7,4,6,7,3,6,7,5,3,2,1,5,3,3,7,,,7,3,6,4.5,5,6,5.5,5,5,5,5,5,5
+TZA47,Tanzania,42,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,5,5,3,6,7,3,6,3,6,7,5,6,7,3,5,6,6,1,3,6,7,5,6,7,6,5,6,7,5,3,5,6,7,6,7,6,1,6,7,6,3,6,7,2,1,3,1,2,2,3,,,5,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA48,Tanzania,30,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,5,6,3,4,6,7,7,3,6,6,7,3,5,6,7,3,6,7,5,2,7,3,6,7,3,7,6,3,6,7,3,6,5,6,3,6,3,5,1,3,6,7,3,6,7,3,2,1,5,3,3,3,,,5,6,7,6.5,6,7,6.5,6,6,6,6,6,6
+TZA49,Tanzania,50,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,5,3,6,7,7,3,6,6,7,3,6,7,5,6,7,5,6,1,3,6,7,3,6,7,6,5,7,5,6,7,3,3,6,5,7,6,1,6,7,3,6,7,6,3,2,1,5,3,3,6,,,3,7,6,6.5,7,5,6,3,3,3,3,3,3
+TZA50,Tanzania,45,Male,Upper middle,3,Christian: Catholic,Married,Form Six,Maasai,5,6,7,7,4,6,6,7,4,5,6,7,6,7,3,6,7,5,6,1,3,6,7,3,6,7,6,3,6,7,3,3,5,6,7,6,7,5,2,7,3,5,6,7,6,3,1,2,3,3,3,3,,,7,5,6,5.5,6,7,6.5,5,5,5,5,5,5
+TZA51,Tanzania,35,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,3,5,6,7,7,3,6,6,7,5,5,6,7,3,5,6,6,1,5,6,7,6,3,7,6,3,6,7,3,3,6,6,7,7,3,4,2,7,3,6,7,6,5,2,3,1,3,2,2,3,,,7,5,6,5.5,6,7,6.5,3,3,3,3,3,3
+TZA52,Tanzania,30,Male,Upper middle,3,Christian: Catholic,Other,Form Four,Maasai,6,7,5,5,3,6,,5,7,5,6,7,5,7,6,5,6,7,6,1,5,6,7,5,6,5,7,6,7,5,6,7,5,7,5,6,7,6,1,5,7,3,5,7,6,3,1,2,3,3,3,5,3,3,6,6,7,6.5,6,7,6.5,3,3,3,3,3,3
+TZA53,Tanzania,34,Male,Upper middle,3,Christian: Catholic,Unmarried,Form Five,Maasai,6,3,6,3,6,5,6,3,6,5,6,7,5,6,7,2,5,6,5,2,3,5,6,7,5,7,6,5,6,7,5,7,5,3,5,6,7,5,2,7,3,6,7,5,6,3,2,3,2,3,3,6,2,2,7,7,5,6,7,5,6,2,2,2,2,2,2
+TZA54,Tanzania,24,Male,Upper middle,3,Christian: Catholic,Married,Form Four,Maasai,6,7,5,7,6,3,,,5,,6,3,6,7,5,6,7,6,6,3,7,4,6,5,7,5,6,7,3,6,5,5,6,6,7,5,7,5,2,3,6,7,2,5,7,3,1,2,,3,3,5,3,3,7,3,6,4.5,7,6,6.5,5,5,5,5,5,5
+TZA55,Tanzania,22,Female,Middle,2,Christian: Catholic,Unmarried,Form Six,Maasai,6,2,7,6,3,6,7,6,7,5,6,7,7,5,6,7,2,5,7,3,6,7,5,6,7,7,5,5,7,5,6,7,6,2,5,5,6,7,2,7,6,5,,7,6,3,1,2,3,3,3,7,2,2,6,5,7,6,7,5,6,3,3,3,3,3,3
+TZA56,Tanzania,30,Male,Middle,2,Christian: Catholic,Married,Form Two,Maasai,7,6,5,7,3,6,5,7,3,7,5,6,7,6,5,2,6,6,6,3,3,6,5,6,3,7,6,5,6,5,3,5,7,6,7,5,7,7,3,7,5,6,6,5,7,3,2,5,3,3,3,5,4,4,6,7,5,6,7,6,6.5,5,5,5,5,5,5
+TZA57,Tanzania,29,Male,Upper middle,3,Christian: Catholic,Unmarried,Chuo Kikuu,Maasai,5,7,6,7,6,3,7,5,7,7,5,7,7,5,6,7,5,6,6,4,7,2,6,7,4,5,7,,3,5,7,6,6,5,7,7,5,7,3,6,7,5,6,6,3,2,3,1,5,2,2,7,3,3,7,3,5,4,6,5,5.5,3,3,3,3,3,3
+TZA58,Tanzania,33,Male,Upper middle,3,Christian: Catholic,Married,Form Five 5,Maasai,7,5,3,6,2,6,5,7,6,2,7,5,7,2,5,7,3,6,7,3,2,6,7,5,6,5,7,7,5,6,2,6,5,6,3,7,6,7,3,3,6,,3,6,7,3,1,5,3,3,3,7,5,4,7,2,6,4,6,4,5,6,6,6,6,6,6
+TZA59,Tanzania,23,Male,Upper middle,3,Christian: Catholic,Married,Form Four 4,Maasai,7,6,3,2,5,6,3,7,5,5,3,6,7,2,6,5,6,7,7,3,2,7,3,6,7,5,7,6,3,6,3,7,3,6,5,6,7,7,3,7,6,5,3,7,5,3,1,5,2,3,3,5,4,4,6,3,5,4,6,7,6.5,6,6,6,6,6,6
+TZA60,Tanzania,18,Female,Middle,2,Christian: Catholic,Unmarried,Form Three,Maasai,6,7,6,7,6,6,5,2,1,2,5,2,7,5,6,7,5,7,7,3,7,6,7,5,6,5,7,6,7,5,2,5,7,5,7,6,5,7,2,7,7,6,5,7,7,4,7,3,6,4,4,2,5,3,2,1,2,1.5,7,6,6.5,3,3,3,3,3,3
+TZA61,Tanzania,,"","",,"",Other,"","",6,7,6,7,6,6,5,5,5,5,5,6,5,5,6,7,6,7,,,,,,,,6,1,7,7,7,6,6,7,7,5,6,5,7,2,7,6,5,7,6,6,,,,,,,6,3,3,6,7,,,5,7,6,7,7,7,7,7,7
+TZA62,Tanzania,18,Female,Upper middle,3,Christian: Catholic,Unmarried,Form Two 2,Maasai,7,6,7,7,6,7,2,6,3,1,2,1,7,6,5,6,5,7,3,7,7,6,5,6,7,1,7,6,7,6,5,6,7,7,7,3,1,3,1,1,7,6,3,6,7,7,6,7,7,7,7,7,4,3,6,6,7,6.5,2,3,2.5,2,2,2,2,2,2
+TZA63,Tanzania,19,Male,Lower middle,1,Christian: Catholic,Unmarried,Form Four,Maasai,7,5,6,5,2,7,5,7,2,2,1,2,7,6,3,6,5,7,7,3,6,7,5,6,2,6,7,5,6,7,5,5,6,7,7,7,6,7,2,7,6,7,6,7,7,3,2,1,2,3,3,6,2,2,2,2,3,2.5,7,6,6.5,2,2,2,2,2,2
+TZA64,Tanzania,20,Female,Middle,2,"",Unmarried,Form Four,Maasai,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA65,Tanzania,22,Female,Upper middle,3,Christian: Catholic,Married,Form Four 4,Maasai,5,6,6,7,6,6,5,1,6,1,6,2,5,3,1,6,7,6,2,7,6,7,6,7,6,1,7,6,5,7,6,7,6,1,7,1,6,6,1,6,7,7,6,7,7,5,6,4,3,5,5,6,3,3,1,6,7,6.5,2,5,3.5,6,6,6,6,6,6
+TZA66,Tanzania,18,Female,Middle,2,Christian: Catholic,Unmarried,Form Two,Maasai,7,5,2,7,6,2,5,7,6,6,2,6,7,5,2,6,7,6,7,3,6,5,7,2,6,5,7,2,5,6,7,5,7,6,2,6,5,7,2,7,6,7,5,7,7,3,1,6,3,3,3,6,2,2,7,7,2,4.5,7,5,6,2,2,2,2,2,2
+TZA67,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,5,6,7,6,7,6,7,5,,5,6,7,5,6,7,5,6,7,6,1,5,6,7,5,6,7,6,5,6,7,5,5,6,7,6,7,6,6,1,5,6,7,5,6,7,3,1,3,1,3,3,5,3,3,5,6,7,6.5,6,7,6.5,6,6,6,6,6,6
+TZA68,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,6,7,5,6,7,3,6,5,7,6,7,6,6,7,5,6,5,6,6,1,5,6,7,5,6,7,6,4,6,5,6,6,7,7,5,5,7,6,3,6,7,5,6,7,5,3,2,1,3,3,3,5,4,4,6,6,7,6.5,6,7,6.5,3,3,3,3,3,3
+TZA69,Tanzania,22,Female,Middle,2,Christian: Catholic,Unmarried,4,Maasai,5,6,3,7,3,5,6,7,3,7,6,7,5,6,5,6,7,6,6,3,6,7,5,6,3,5,6,6,7,5,6,7,6,7,5,6,7,7,3,6,7,3,6,7,5,3,2,4,2,3,3,7,3,3,7,5,6,5.5,5,6,5.5,3,3,3,3,3,3
+TZA70,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,Form One 1,Maasai,6,7,5,6,5,6,7,5,7,5,6,7,5,7,5,7,5,7,6,5,7,6,,5,6,5,7,7,5,6,7,7,5,5,6,6,7,7,2,7,6,7,6,7,5,3,1,2,3,3,3,5,4,4,6,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA71,Tanzania,21,Male,Middle,2,Christian: Catholic,Unmarried,Form Five 5,Maasai,7,6,5,6,7,5,5,7,5,3,6,7,6,7,3,6,5,4,6,1,5,6,6,5,6,5,7,7,5,3,6,3,5,7,6,7,6,6,1,3,5,7,6,5,7,3,5,2,1,3,3,5,3,3,5,6,7,6.5,7,6,6.5,5,5,5,5,5,5
+TZA72,Tanzania,20,Male,Middle,2,Christian: Catholic,Unmarried,Chuo Kikuu,Maasai,6,7,5,3,6,7,5,7,5,6,7,5,7,6,5,7,5,7,6,1,5,7,3,6,5,5,7,7,6,5,6,7,6,7,5,6,7,5,1,6,3,6,7,3,6,3,1,5,2,3,3,7,3,3,7,3,5,4,7,5,6,3,3,3,3,3,3
+TZA73,Tanzania,22,Male,Middle,2,Christian: Catholic,Unmarried,Form Four 4,Maasai,6,3,7,2,7,3,6,4,7,6,7,6,7,2,6,5,7,6,6,4,7,2,6,5,7,5,7,3,6,7,5,7,3,2,5,6,5,7,3,3,6,3,5,7,6,3,6,3,1,3,3,5,3,3,2,3,5,4,6,7,6.5,5,5,5,5,5,5
+TZA74,Tanzania,19,Male,Middle,2,Christian: Catholic,Unmarried,Form Four 5,Maasai,6,7,6,3,6,7,6,7,5,7,2,6,6,7,5,6,5,6,7,5,7,3,7,3,5,5,7,6,3,6,5,6,2,7,3,5,6,7,3,7,3,6,7,2,6,3,1,5,2,3,3,5,3,3,6,7,3,5,7,6,6.5,5,5,5,5,5,5
+TZA75,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,4,Maasai,5,6,7,7,5,6,6,7,3,5,6,7,7,5,6,7,5,6,7,3,6,5,6,7,5,7,6,5,6,7,2,3,6,6,5,5,6,7,2,7,6,5,6,7,6,3,1,5,3,3,3,5,4,4,5,6,7,6.5,6,7,6.5,5,5,5,5,5,5
+TZA76,Tanzania,42,Male,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,7,6,7,6,7,1,2,1,2,1,1,5,6,3,7,7,6,6,7,7,5,6,5,3,1,7,6,6,3,5,5,5,7,2,3,3,7,1,5,6,7,6,3,6,6,4,7,3,6,6,2,6,3,6,3,7,5,6,3,4.5,5,3,2,6,2,3.6
+TZA77,Tanzania,23,Female,Lower middle,1,Muslim: Shia,Unmarried,Form Four,Maasai,7,7,7,6,5,7,1,2,3,2,1,1,6,5,3,7,6,7,7,7,7,3,6,6,5,1,7,5,6,5,3,2,5,6,3,4,4,7,1,5,6,7,5,3,5,7,7,7,5,7,7,3,6,2,1,2,4,3,7,5,6,7,7,6,7,4,6.2
+TZA78,Tanzania,49,Female,Lower middle,1,Spiritual not religious,Married,"",Maasai,6,6,6,6,6,6,2,1,2,2,2,2,7,6,2,2,6,6,6,6,6,7,6,6,7,2,6,6,6,6,6,6,6,2,2,2,6,6,2,6,2,6,6,2,2,7,5,4,4,7,7,6,1,1,7,6,7,6.5,2,6,4,1,1,1,1,1,1
+TZA79,Tanzania,26,Female,Middle,2,Other,Unmarried,Cheti,Maasai,7,7,7,7,7,7,6,2,5,3,1,3,7,6,5,2,6,2,1,6,7,7,7,7,5,7,1,7,7,1,6,2,6,7,6,7,6,7,2,7,7,7,7,7,7,7,7,7,7,7,7,2,7,1,1,2,2,2,6,7,6.5,7,7,6,7,7,6.8
+TZA80,Tanzania,29,Female,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,7,6,6,5,6,2,1,1,1,2,3,3,6,5,5,3,6,6,7,7,5,5,6,3,1,7,6,6,5,6,5,2,6,5,5,3,7,1,5,6,6,3,7,4,7,6,4,4,7,7,2,4,1,3,1,5,3,6,5,5.5,6,7,4,7,4,5.6
+TZA81,Tanzania,24,Female,Lower middle,1,Christian: Catholic,Married,LA 7,Mhilaki,7,6,5,7,6,7,2,3,1,3,3,2,5,6,3,4,6,7,1,6,7,6,5,6,6,1,7,6,6,3,3,5,6,7,6,6,4,7,2,3,7,7,2,7,4,7,6,1,6,7,7,3,4,3,4,5,2,3.5,7,3,5,6,6,3,7,7,5.8
+TZA82,Tanzania,40,Female,Lower middle,1,Christian: Other,Married,7,Maasai,7,5,5,7,7,7,1,3,3,3,2,1,3,4,5,6,6,7,6,7,7,5,5,6,3,1,7,5,6,5,5,5,5,6,3,5,2,7,2,3,6,6,4,7,5,7,7,6,4,7,7,6,6,2,2,5,1,3,7,5,6,6,7,6,5,6,6
+TZA83,Tanzania,50,Female,Upper middle,3,Christian: Protestant,Married,Form Four,Maasai,7,5,6,7,5,7,3,2,3,1,3,1,5,4,6,7,6,7,5,7,7,5,3,6,2,1,7,6,7,5,6,5,6,3,3,2,1,7,1,5,7,6,3,6,5,6,4,4,3,6,6,3,5,4,4,2,1,1.5,7,5,6,7,6,6,6,4,5.8
+TZA84,Tanzania,51,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,7,6,6,7,7,5,5,3,3,2,5,5,5,3,6,7,6,7,6,5,6,7,7,1,1,6,6,5,6,6,6,7,2,5,3,7,2,5,7,7,7,6,6,7,6,4,7,7,7,5,3,3,2,,6,,7,6,6.5,4,4,3,6,6,4.6
+TZA85,Tanzania,30,Female,Middle,2,Christian: Other,Unmarried,Form Four,Maasai,7,7,6,7,6,7,6,5,5,3,2,1,5,5,5,6,6,7,6,7,6,5,6,7,7,1,7,6,6,5,6,6,6,7,2,5,3,7,2,5,7,7,7,6,6,7,6,4,7,7,7,5,3,3,2,1,6,3.5,7,6,6.5,4,6,6,5,5,5.2
+TZA86,Tanzania,50,Female,Upper middle,3,Christian: Catholic,Married,Form Four,Maasai,7,6,6,7,7,6,7,5,5,3,2,1,6,5,5,2,6,7,7,6,7,5,6,7,3,7,1,6,7,5,6,3,5,2,1,7,2,7,2,3,7,5,2,7,1,7,4,6,4,7,7,1,5,2,4,3,5,4,6,7,6.5,6,5,6,7,2,5.2
+TZA87,Tanzania,40,Female,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,6,6,7,6,5,2,3,3,1,1,1,5,3,6,7,6,7,3,7,7,6,5,6,4,2,1,6,7,5,,6,3,6,5,6,5,1,1,6,5,7,6,7,5,7,7,7,6,7,7,5,5,3,3,1,2,1.5,7,6,6.5,6,7,6,6,4,5.8
+TZA88,Tanzania,49,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,6,6,7,7,2,1,2,2,1,2,1,2,6,2,6,6,6,6,6,6,6,6,2,1,2,6,6,6,7,6,6,2,2,2,2,6,2,6,6,7,2,2,1,7,1,4,4,7,7,6,1,1,6,6,6,6,2,1,1.5,1,1,1,1,1,1
+TZA89,Tanzania,37,Female,Lower middle,1,Christian: Catholic,Married,La saba 7,Maasai,7,6,7,6,7,6,2,2,1,1,1,6,6,2,1,2,2,2,6,6,6,6,2,6,2,2,6,6,6,6,6,6,7,2,6,2,2,6,6,6,6,6,2,6,6,7,4,3,3,7,7,2,1,1,7,2,7,4.5,1,6,3.5,1,2,2,1,2,1.6
+TZA90,Tanzania,29,Female,Middle,2,Spiritual not religious,Married,Form Four,Maasai,7,7,6,6,6,6,6,5,5,7,,1,5,5,5,6,6,7,6,7,6,5,6,7,7,1,7,6,6,5,6,6,7,6,1,7,7,7,2,5,7,7,6,6,6,7,6,4,7,7,7,5,3,4,2,6,1,3.5,7,6,6.5,2,5,4,2,4,3.4
+TZA91,Tanzania,39,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,6,7,7,7,2,6,6,1,2,2,5,5,5,6,6,7,6,7,6,5,6,7,7,1,3,6,6,5,4,6,6,6,2,5,3,6,1,5,7,7,7,6,6,6,6,4,7,6,6,6,3,3,2,6,6,6,2,6,4,3,4,3,5,6,4.2
+TZA92,Tanzania,52,Female,Middle,2,Christian: Catholic,Married,La saba 7,Maasai,7,7,6,6,7,3,6,5,5,2,1,3,5,5,5,7,6,7,6,7,7,6,5,6,6,7,6,6,5,7,6,6,6,7,2,5,3,7,2,5,7,7,7,7,7,7,6,4,7,7,7,7,4,3,7,6,7,6.5,6,6,6,4,6,3,5,5,4.6
+TZA93,Tanzania,42,Female,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,6,6,6,7,6,5,5,5,3,1,2,5,5,5,6,6,7,6,1,6,7,5,7,7,7,1,6,6,5,7,6,6,6,1,4,3,7,2,5,7,7,7,6,7,7,6,4,7,7,7,5,3,3,1,6,2,4,7,6,6.5,7,7,3,6,1,4.8
+TZA94,Tanzania,37,Female,Middle,2,Spiritual not religious,Married,Form Four,Maasai,7,7,6,6,7,7,6,5,5,3,2,1,5,5,4,6,6,7,7,1,7,7,5,6,7,2,6,6,7,5,7,7,5,6,1,5,2,7,1,4,6,6,6,7,7,7,6,4,7,7,7,5,4,3,7,6,1,3.5,7,7,7,7,4,6,6,5,5.6
+TZA95,Tanzania,58,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,6,7,6,6,7,7,2,1,2,2,2,2,1,2,2,6,6,2,6,6,6,6,6,6,6,1,2,6,7,6,5,6,6,2,2,2,2,6,2,6,7,7,7,2,2,7,4,4,7,7,7,6,7,1,7,7,6,6.5,2,2,2,1,1,1,1,1,1
+TZA96,Tanzania,32,Female,Middle,2,Christian: Catholic,Married,7,Maasai,6,6,6,7,7,3,5,5,6,1,2,3,5,5,5,6,6,6,6,7,6,5,6,6,7,1,7,6,6,5,7,6,7,6,1,5,3,7,2,5,7,7,6,6,6,7,6,4,7,7,7,5,3,3,6,1,2,1.5,1,6,3.5,,4,6,6,5,
+TZA97,Tanzania,28,Male,Middle,2,Spiritual not religious,Unmarried,7,Maasai,6,6,7,7,6,6,2,1,2,2,1,2,2,1,2,2,6,6,7,7,7,6,6,7,4,1,2,6,6,7,7,6,6,7,2,2,2,6,1,6,7,6,7,2,1,7,4,3,1,7,7,7,7,1,6,6,7,6.5,1,2,1.5,1,1,1,1,1,1
+TZA98,Tanzania,29,Male,Lower middle,1,Christian: Other,Unmarried,Chuo,Maasai,7,6,5,6,6,7,2,3,2,3,1,2,7,1,6,5,7,3,6,7,7,6,5,6,3,1,7,6,5,5,5,3,3,6,6,2,1,6,1,7,5,6,2,6,5,7,6,4,7,7,7,6,3,3,6,7,5,6,5,3,4,2,6,6,6,1,4.2
+TZA99,Tanzania,48,Male,Middle,2,Muslim: Shia,Married,Diploma,Makonde,7,5,6,7,6,7,3,5,6,2,1,2,5,3,4,7,6,7,7,7,7,5,6,3,2,1,7,5,6,7,3,3,6,6,7,7,6,6,1,6,6,7,5,6,7,7,6,4,5,7,7,3,5,7,2,2,1,1.5,6,7,6.5,5,5,5,5,4,4.8
+TZA100,Tanzania,37,Male,Lower middle,1,Christian: Other,Married,La saba 7,Maasai,6,7,7,1,7,6,2,1,3,3,3,3,7,6,4,2,6,4,5,7,7,6,4,5,5,7,,6,7,6,7,5,6,7,5,6,3,4,4,6,5,7,4,4,4,7,6,7,5,7,7,5,1,1,7,7,6,6.5,1,4,2.5,1,1,1,1,4,1.6
+TZA101,Tanzania,,"","",,Christian: Pentecostal,Other,"",Maasai,,,,,,,,,,,,,1,3,4,7,7,7,7,7,7,5,6,7,6,7,1,6,6,5,5,5,2,6,6,6,3,,,,,,,,,7,7,7,4,7,7,2,,,2,5,1,3,7,6,6.5,7,7,4,7,7,6.4
+TZA102,Tanzania,,"","",,Christian: Catholic,Other,"",Maasai,,,,,,,,,,,,,1,2,1,6,6,1,7,1,7,7,7,3,3,2,1,1,6,6,7,6,2,1,2,7,6,,,,,,,,,,4,7,4,,,6,,,7,6,6,6,1,2,1.5,1,1,1,7,1,2.2
+TZA103,Tanzania,,"","",,Christian: Other,Other,"",Maasai,,,,,,,,,,,,,1,2,5,2,6,,7,7,7,7,7,7,7,1,2,7,6,6,7,,2,2,2,6,7,,,,,,,,,7,4,5,7,7,7,7,,,6,6,7,6.5,1,2,1.5,1,1,1,1,1,1
+TZA104,Tanzania,,"","",,Christian: Catholic,Other,"","",,,,,,,,,,,,,6,6,2,1,2,1,7,7,7,7,6,5,5,1,7,7,7,7,7,3,5,6,3,6,6,,,,,,,,,7,7,6,7,7,7,2,,,1,1,5,3,5,5,5,2,4,4,4,4,3.6
+TZA105,Tanzania,25,Female,Middle,2,Christian: Pentecostal,Unmarried,Form Four,Maasai,6,7,5,7,7,7,1,1,1,5,1,1,1,3,4,7,7,7,7,7,7,5,6,7,6,7,1,6,6,5,5,5,2,6,6,6,3,7,1,6,7,6,5,7,6,7,7,7,4,7,7,2,6,1,2,5,1,3,7,6,6.5,7,7,4,7,7,6.4
+TZA106,Tanzania,55,Male,Middle,2,Christian: Catholic,Married,Form Four,Maasai,7,6,7,6,6,6,1,2,,2,1,1,1,2,1,6,6,1,7,1,7,7,7,3,3,2,1,1,6,6,7,6,2,1,2,7,6,6,1,7,6,6,6,2,1,,4,7,4,,,6,7,1,7,6,6,6,2,1,1.5,1,1,1,7,1,2.2
+TZA107,Tanzania,39,Male,Middle,2,Christian: Other,Married,Darsa La 7,Maasai,7,6,6,6,7,6,2,1,3,1,2,1,1,2,5,2,6,,7,7,7,7,7,7,7,1,2,7,6,6,7,,2,2,2,6,7,7,1,7,6,6,6,1,2,7,4,5,7,7,7,7,7,1,6,6,7,6.5,1,2,1.5,1,1,1,1,1,1
+TZA108,Tanzania,26,Female,Middle,2,Christian: Catholic,Unmarried,Degree,Maasai,6,6,5,5,5,5,2,1,1,1,1,1,6,6,1,2,2,1,7,7,7,7,6,5,5,1,7,7,7,7,7,3,5,6,3,6,6,7,2,7,6,7,7,7,7,7,7,6,7,7,7,2,4,2,1,1,5,3,5,5,5,2,4,4,4,4,3.6
+TZA109,Tanzania,37,Male,Lower middle,1,Christian: Catholic,Married,Diploma,Maasai,7,5,6,5,5,6,2,1,1,1,3,2,5,5,2,6,7,7,7,7,7,6,5,6,2,7,1,6,5,6,6,3,3,5,5,6,3,4,5,5,7,6,2,7,5,7,7,7,6,7,7,2,5,1,1,1,3,2,6,6,6,7,7,6,7,4,6.2
+TZA110,Tanzania,30,Male,Lower middle,1,Christian: Pentecostal,Married,Diploma,Maasai,6,7,5,7,7,7,3,5,1,2,1,1,7,5,4,2,7,5,5,7,7,5,3,6,2,1,7,5,6,3,6,3,2,6,7,3,1,6,1,5,6,6,5,2,3,2,4,7,7,2,2,4,5,4,4,3,2,2.5,7,5,6,6,5,2,4,2,3.8
+TZA111,Tanzania,42,Male,Lower middle,1,Christian: Protestant,Married,Form Four,Maasai,7,6,5,7,7,7,3,6,2,5,1,2,5,3,4,6,7,6,7,7,7,5,3,6,5,5,3,6,7,5,6,5,5,5,3,7,5,7,1,3,6,7,4,7,5,7,6,6,4,7,7,1,6,1,4,3,4,3.5,7,6,6.5,7,7,6,7,6,6.6
+TZA112,Tanzania,24,Male,Middle,2,Christian: Catholic,Married,Chuo,Mchaga,7,6,7,7,6,7,2,2,1,4,2,1,6,3,2,7,6,5,6,7,7,5,5,6,3,1,7,5,2,6,3,3,2,6,2,3,1,4,2,7,6,7,6,5,7,7,4,7,7,7,7,4,5,4,1,2,6,4,6,5,5.5,6,6,4,4,6,5.2
+TZA113,Tanzania,29,Male,Middle,2,Christian: Pentecostal,Married,Secondary,Maasai,7,7,7,7,7,7,2,2,2,1,1,1,7,6,7,7,7,1,1,6,2,7,7,7,7,7,1,7,7,1,7,7,1,7,7,7,1,7,1,7,7,7,7,2,7,7,7,7,7,7,7,1,1,1,2,2,3,2.5,2,7,4.5,4,4,4,4,4,4
+TZA114,Tanzania,58,Male,Middle,2,Spiritual not religious,Married,La saba 7,Maasai,7,6,6,7,6,6,1,2,1,1,2,2,1,1,7,1,6,7,6,3,1,6,7,2,4,2,1,7,6,6,7,7,6,1,1,2,1,6,1,6,7,6,2,1,2,7,2,4,4,7,7,7,1,1,6,7,6,6.5,2,,,1,1,1,1,1,1
+TZA115,Tanzania,72,Male,Middle,2,Spiritual not religious,Married,"",Maasai,6,7,7,6,6,1,2,1,2,1,2,2,1,2,,6,,7,6,3,2,6,7,2,4,1,2,6,7,6,6,6,7,1,2,2,1,7,2,7,6,2,2,1,2,7,2,4,3,7,7,6,1,1,7,6,6,6,1,2,1.5,1,1,1,1,1,1
+TZA116,Tanzania,38,Male,Lower middle,1,Christian: Other,Married,Form Four,Maasai,7,5,6,7,5,7,1,2,2,2,3,1,5,3,4,6,7,6,7,7,7,6,5,6,3,,7,6,5,3,5,2,1,2,3,4,3,5,1,6,2,7,5,1,7,7,7,7,7,7,7,1,4,2,2,2,3,2.5,7,6,6.5,2,3,2,6,2,3
+TZA117,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Married,Form Four,Maasai,7,5,6,7,7,7,3,3,4,2,2,1,5,5,6,6,7,6,3,7,7,6,4,5,1,1,7,6,6,2,5,6,5,6,3,3,2,1,2,5,5,7,5,2,7,7,7,7,7,7,7,2,7,2,1,1,3,2,7,6,6.5,5,7,6,6,2,5.2
+TZA118,Tanzania,28,Male,Lower middle,1,Christian: Other,Unmarried,LA 7,Maasai,6,7,5,7,6,7,2,1,2,3,1,1,2,6,7,6,7,5,3,7,7,5,3,6,7,1,7,5,6,3,4,6,6,7,2,5,1,6,1,5,7,6,7,7,6,7,6,4,4,7,7,5,3,1,1,1,2,1.5,7,5,6,4,4,5,7,7,5.4
+TZA119,Tanzania,32,Male,Middle,2,Spiritual not religious,Married,Darsa La 7,Maasai,6,6,7,7,6,6,1,2,1,2,1,2,,6,6,6,7,7,1,2,6,6,6,2,2,1,6,2,6,7,7,2,6,6,6,6,6,6,6,6,6,6,6,2,6,7,6,6,5,7,7,2,1,1,7,1,2,1.5,2,6,4,1,1,1,1,1,1
+TZA120,Tanzania,46,Male,Lower middle,1,Christian: Pentecostal,Married,LA 7,Maasai,7,6,6,5,6,7,1,1,2,3,2,2,3,2,2,7,5,6,5,7,7,5,5,6,6,1,7,6,7,5,7,5,5,6,6,6,5,7,1,6,6,3,2,5,6,7,7,4,6,7,7,6,5,2,3,7,5,6,5,5,5,5,2,6,6,2,4.2
+TZA121,Tanzania,43,Male,Lower middle,1,Spiritual not religious,Married,"",Maasai,7,6,7,6,7,6,2,2,1,2,1,1,6,2,1,6,2,2,6,6,6,6,2,6,2,2,6,6,6,6,6,6,7,2,6,2,2,6,6,6,6,6,6,2,6,7,4,3,3,7,7,2,1,1,7,2,7,4.5,1,6,3.5,1,1,1,1,1,1
+TZA122,Tanzania,28,Male,Lower middle,1,Christian: Other,Married,Form Four,Maasai,6,7,7,6,7,7,1,2,3,1,3,3,7,6,5,2,6,4,5,7,7,6,4,5,5,1,7,6,7,6,7,5,6,7,5,6,3,4,4,6,6,7,4,4,4,7,6,7,5,7,7,5,1,1,7,7,6,6.5,1,4,2.5,1,1,1,1,1,1
+TZA123,Tanzania,52,Male,Middle,2,Spiritual not religious,Married,"",Maasai,6,7,7,7,6,6,1,1,3,3,3,1,7,6,4,2,6,4,5,7,7,6,4,5,5,2,7,7,6,7,7,5,6,3,5,6,3,4,4,3,5,7,4,4,4,7,6,7,5,7,7,5,1,1,7,7,6,6.5,1,4,2.5,1,1,1,1,1,1
+TZA124,Tanzania,27,Male,Middle,2,Christian: Protestant,Unmarried,Bachelor Degree,Maasai,3,3,2,3,4,4,4,4,4,4,4,3,6,5,4,4,4,4,3,5,4,4,3,4,4,4,4,5,5,4,5,5,3,3,2,3,3,6,3,1,4,7,5,6,7,7,7,5,3,7,7,4,3,2,4,4,4,4,3,3,3,5,4,4,3,6,4.4
+TZA125,Tanzania,47,Male,Lower middle,1,Christian: Other,Married,Darsa La 7,Maasai,6,7,6,7,6,6,1,2,1,2,2,2,,6,3,7,6,7,5,2,7,6,4,4,6,2,1,6,6,7,6,6,6,2,1,2,6,6,6,7,6,6,6,6,2,7,4,2,4,7,7,6,1,1,6,7,6,6.5,2,7,4.5,1,1,1,1,1,1
+TZA126,Tanzania,49,Male,Lower middle,1,Spiritual not religious,Married,"",Maasai,6,,2,6,6,6,1,6,6,6,6,6,,5,6,6,7,6,1,2,6,6,6,2,2,2,6,6,7,7,6,6,6,6,6,6,6,6,6,6,6,6,2,3,6,7,6,7,5,7,7,2,1,1,7,1,2,1.5,2,6,4,1,1,1,1,1,1
+TZA127,Tanzania,50,Male,Upper middle,3,Christian: Pentecostal,Married,Shahada,Maasai,5,6,6,5,5,5,2,2,2,1,1,1,7,6,5,4,6,6,1,6,5,6,6,7,5,1,7,6,7,3,5,6,5,3,5,5,2,7,1,7,5,6,7,7,1,6,7,7,4,6,6,5,4,2,1,5,5,5,7,6,6.5,3,3,3,4,3,3.2
+TZA128,Tanzania,29,Male,Lower middle,1,Other,Married,Form Four,Maasai,7,6,5,7,7,7,1,3,2,3,1,2,4,3,3,5,6,7,6,1,7,5,4,5,3,1,7,6,6,5,3,5,2,5,3,6,1,1,1,6,7,6,6,3,5,7,7,7,7,7,7,1,6,2,2,4,3,3.5,6,5,5.5,6,5,5,5,7,5.6
+TZA129,Tanzania,29,Female,Upper middle,3,Christian: Pentecostal,Unmarried,Degree,Maasai,6,6,6,6,6,6,6,,4,4,4,5,5,5,2,1,7,1,2,6,4,6,4,5,6,,,,,,,,,,,,,7,1,6,6,6,6,6,6,7,7,7,7,7,7,,5,2,2,3,3,3,6,4,5,4,5,5,5,7,5.2
+TZA130,Tanzania,42,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Mwela,7,7,7,7,7,7,6,1,1,1,1,1,7,6,5,5,4,7,7,1,7,6,2,7,2,7,7,7,7,7,7,4,5,6,4,6,6,7,1,7,7,7,7,7,7,4,4,1,1,4,4,7,4,3,2,7,7,7,7,5,6,4,5,2,6,4,4.2
+TZA131,Tanzania,40,Male,Middle,2,Christian: Protestant,Other,Diploma,Mnyakyusa,3,4,,4,3,4,,5,,2,2,4,6,5,,4,4,2,4,6,6,5,3,1,4,3,1,,4,,4,,4,,4,3,1,2,4,3,2,3,4,7,5,1,5,,6,1,1,3,4,4,3,7,4,5.5,1,2,1.5,4,4,4,4,4,4
+TZA132,Tanzania,29,Male,Lower middle,1,Other,Unmarried,Chuo,Digo,5,5,5,3,5,5,3,3,3,3,3,3,5,5,3,5,5,3,3,7,6,6,6,5,5,6,1,6,7,3,6,3,1,7,3,1,1,3,3,5,5,7,7,7,5,4,4,4,5,4,4,3,4,1,3,3,3,3,3,3,3,4,5,5,5,4,4.6
+TZA133,Tanzania,30,Male,Middle,2,Christian: Catholic,Unmarried,O Level,Auhehe,5,5,6,6,5,6,5,1,6,2,3,3,5,6,6,6,6,6,5,2,3,5,5,6,6,2,6,6,6,6,6,6,2,6,2,6,2,6,5,2,3,6,5,6,6,6,7,7,5,6,6,3,2,2,2,3,3,3,6,6,6,3,3,2,3,3,2.8
+TZA134,Tanzania,28,Female,Upper middle,3,Christian: Protestant,Unmarried,Post Graduate,Nyakyusa,7,6,6,7,6,6,7,6,6,5,5,5,7,6,6,4,6,6,7,1,6,6,5,5,6,7,7,6,7,1,7,2,2,7,1,7,1,7,1,7,6,6,6,6,5,4,4,3,5,4,4,6,6,2,7,7,7,7,7,7,7,4,5,5,4,5,4.6
+TZA135,Tanzania,38,Female,Middle,2,Christian: Other,Unmarried,College,Jauo,4,4,4,1,1,4,2,2,2,1,1,1,6,6,6,4,4,4,7,7,1,7,5,7,2,7,1,7,7,7,7,2,4,7,4,7,4,7,6,3,7,7,7,7,2,7,7,7,7,7,7,2,7,1,1,4,4,4,6,5,5.5,5,6,6,7,6,6
+TZA136,Tanzania,28,Male,Middle,2,Muslim: Shia,Married,Chuo,Mzaramo,7,7,7,1,1,1,7,7,7,6,6,6,7,7,6,7,6,6,4,1,6,3,6,6,6,7,7,7,7,7,1,7,7,1,7,7,7,7,1,7,7,7,5,7,7,7,7,7,7,7,7,5,6,2,1,5,5,5,7,7,7,6,6,6,6,6,6
+TZA137,Tanzania,41,Male,Middle,2,Christian: Protestant,Other,Form Four,Muha,1,7,6,6,6,6,2,3,2,1,2,1,7,6,5,7,3,2,7,7,4,6,6,6,6,4,1,7,3,5,6,2,3,2,1,6,5,7,2,7,2,7,6,6,7,6,7,3,2,6,6,,5,4,2,1,6,3.5,5,5,5,4,4,5,,3,
+TZA138,Tanzania,22,Female,Middle,2,Spiritual not religious,Unmarried,Didato channe,Msukuma,,,,,,,,,,,,,6,1,1,7,7,7,,,,,,,,7,1,3,7,5,7,7,5,7,5,7,5,1,3,7,7,7,1,2,2,,,,,,,,3,2,,,,,,,,,,,,,
+TZA139,Tanzania,30,Male,Lower middle,1,Christian: Catholic,Married,Primary,Mruguru,6,7,7,6,6,6,5,4,4,5,5,5,6,5,5,6,7,5,5,7,3,5,5,6,5,3,5,3,3,6,6,5,6,1,3,5,6,5,3,6,5,6,6,6,5,6,7,6,6,6,6,4,5,2,4,4,4,4,3,3,3,4,4,4,4,4,4
+TZA140,Tanzania,49,Male,Middle,2,Christian: Catholic,Other,Diploma,Mhaya,2,,5,4,4,5,4,1,1,1,1,1,7,7,6,7,7,7,,,,,,,,7,3,7,7,7,7,5,4,7,6,4,6,,,,,,,,,,,,,,,1,,,1,1,1,1,1,7,4,3,5,6,4,4,4.4
+TZA141,Tanzania,29,Male,Middle,2,Other,Married,STD VII,Matumbi,6,6,6,6,6,6,6,6,6,5,5,6,7,6,6,5,7,5,7,7,7,7,7,7,7,7,2,7,7,7,7,6,7,7,7,7,7,7,2,7,7,7,7,7,4,7,7,2,4,7,7,6,5,1,2,5,6,5.5,5,7,6,4,4,4,4,4,4
+TZA142,Tanzania,56,Male,Middle,2,Christian: Catholic,Married,Diploma,Nyaturu,6,6,6,5,6,6,7,,6,,5,6,7,6,6,7,7,7,,,,,,,,7,7,7,5,7,7,6,1,7,1,6,6,7,6,7,7,7,6,6,6,,,,,,,6,6,2,7,5,6,5.5,6,6,6,6,6,6,6,6,6
+TZA143,Tanzania,53,Male,Lower middle,1,Christian: Protestant,Married,Cheti,Msambaa,5,5,6,5,,6,6,,4,2,2,2,6,6,6,6,6,1,6,3,6,,6,5,6,3,2,,2,3,5,2,2,6,,2,2,6,6,6,6,2,6,6,6,5,2,6,2,5,5,6,2,6,7,7,7,7,6,6,6,6,6,6,6,6,6
+TZA144,Tanzania,22,Female,Middle,2,Spiritual not religious,Unmarried,Form Four,Mfumbaa,7,7,7,7,7,7,2,2,2,,2,2,5,7,2,5,5,5,7,7,5,7,7,7,7,7,2,7,7,7,7,5,7,7,3,7,2,2,1,7,7,7,5,7,2,7,7,6,7,7,7,7,4,4,7,7,7,7,2,2,2,1,6,2,6,6,4.2
+TZA145,Tanzania,35,Male,Middle,2,Spiritual not religious,Unmarried,Secondary,Msambaa,3,5,2,2,5,6,3,5,4,1,4,6,3,2,2,4,5,5,3,4,6,4,4,3,4,6,4,4,6,3,3,5,6,,2,5,3,4,3,4,5,5,4,4,3,5,4,3,4,5,5,2,,4,6,3,5,4,3,4,3.5,3,3,2,6,4,3.6
+TZA146,Tanzania,36,Female,Middle,2,Christian: Protestant,Unmarried,Form Four,Mhehe,6,6,6,6,6,6,1,1,1,2,2,1,7,6,6,2,2,7,6,3,5,6,5,6,5,1,1,7,7,7,2,7,3,1,7,7,1,6,2,7,7,7,6,7,6,7,7,7,6,7,7,1,7,1,2,1,1,1,6,6,6,7,6,2,6,7,5.6
+TZA147,Tanzania,47,Female,Lower middle,1,Christian: Pentecostal,Married,STD VII,Mhehe,7,7,7,6,6,6,2,2,2,1,1,1,7,7,1,1,7,7,6,2,6,5,6,5,5,2,7,7,7,6,6,5,1,6,2,2,2,7,1,7,7,6,7,7,7,,,,,,,1,7,1,1,1,1,1,6,6,6,3,3,4,6,6,4.4
+TZA148,Tanzania,23,Female,Middle,2,"",Unmarried,LA 7,Msukuma,2,,2,,,5,4,4,2,2,1,1,2,5,,6,6,2,6,6,2,6,7,7,6,6,4,,4,2,6,,1,2,2,1,1,,2,6,6,6,1,2,2,7,7,6,7,7,7,6,2,1,6,1,2,1.5,1,,,5,4,3,4,4,4
+TZA149,Tanzania,40,Male,Middle,2,Muslim: Sunni,Married,Uzamili,Nyawne 21,7,5,7,7,5,7,7,4,6,6,7,5,7,7,7,1,7,7,,,,,,,,5,7,,7,3,7,4,4,,7,5,5,7,1,7,7,7,7,7,7,,,,,,,6,7,7,7,7,5,6,5,7,6,7,7,6,7,7,6.8
+TZA150,Tanzania,65,Female,Upper middle,3,Christian: Protestant,Married,Shahada,Nyakusa,7,7,7,7,7,7,1,1,1,2,2,2,6,6,6,7,7,7,5,3,4,5,4,5,5,2,2,2,3,2,3,2,2,3,3,3,3,7,1,7,6,7,7,7,7,7,7,7,7,7,7,6,1,5,6,7,6,6.5,7,7,7,5,5,5,5,5,5
+TZA151,Tanzania,20,Male,Middle,2,Christian: Other,Unmarried,Kidato cha 6,Mpare,5,7,6,7,7,7,5,2,2,1,1,5,6,3,3,5,7,6,2,7,5,5,6,6,2,1,1,7,7,6,7,,1,5,6,5,1,7,3,7,7,7,7,7,7,5,7,7,7,5,5,6,5,2,2,4,2,3,1,5,3,2,,2,,,
+TZA152,Tanzania,20,Female,Middle,2,Muslim: Sunni,Unmarried,4m  4,Mnyamweu,7,7,7,6,6,6,2,2,2,2,2,1,6,6,6,2,1,1,5,4,5,5,5,5,5,2,2,6,2,6,3,6,6,6,6,6,6,6,2,6,6,5,5,6,6,7,6,7,7,7,7,1,7,2,1,1,1,1,6,6,6,5,5,5,4,7,5.2
+TZA153,Tanzania,30,Female,Middle,2,"",Married,VII Std,Mgogo,5,7,6,6,5,6,5,2,1,5,5,3,6,6,5,6,5,2,4,7,5,5,6,7,6,1,6,6,7,7,6,5,7,3,6,7,5,5,1,6,6,7,6,7,3,7,6,4,4,7,7,6,4,3,5,4,6,5,5,5,5,4,5,2,5,4,4
+TZA154,Tanzania,51,Female,Middle,2,Christian: Protestant,Married,STD VII,Chagg A,7,7,7,7,7,6,1,1,1,1,1,1,7,7,7,1,1,1,6,2,5,6,6,1,1,2,2,6,6,6,2,6,1,6,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,6,3,1,1,1,1,5,5,5,6,6,6,6,6,6
+TZA155,Tanzania,52,Male,Lower middle,1,Christian: Pentecostal,Married,STD VII,Mkaguru,6,6,6,7,7,6,1,1,6,2,1,2,7,6,2,2,6,6,5,3,6,5,5,6,5,,6,6,6,6,6,6,1,7,1,7,1,6,2,5,6,6,6,6,6,7,7,7,6,7,7,2,6,1,1,2,3,2.5,6,2,4,6,5,6,6,6,5.8
+TZA156,Tanzania,34,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Rugulu,6,6,7,7,7,7,1,1,1,2,2,2,6,7,7,2,2,2,6,2,6,6,6,6,5,2,2,6,6,2,6,6,6,6,2,2,2,6,2,7,7,6,7,7,7,7,6,6,6,7,7,6,6,1,2,6,2,4,6,6,6,3,7,7,7,7,6.2
+TZA157,Tanzania,45,Male,Middle,2,Muslim: Sunni,Married,Form IV,Mdigo,6,7,7,7,7,7,2,2,2,2,2,2,7,7,7,2,7,2,5,3,6,6,5,6,6,7,2,7,7,2,4,7,6,7,7,7,7,6,2,7,6,7,7,6,7,7,6,7,7,7,7,2,6,2,2,2,2,2,6,6,6,6,5,6,5,6,5.6
+TZA158,Tanzania,19,Male,Lower middle,1,Muslim: Sunni,Unmarried,STD VII,Myao,7,7,7,7,7,7,1,1,1,1,1,1,7,7,7,2,2,2,7,7,7,7,7,7,7,2,2,7,7,7,7,7,7,7,1,1,1,6,1,7,7,7,7,7,7,7,7,7,7,7,7,5,1,1,1,1,7,4,1,5,3,4,5,4,6,2,4.2
+TZA159,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Unmarried,Form Four,Mjukuna,6,6,6,5,7,7,5,5,6,1,1,1,5,5,5,6,6,7,5,3,6,5,6,5,6,2,2,1,6,6,6,7,7,6,7,7,6,6,6,5,2,2,7,7,7,2,2,2,2,2,2,5,6,6,5,4,5,4.5,5,5,5,6,6,6,6,6,6
+TZA160,Tanzania,27,Male,Middle,2,Muslim: Sunni,Other,Chuo,Npale,6,6,6,7,6,6,6,6,6,7,6,7,6,6,6,7,5,,6,2,5,6,5,6,7,6,6,7,6,6,7,6,7,6,7,6,6,6,2,6,6,6,5,6,6,2,2,2,2,2,2,7,4,4,6,6,7,6.5,6,6,6,6,6,6,6,6,6
+TZA161,Tanzania,25,Male,Middle,2,Christian: Protestant,Unmarried,Chuo Kikuu,Nyakyusa,7,7,7,7,7,5,1,1,1,1,1,4,7,7,5,3,5,7,1,4,7,,5,6,3,7,1,6,7,7,6,6,7,7,2,7,3,7,4,7,7,6,4,4,6,4,5,5,6,4,4,7,5,4,4,7,5,6,3,3,3,3,4,3,4,1,3
+TZA162,Tanzania,22,Male,Lower middle,1,Muslim: Shia,Unmarried,Form Two,Mshirazi,6,6,7,5,5,6,5,5,3,5,5,5,7,5,5,5,3,2,3,6,5,4,5,5,6,1,7,7,7,6,5,6,5,5,6,5,5,6,3,5,6,6,5,7,6,6,5,4,6,6,6,3,4,3,4,2,5,3.5,5,5,5,4,5,4,5,4,4.4
+TZA163,Tanzania,64,Male,Middle,2,Christian: Pentecostal,Married,Degree,Shona,7,7,7,7,7,7,1,2,1,1,1,1,7,7,6,4,7,2,7,6,6,7,7,7,6,1,7,7,7,7,7,7,6,7,7,7,6,7,1,7,7,7,7,7,7,6,7,7,7,6,6,4,3,4,2,3,6,4.5,2,4,3,4,3,2,2,2,2.6
+TZA164,Tanzania,25,Female,Middle,2,Christian: Catholic,Unmarried,Shahada,Mpare,5,5,5,5,5,5,5,4,4,4,4,6,5,2,4,6,6,2,7,7,5,7,7,6,6,1,7,6,6,7,6,6,5,5,5,3,4,5,3,5,5,5,5,7,5,7,7,7,7,7,7,4,6,1,4,4,4,4,5,5,5,6,6,6,7,7,6.4
+TZA165,Tanzania,29,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Mngoni,7,6,6,6,6,6,5,5,2,2,2,2,2,6,6,6,6,6,6,6,6,6,6,6,6,1,3,7,4,7,6,6,3,6,2,3,1,6,3,5,5,5,5,6,6,7,7,5,7,7,7,3,1,1,2,3,3,3,3,3,3,2,4,3,4,4,3.4
+TZA166,Tanzania,28,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Msukuma,2,1,4,4,7,6,6,5,6,4,5,3,6,2,4,6,3,1,,,,,,,,1,6,4,4,5,3,7,6,1,2,5,6,7,2,5,2,1,2,5,7,7,6,4,1,7,7,4,7,3,5,7,5,6,6,5,5.5,2,4,2,4,6,3.6
+TZA167,Tanzania,23,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Muha,1,7,7,7,7,7,1,1,2,6,,5,6,3,2,5,2,5,6,7,5,5,,3,5,7,7,7,3,7,6,7,5,1,5,1,5,1,1,5,7,7,1,5,1,7,7,5,2,7,7,1,3,2,1,5,1,3,5,5,5,5,5,5,5,3,4.6
+TZA168,Tanzania,35,Male,Lower middle,1,Muslim: Shia,Married,7,Mluguru,2,1,2,6,7,6,2,1,2,1,2,4,2,1,2,6,1,6,7,1,6,2,6,7,6,2,1,7,7,3,6,7,2,7,7,1,2,7,2,1,2,6,1,6,7,4,7,7,7,4,4,6,1,1,6,7,2,4.5,1,2,1.5,1,1,1,1,1,1
+TZA169,Tanzania,34,Male,Middle,2,"",Unmarried,Shadada,Mluguru,5,5,7,7,6,7,3,2,2,2,2,5,6,5,6,7,6,5,4,7,6,5,4,6,6,2,5,7,7,7,7,2,4,4,2,6,3,4,3,7,6,7,2,6,6,7,7,7,6,7,7,2,4,3,1,2,3,2.5,4,6,5,5,5,5,6,6,5.4
+TZA170,Tanzania,34,Male,Middle,2,Muslim: Shia,Married,Form Four,Msambaa,5,6,7,6,6,6,5,2,2,2,6,2,5,6,6,6,7,6,6,6,6,5,6,6,6,1,7,7,4,7,7,6,7,2,6,7,6,7,2,7,7,7,7,7,7,7,7,7,7,7,7,2,6,1,2,2,2,2,5,6,5.5,4,7,6,4,4,5
+TZA171,Tanzania,30,Male,Middle,2,Muslim: Shia,Married,Form Four,Mrkuguku,5,6,,6,6,6,3,2,2,2,6,2,7,6,6,6,7,6,6,6,6,5,6,6,6,1,7,7,4,7,7,6,7,2,6,7,6,7,2,7,7,7,7,7,7,7,7,7,7,7,7,2,6,1,2,2,2,2,5,6,5.5,4,7,6,4,4,5
+TZA172,Tanzania,30,Male,Middle,2,Christian: Catholic,Unmarried,Shadada,Mluguru,6,7,7,6,5,7,2,1,1,5,3,4,7,6,5,4,6,6,6,7,7,7,7,7,7,7,7,7,7,6,7,7,7,6,6,7,7,7,1,6,6,6,6,7,7,7,7,7,4,7,7,5,5,2,3,2,4,3,5,5,5,4,5,4,5,4,4.4
+TZA173,Tanzania,18,Female,Middle,2,Christian: Pentecostal,Unmarried,STD VII,Mfipa,4,4,5,6,4,7,2,1,3,2,3,2,3,4,1,5,6,2,6,7,5,4,6,7,5,1,6,4,4,2,7,4,2,1,3,1,4,7,2,7,4,6,5,4,5,6,5,6,7,6,6,4,3,3,2,4,4,4,4,6,5,4,5,6,4,4,4.6
+TZA174,Tanzania,23,Female,Middle,2,"",Unmarried,Shadada,Mzigua,6,6,6,6,6,7,4,4,4,4,4,3,5,4,,2,1,1,5,7,5,1,3,5,5,6,2,4,4,4,2,6,4,6,3,6,1,6,2,7,3,7,6,7,6,7,7,7,6,7,7,6,3,2,4,4,4,4,1,6,3.5,4,5,4,4,4,4.2
+TZA175,Tanzania,40,Female,Middle,2,Christian: Pentecostal,Unmarried,Diploma,Mluguru,7,7,7,7,7,7,4,1,1,5,5,4,5,7,4,7,1,1,7,7,6,5,5,6,5,1,7,6,6,5,5,6,5,5,6,5,5,6,3,6,7,7,6,5,6,6,5,4,7,6,6,4,,,5,4,4,4,5,6,5.5,2,5,1,7,5,4
+TZA176,Tanzania,34,Female,Upper middle,3,Muslim: Shia,Married,STD VII,Mkwere,7,7,7,7,7,7,1,1,1,1,1,1,2,3,6,,2,2,7,7,7,7,7,7,7,1,7,7,7,7,7,6,7,2,4,7,6,1,1,7,7,7,7,7,7,7,7,7,7,7,7,6,3,3,6,2,6,4,1,2,1.5,1,1,1,1,1,1
+TZA177,Tanzania,51,Male,Middle,2,Muslim: Sunni,Married,Form Four,Mshirazii,7,7,7,7,7,7,2,1,1,2,2,5,6,6,7,7,3,3,5,7,6,6,6,6,6,1,6,6,6,6,6,7,7,3,7,6,6,4,1,7,6,6,6,7,7,7,7,7,7,7,7,2,3,3,1,2,2,2,3,5,4,5,4,4,4,4,4.2
+TZA178,Tanzania,33,Male,Middle,2,Muslim: Shia,Unmarried,STD VII,Mzarhim,5,5,5,6,6,6,3,2,2,5,5,5,2,5,5,5,6,5,3,2,6,7,6,7,7,6,6,6,6,6,6,6,6,6,6,6,1,2,1,6,6,6,6,5,6,1,1,6,6,1,1,5,5,2,6,,6,,6,5,5.5,6,6,6,5,4,5.4
+TZA179,Tanzania,29,Female,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mdigo,6,6,6,7,7,7,2,2,2,2,1,1,6,6,7,2,3,7,5,3,6,6,5,5,5,1,1,,4,1,,,5,2,2,1,1,6,2,6,6,6,6,6,6,7,7,7,7,7,7,2,5,3,2,7,2,4.5,7,2,4.5,5,6,6,6,6,5.8
+TZA180,Tanzania,26,Male,Upper,4,Christian: Pentecostal,Unmarried,Form Four,Muha,7,7,2,7,7,7,3,3,1,1,1,5,7,6,6,5,2,2,5,7,6,5,5,7,6,1,7,6,7,7,7,6,2,7,2,1,1,6,3,5,5,7,5,7,6,7,7,7,6,7,7,1,3,1,1,1,1,1,1,5,3,5,5,5,5,6,5.2
+TZA181,Tanzania,42,Female,Middle,2,Christian: Protestant,Married,7,Chaga,4,4,5,5,4,4,4,4,,4,4,4,6,6,,2,3,2,4,2,5,4,4,6,4,4,6,6,4,4,4,7,7,4,4,6,6,6,2,6,6,6,6,6,6,7,7,1,7,7,7,4,4,2,4,,4,,2,4,3,4,5,4,4,4,4.2
+TZA182,Tanzania,35,Male,Middle,2,Christian: Other,Married,Degree,Chaga,7,7,7,7,7,7,,5,5,2,2,4,6,7,6,7,7,7,2,6,6,6,7,7,7,1,6,6,7,1,7,1,1,1,1,4,2,6,1,7,4,7,7,7,7,7,7,7,5,7,7,1,4,1,4,1,1,1,5,3,4,4,4,4,4,4,4
+TZA183,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Unmarried,IV,Mchaga,6,6,7,6,6,6,2,2,2,2,2,2,6,7,6,7,1,1,6,3,6,6,5,5,5,2,2,6,6,6,7,7,7,2,7,2,7,7,1,7,6,7,7,7,7,7,7,7,7,7,7,1,5,1,2,1,1,1,7,7,7,5,4,5,5,4,4.6
+TZA184,Tanzania,36,Female,Middle,2,Muslim: Sunni,Unmarried,Lasaba,Muzinguw,6,6,6,5,6,5,3,3,3,3,3,3,4,5,6,6,7,6,4,5,4,4,3,6,6,5,6,5,6,6,6,5,6,5,5,5,5,5,2,5,6,6,6,7,7,5,5,6,6,5,5,2,5,2,3,3,2,2.5,3,3,3,5,5,5,6,6,5.4
+TZA185,Tanzania,31,Male,Upper,4,Christian: Catholic,Unmarried,Form Four,Mmakonde,7,7,6,7,7,7,1,2,2,1,2,2,5,5,5,3,3,5,5,5,5,6,6,6,5,1,7,6,7,5,5,6,5,6,6,6,5,6,2,7,7,7,6,5,5,7,7,5,3,7,7,5,2,5,5,6,5,5.5,2,3,2.5,1,1,1,1,2,1.2
+TZA186,Tanzania,30,Male,Middle,2,Christian: Catholic,Other,Kidato Channe,Haya,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,2,2,2,2,2,2,2,2,2,2,2,2,7,2,6,6,6,6,6,6,7,7,7,7,7,7,1,6,1,2,2,2,2,1,1,1,6,5,5,5,5,5.2
+TZA187,Tanzania,28,Male,Middle,2,Muslim: Sunni,Unmarried,Diploma,Mnyamuezi,6,6,6,7,7,7,2,2,2,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,1,7,7,7,7,7,7,7,7,7,7,7,7,6,7,1,2,2,2,2,6,6,6,6,6,6,6,6,6
+TZA188,Tanzania,49,Male,Middle,2,Muslim: Sunni,Married,Secondary,Mrangi,6,6,6,6,6,6,2,2,2,2,2,2,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,2,6,6,6,6,6,6,7,7,7,7,7,7,6,7,1,6,6,6,6,6,6,6,4,6,6,6,6,5.6
+TZA189,Tanzania,40,Female,Middle,2,Christian: Other,Married,Secondary,Mhehe,6,6,6,6,6,6,2,2,2,2,2,2,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,7,7,6,7,7,6,6,6,2,6,6,6,6,6,6,7,7,7,7,7,7,6,7,1,6,6,6,6,6,6,6,6,7,7,7,6,6.6
+TZA190,Tanzania,58,Female,Middle,2,Christian: Protestant,Unmarried,Msingi,Mbena,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,1,1,1,1,2,2,4,4,2,2,7,7,6,2,6,6,6,6,6,6,7,7,7,7,7,7,6,7,1,7,6,7,6.5,6,6,6,6,6,6,6,6,6
+TZA191,Tanzania,24,Male,Middle,2,Muslim: Sunni,Unmarried,Degree,Ndengereko,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,7,6,7,7,7,7,7,6,2,6,6,6,6,6,6,7,7,7,7,7,7,6,7,1,6,6,6,6,6,6,6,6,6,6,6,6,6
+TZA192,Tanzania,46,Male,Middle,2,Other,Married,Secondary,Mdigo,7,7,7,7,7,7,1,1,1,1,1,1,6,7,7,7,7,1,6,2,6,6,6,6,6,2,2,2,2,2,2,3,3,2,3,3,3,6,2,6,6,6,6,6,6,7,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,6,6,6,6,6,6
+TZA193,Tanzania,25,Female,Middle,2,Christian: Pentecostal,Unmarried,Chuo kikuu,Mranda,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,7,6,2,6,7,7,7,6,7,7,7,6,7,7,7,7,7,7,7,7,6,2,6,6,6,6,6,6,7,7,7,7,7,7,7,7,1,7,7,6,6.5,7,7,7,6,6,6,5,7,6
+TZA194,Tanzania,29,Male,Middle,2,Muslim: Sunni,Other,Form 6,Mpare,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,7,7,7,7,1,7,7,1,7,1,7,7,7,1,7,7,7,7,7,7,7,7,7,7,7,7,6,7,1,6,6,6,6,6,6,6,6,6,6,5,7,6
+TZA195,Tanzania,28,Male,Middle,2,Christian: Catholic,Other,Advance level,Mzigua,4,6,6,6,6,6,4,4,4,4,4,4,7,,,7,7,7,5,5,5,5,5,6,6,3,3,5,6,5,5,5,7,5,5,5,5,6,3,7,5,7,5,7,4,6,7,7,7,6,6,4,6,1,4,4,4,4,6,6,6,7,7,7,7,7,7
+TZA196,Tanzania,22,Female,Middle,2,Christian: Pentecostal,Unmarried,La saba,Muha,7,7,6,6,7,6,1,2,2,2,5,5,5,6,6,6,4,5,7,6,7,6,6,6,7,7,1,6,7,5,6,6,7,6,6,7,7,6,2,7,6,6,6,6,6,7,7,6,5,7,7,2,3,3,5,2,2,2,5,5,5,5,6,5,5,6,5.4
+TZA197,Tanzania,32,Male,Middle,2,Christian: Protestant,Unmarried,Form Four,Muha,2,6,7,6,6,7,,2,2,2,2,2,6,6,7,6,6,7,6,6,6,6,6,6,6,2,7,6,6,3,6,6,3,2,2,2,2,7,1,7,2,7,6,6,7,7,7,7,7,7,7,2,4,4,2,2,2,2,6,6,6,4,4,4,4,4,4
+TZA198,Tanzania,18,Male,Middle,2,Christian: Catholic,Unmarried,Form Four,Mtanga,7,7,6,7,7,6,2,3,3,2,5,3,5,6,6,3,5,3,6,6,5,5,6,6,5,1,7,6,6,5,5,7,5,6,7,5,5,6,3,6,6,7,6,6,5,7,6,6,6,7,7,3,3,2,2,3,3,3,5,5,5,4,7,1,1,1,2.8
+TZA199,Tanzania,38,Female,Middle,2,Christian: Catholic,Married,Darsa la 7,Mbona,7,6,6,7,7,7,2,3,3,2,4,5,6,5,5,5,5,5,5,6,6,6,5,6,5,7,1,7,7,5,6,6,6,6,6,5,5,5,2,6,6,,6,6,7,7,7,6,6,7,7,2,3,2,3,2,3,2.5,5,5,5,5,6,5,6,6,5.6
+TZA200,Tanzania,33,Male,Middle,2,Muslim: Shia,Unmarried,Form Four,Mdigo,7,6,6,6,6,6,2,2,2,2,2,5,5,5,5,5,5,5,5,5,5,5,6,5,3,1,7,7,7,6,6,7,6,7,7,5,5,6,1,6,6,6,7,7,6,7,7,7,4,7,7,1,2,3,2,2,3,2.5,3,3,3,5,5,6,6,6,5.6
+TZA201,Tanzania,32,Male,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mluguru,7,7,6,6,6,6,6,6,5,4,5,6,5,5,3,3,5,5,2,7,7,4,6,6,4,1,7,6,7,7,6,7,6,2,7,6,5,5,2,7,6,7,7,7,6,6,6,7,7,6,6,2,6,1,6,1,2,1.5,6,5,5.5,5,5,7,5,6,5.6
+TZA202,Tanzania,19,Male,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mzaramo,7,7,7,7,7,7,2,1,2,2,5,5,5,5,6,5,6,5,6,6,5,5,6,6,5,1,7,6,6,6,7,6,6,7,6,5,5,6,1,7,7,6,6,6,6,6,6,7,5,6,6,2,2,2,2,1,2,1.5,5,5,5,6,5,5,6,6,5.6
+TZA203,Tanzania,51,Female,Middle,2,Muslim: Sunni,Married,La saba,Mzaramo,7,7,6,7,7,7,2,2,2,2,3,5,5,5,3,3,4,5,5,7,5,5,5,5,3,1,7,7,7,7,7,6,6,2,6,2,3,7,1,7,6,6,7,6,3,7,7,7,5,7,7,2,2,2,1,2,3,2.5,5,2,3.5,5,5,6,6,6,5.6
+TZA204,Tanzania,43,Male,Middle,2,Christian: Pentecostal,Married,La saba,Mpogoro,7,7,7,7,7,7,3,3,2,2,6,5,5,5,5,3,5,5,3,5,5,5,5,6,5,1,7,7,7,7,6,6,6,6,6,5,5,7,2,6,6,6,6,6,7,7,7,6,5,7,7,2,3,3,3,2,3,2.5,5,5,5,5,5,5,5,5,5
+TZA205,Tanzania,28,Female,Middle,2,Christian: Catholic,Married,La saba,Mluguru,7,7,7,7,6,6,1,1,1,2,5,6,5,5,5,2,4,4,2,3,5,5,5,5,5,7,2,7,7,2,6,6,6,3,3,6,5,6,2,7,6,6,6,6,6,7,7,6,6,7,7,2,3,3,1,1,4,2.5,5,5,5,5,5,3,4,5,4.4
+TZA206,Tanzania,67,Female,Lower middle,1,Muslim: Sunni,Other,Darsa la 7,Mzigua,7,7,7,7,7,7,1,1,1,1,1,1,6,6,5,6,6,6,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5,5,7,1,6,6,6,6,7,7,6,6,6,6,6,6,5,2,5,5,5,5,5,5,5,5,6,6,6,6,6,6
+TZA207,Tanzania,42,Male,Lower middle,1,Muslim: Sunni,Married,La saba,Mzigua,7,7,7,7,7,6,1,1,2,2,3,5,5,5,3,5,5,3,6,5,5,5,6,5,5,7,1,7,7,3,6,7,6,5,7,5,5,5,2,6,6,5,7,6,6,7,6,6,5,7,7,2,5,2,3,2,2,2,5,5,5,5,5,5,6,6,5.4
+TZA208,Tanzania,24,Male,Lower middle,1,Christian: Protestant,Unmarried,Msingi,Masai,7,7,7,7,7,7,1,1,1,1,1,1,6,6,5,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,7,6,7,7,7,7,6,2,5,6,,6,6,7,2,7,7,7,2,2,5,6,2,5,5,5,5,5,5,5,6,6,6,6,6,6
+TZA209,Tanzania,34,Male,Lower middle,1,Christian: Protestant,Unmarried,Elimu Msingi,Masai,6,6,6,6,6,6,1,1,1,1,1,1,6,6,6,7,6,6,4,4,4,4,4,4,4,2,2,1,1,1,2,2,2,1,2,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7,6,7,1,4,6,4,5,6,6,6,6,6,6,6,6,6
+TZA210,Tanzania,26,Female,Middle,2,Muslim: Shia,Unmarried,Form Four,Mpogoro,,,,,,,,,,,,,7,5,5,1,2,1,,,,,,,,1,7,7,7,7,7,7,7,7,7,7,7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA211,Tanzania,35,Female,Lower middle,1,Christian: Pentecostal,Unmarried,VI,Mnfoni,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA212,Tanzania,23,Female,Lower middle,1,Christian: Catholic,Unmarried,Degree,Mchaga,6,6,6,7,7,7,2,2,2,3,3,3,7,7,6,,6,7,6,2,6,6,6,6,6,5,5,5,6,6,6,5,5,6,,6,6,6,2,6,6,6,7,7,7,7,7,7,7,7,7,6,7,1,6,6,6,6,6,6,6,6,6,6,6,6,6
+TZA213,Tanzania,39,Male,Lower middle,1,Christian: Pentecostal,Unmarried,Form Four,Mkinga,6,6,6,6,6,6,2,2,2,2,1,1,6,7,7,6,7,6,6,2,6,6,6,6,6,7,6,7,7,7,6,,6,7,7,6,6,7,1,6,6,6,7,7,7,7,7,7,7,7,7,,7,1,,,,,,,,,,,,,
+TZA214,Tanzania,22,Female,Lower middle,1,Christian: Catholic,Other,Shahada,Mhehe,6,6,6,7,7,7,2,2,2,2,2,2,3,,6,6,,6,6,2,6,6,6,6,6,4,5,4,5,,6,4,4,5,,6,6,6,2,6,7,7,6,7,6,7,7,7,7,7,7,6,7,1,6,6,6,6,6,6,6,6,6,6,6,6,6
+TZA215,Tanzania,29,Female,Lower middle,1,Christian: Other,Unmarried,Form Four,Mnyiha,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,7,7,6,6,2,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,7,7,7,7,7,6,6,2,6,6,6,6,6,6,6,5,5,5,5,5,5
+TZA216,Tanzania,39,Male,Upper,4,Muslim: Sunni,Married,Form Six,Mmakonde,7,7,6,7,6,7,1,1,2,1,2,2,7,7,6,6,6,7,6,2,6,6,6,6,6,6,6,5,6,5,6,2,2,6,,2,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7,5,6,2,6,6,5,5.5,6,6,6,6,5,6,5,5,5.4
+TZA217,Tanzania,43,Male,Middle,2,Christian: Protestant,Unmarried,Cheti,Haya,6,6,6,6,6,6,2,2,2,2,2,2,4,4,4,4,4,4,6,2,6,6,6,6,6,2,2,2,2,2,7,7,7,7,7,2,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7,6,6,2,2,6,2,4,6,6,6,6,6,5,5,5,5.4
+TZA218,Tanzania,33,Male,Middle,2,Christian: Protestant,Unmarried,Sekonorw,Masai,7,7,7,7,7,7,1,1,1,1,1,1,6,6,6,6,6,6,6,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,1,7,7,7,7,7,7,7,7,7,7,7,7,6,6,1,6,6,6,6,6,6,6,6,6,6,6,6,6
+TZA219,Tanzania,37,Female,Middle,2,Christian: Protestant,Other,Std VII,Mpare,7,7,7,7,7,6,1,1,1,2,2,1,6,6,6,6,6,7,6,2,6,6,6,6,6,6,6,6,6,6,7,2,2,7,2,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7,2,7,1,2,2,2,2,7,2,4.5,5,5,5,5,5,5
+TZA220,Tanzania,38,Female,Upper,4,Christian: Pentecostal,Unmarried,Std VII,Muhangaza,6,6,6,7,7,7,2,2,2,2,2,2,6,7,7,6,6,7,6,2,6,6,6,6,6,6,6,7,6,6,6,1,2,7,1,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7,2,7,1,2,2,2,2,2,2,2,4,4,4,4,4,4
+TZA221,Tanzania,27,Female,Middle,2,Muslim: Sunni,Unmarried,Secondary,Mjita,7,7,7,7,7,7,2,2,2,2,2,2,7,7,7,7,6,6,7,1,6,6,7,6,7,7,7,7,7,7,7,1,1,7,1,7,7,7,1,7,7,7,7,7,7,7,7,7,7,7,7,7,1,7,7,6,6,6,7,7,7,1,1,1,1,1,1
+TZA222,Tanzania,31,Female,Upper middle,3,Christian: Catholic,Unmarried,Sokondal,Msambaa,7,7,7,6,6,6,2,2,2,1,1,1,6,6,6,6,7,7,6,2,6,6,6,6,6,6,6,7,7,6,6,6,7,6,7,6,6,7,2,7,7,6,6,6,7,7,7,7,7,7,7,2,5,2,2,2,2,2,2,2,2,5,5,5,5,5,5
+TZA223,Tanzania,28,Male,Middle,2,Christian: Protestant,Unmarried,Shahada,Msukuma,6,6,6,6,6,7,2,1,1,2,2,1,6,7,6,7,6,6,6,2,6,6,6,6,6,2,2,2,2,2,2,2,2,6,2,2,2,6,2,6,6,6,6,6,6,7,7,7,7,7,7,2,6,1,7,2,2,2,6,6,6,5,5,5,5,5,5
+TZA224,Tanzania,37,Female,Middle,2,Christian: Catholic,Unmarried,Darsa la saba,Mpogolo,7,7,6,6,7,7,2,2,2,2,1,1,6,6,6,6,7,7,7,1,7,6,6,7,7,6,6,7,6,7,7,2,2,7,2,7,7,7,2,6,7,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,1,1,1,7,7,7,7,7,7
+TZA225,Tanzania,43,Female,Middle,2,Christian: Catholic,Unmarried,Form Four,Mngoni,6,7,7,6,6,6,2,2,2,2,7,7,6,6,6,7,7,7,6,1,7,6,6,6,7,6,6,6,6,6,6,2,1,6,2,1,1,6,2,6,6,6,6,6,6,7,7,7,7,7,7,2,6,1,2,2,2,2,7,2,4.5,6,6,6,6,6,6
+TZA226,Tanzania,50,Female,Upper middle,3,Christian: Protestant,Other,Msingi,Mbena,7,7,7,7,7,7,1,1,1,2,2,1,6,6,6,7,7,6,7,1,6,6,6,7,6,6,6,6,6,7,7,6,7,7,7,7,6,6,1,6,6,7,6,6,7,7,7,7,7,7,7,2,7,1,2,2,2,2,2,2,2,3,3,3,3,6,3.6
+TZA227,Tanzania,33,Male,Lower middle,1,Christian: Pentecostal,Unmarried,Std VII,Muhangaza,6,6,6,7,6,6,1,,2,2,2,1,6,6,6,7,7,7,6,2,6,6,6,6,6,7,7,6,7,6,7,7,6,7,7,6,6,6,2,6,6,6,6,6,7,7,7,7,7,7,7,2,6,1,2,2,2,2,6,6,6,4,5,5,5,5,4.8
+TZA228,Tanzania,28,Male,Middle,2,Christian: Protestant,Unmarried,Form Four,Msambaa,1,4,3,4,4,4,4,4,2,4,4,4,5,5,5,5,5,4,4,3,1,5,4,5,5,1,1,1,,4,4,3,5,1,5,1,1,5,2,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,4,4,4,4,4,4,4,5,6,6,4,6,5.4
+TZA229,Tanzania,35,Female,Middle,2,Christian: Protestant,Married,Diploma,Mzigua,6,6,7,7,7,7,2,2,3,2,3,5,6,5,5,3,5,3,5,5,5,6,6,5,5,1,,5,6,6,6,4,4,6,3,5,5,5,2,6,7,7,6,5,6,7,6,4,5,7,7,3,3,3,2,3,3,3,5,5,5,4,5,5,5,5,4.8
+TZA230,Tanzania,37,Male,Middle,2,Christian: Pentecostal,Unmarried,Degree,Mlambia,7,7,6,7,7,7,2,1,3,7,3,3,5,2,2,5,6,5,7,7,6,5,5,5,3,1,7,6,6,7,7,5,2,6,2,6,2,7,1,6,7,7,1,1,1,7,7,7,7,7,7,7,4,4,7,7,1,4,7,7,7,1,1,1,2,2,1.4
+TZA231,Tanzania,24,Male,Lower middle,1,Spiritual not religious,Unmarried,Kidato Cha seta,Mandali,6,6,6,6,7,4,1,1,1,1,1,1,7,7,6,7,7,6,7,7,6,7,6,7,2,7,1,6,7,1,5,2,1,7,1,2,2,7,2,7,7,7,5,7,5,6,7,7,7,6,6,1,4,1,1,1,1,1,7,1,4,3,3,2,5,4,3.4
+TZA232,Tanzania,49,Female,Middle,2,Christian: Catholic,Married,La saba 7,Mgogo,7,7,7,7,7,7,7,7,7,7,7,7,7,7,2,1,7,7,7,7,5,1,5,7,3,1,7,5,7,7,7,7,1,1,1,1,1,7,5,3,1,7,1,1,1,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,5,6,7,7,6.4
+TZA233,Tanzania,21,Female,Lower middle,1,Christian: Catholic,Unmarried,La 7,Mluguru,7,7,7,7,7,7,3,7,3,3,6,6,6,2,2,6,6,6,6,6,7,6,5,6,5,1,7,5,7,5,3,5,6,7,7,6,7,7,1,5,6,6,5,6,6,7,7,6,7,7,7,3,6,4,2,1,2,1.5,7,7,7,5,5,5,5,3,4.6
+TZA234,Tanzania,23,Female,"",,Muslim: Shia,Married,La saba,Muha,5,7,6,7,7,7,3,3,3,3,3,3,7,6,6,7,7,7,5,6,6,7,6,7,7,7,1,7,7,7,5,7,7,3,7,7,2,1,1,7,5,7,7,6,1,7,7,7,7,7,7,2,6,2,1,1,1,1,7,7,7,6,5,5,7,7,6
+TZA235,Tanzania,50,Male,Lower middle,1,Muslim: Shia,Married,La saba,Mpogoro,7,6,6,6,6,6,3,3,3,3,2,2,7,1,2,1,1,6,6,6,6,6,5,5,5,1,7,6,6,5,5,5,6,6,6,5,5,7,1,5,6,7,5,3,3,7,7,7,7,7,7,2,5,2,2,5,5,5,7,7,7,6,6,2,6,2,4.4
+TZA236,Tanzania,24,Male,Lower middle,1,Muslim: Shia,Unmarried,La 7,Msukuma,7,7,7,6,6,6,2,2,2,1,2,2,5,3,2,5,5,7,7,7,7,7,6,5,5,3,7,7,6,7,5,5,6,6,7,3,,7,1,6,7,7,5,6,5,7,7,6,4,7,7,1,5,4,1,1,1,1,6,7,6.5,5,5,3,5,6,4.8
+TZA237,Tanzania,51,Male,Lower middle,1,Christian: Catholic,Married,Darasa 7,Mluguru,7,7,7,7,7,7,7,,1,1,1,7,7,7,1,1,1,1,7,7,1,7,7,7,7,1,7,7,7,7,7,7,7,1,7,1,1,7,1,7,7,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,4,7,7,7,7,6.4
+TZA238,Tanzania,41,Male,Middle,2,Christian: Catholic,Married,Degree,Mfipa,6,5,5,6,6,6,2,2,3,3,2,2,3,2,5,5,6,5,6,6,7,6,5,7,6,7,1,6,6,3,3,3,3,5,1,5,1,6,2,7,7,7,5,5,7,7,7,7,7,7,7,2,4,2,2,2,2,2,6,7,6.5,6,5,2,6,6,5
+TZA239,Tanzania,32,Male,Middle,2,Muslim: Sunni,Married,La 4,Mluguru,7,7,6,6,7,7,5,4,5,3,3,4,7,7,6,5,4,5,6,6,7,6,7,6,7,1,7,6,7,4,6,7,3,5,5,5,4,7,1,7,7,7,7,7,2,7,7,7,7,7,7,1,6,2,1,1,2,1.5,7,6,6.5,6,6,6,7,6,6.2
+TZA240,Tanzania,67,Male,Lower middle,1,Christian: Catholic,Married,Darasa 7,Msukuma,3,6,2,4,7,4,3,7,3,3,7,3,7,1,3,4,5,5,7,7,7,7,7,4,3,7,7,6,3,5,2,,6,5,7,7,7,7,4,7,6,7,7,6,7,1,7,4,3,1,1,7,4,5,5,4,2,3,3,5,4,4,6,2,4,4,4
+TZA241,Tanzania,24,Male,Middle,2,Muslim: Sunni,Unmarried,Form Four,Mnyaturu,7,7,7,7,7,7,1,1,1,1,1,1,7,1,1,7,5,6,7,7,7,6,6,7,6,1,7,7,7,7,7,7,5,3,5,6,5,7,1,5,7,5,5,3,3,7,4,6,6,7,7,1,4,4,1,1,1,1,7,1,4,5,5,2,6,6,4.8
+TZA242,Tanzania,45,Female,Lower middle,1,Christian: Other,Married,La saba,Msambaa,7,7,6,6,7,7,3,3,3,3,3,2,7,2,2,6,6,6,7,7,7,6,6,6,6,7,3,7,7,6,3,3,3,3,5,3,3,7,2,6,6,5,5,6,6,7,7,7,4,7,7,2,4,4,1,2,2,2,7,6,6.5,3,3,2,6,5,3.8
+TZA243,Tanzania,22,Female,Lower middle,1,Muslim: Shia,Unmarried,Chuo kikuu,Muwa,6,6,6,7,7,6,,1,1,1,1,1,7,2,2,,2,2,6,,6,6,6,6,6,7,1,6,6,2,6,2,,6,2,,2,5,2,6,6,6,6,6,6,6,6,6,6,6,6,2,1,2,2,2,2,2,1,2,1.5,1,1,1,1,2,1.2
+TZA244,Tanzania,24,Male,Middle,2,Muslim: Sunni,Unmarried,Degree-Shahada,Mmajongo,7,6,7,6,7,7,,2,1,1,2,1,7,7,6,7,6,7,1,6,2,7,6,6,6,6,1,6,6,4,4,,6,7,5,6,1,7,1,7,7,7,7,7,7,7,7,4,,7,7,1,5,1,4,,4,,5,3,4,4,4,4,4,4,4
+TZA245,Tanzania,27,Male,Middle,2,Muslim: Sunni,Other,Diploma,Mndekeleko,6,7,7,,6,6,2,3,3,1,1,1,3,3,7,1,7,6,7,7,7,7,7,1,7,1,7,7,7,3,2,2,6,7,7,3,3,7,1,3,7,7,7,3,3,7,7,7,7,7,7,1,5,4,1,1,1,1,7,7,7,3,5,5,5,5,4.6
+TZA246,Tanzania,30,Male,Middle,2,Muslim: Shia,Unmarried,La saba,Mluguru,7,5,6,7,5,7,2,2,1,,2,2,2,3,6,5,2,6,1,7,7,1,7,6,2,7,2,6,7,2,7,5,5,6,5,6,3,7,3,7,2,6,3,7,6,7,6,7,7,7,7,5,3,2,2,1,5,3,2,1,1.5,7,1,3,5,2,3.6
+TZA247,Tanzania,27,Male,Middle,2,Christian: Other,Unmarried,Form Four,Msambaa,1,7,1,7,7,7,2,1,1,1,1,1,7,7,7,5,7,5,7,7,2,7,7,7,7,7,1,7,7,1,7,7,6,1,7,7,7,7,3,7,1,7,3,7,7,7,7,7,7,7,7,1,5,2,1,1,6,3.5,5,2,3.5,4,5,5,5,7,5.2
+TZA248,Tanzania,80,Male,Lower middle,1,Muslim: Shia,Other,La saba,Mluguru,7,6,7,7,7,6,5,3,4,1,1,2,2,2,2,2,6,6,7,6,3,6,7,5,6,1,7,7,7,5,5,3,7,7,1,6,6,7,1,7,7,7,7,7,1,7,7,7,7,7,7,7,7,1,1,1,1,1,7,1,4,7,7,6,6,7,6.6
+TZA249,Tanzania,63,Male,Middle,2,Christian: Catholic,Married,Cheti,Mkwaya,7,6,6,6,6,7,2,2,2,6,2,2,7,7,7,3,7,6,7,7,7,6,5,6,5,1,7,7,7,1,6,5,5,5,6,6,5,7,3,7,7,7,5,5,5,7,7,7,7,7,7,1,4,4,1,1,1,1,7,7,7,6,3,3,5,2,3.8
+TZA250,Tanzania,30,Male,Middle,2,Christian: Catholic,Unmarried,Certificate,Mnyakywa,6,5,5,6,6,5,6,3,6,6,6,5,6,1,6,5,5,6,7,7,7,7,6,6,1,7,1,7,7,6,7,6,6,1,7,7,6,7,1,1,3,7,7,7,7,7,7,7,7,7,7,1,5,3,2,1,1,1,7,7,7,6,5,6,6,6,5.8
+TZA251,Tanzania,42,Male,"",,Christian: Catholic,Other,Diploma,Mwaturu,7,7,7,7,7,7,7,2,7,1,3,2,7,7,7,7,7,7,7,7,6,5,5,6,7,1,7,6,7,5,5,1,2,7,6,3,7,7,5,7,5,7,7,6,3,1,1,7,1,1,1,1,6,6,1,1,1,1,7,6,6.5,7,6,7,6,6,6.4
+TZA252,Tanzania,40,Male,Middle,2,Christian: Catholic,Married,Diploma,Mpogoro,2,6,7,6,4,6,7,7,5,7,5,6,7,6,7,5,6,7,7,7,7,7,7,7,7,1,7,7,7,6,6,6,6,1,7,7,5,7,2,7,6,7,6,7,6,7,7,7,7,7,7,2,7,7,1,1,6,3.5,7,7,7,7,7,6,6,6,6.4
+TZA253,Tanzania,35,Male,Middle,2,Christian: Other,Unmarried,Digri/Shahada,Mnyakywa,6,7,7,7,7,5,6,6,7,7,6,6,7,7,7,6,6,7,6,1,7,7,6,6,7,7,6,7,7,6,3,6,5,7,6,7,6,7,2,7,7,7,6,7,7,1,2,2,1,1,1,7,6,3,7,7,7,7,7,7,7,7,7,7,6,7,6.8
+TZA254,Tanzania,36,Male,Middle,2,Muslim: Shia,Married,Chuo kikuu,Mzanaki,7,7,7,6,6,7,2,2,2,1,1,1,6,2,2,5,5,6,7,7,7,7,7,6,6,1,7,6,6,5,3,6,7,6,5,6,3,7,2,3,2,7,7,6,1,7,7,6,7,7,7,1,7,1,2,1,1,1,7,7,7,6,6,6,6,6,6
+TZA255,Tanzania,,"","",,Christian: Catholic,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA256,Tanzania,84,Male,Lower middle,1,"",Other,Lanne Mkoloni,Mnyaturu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA257,Tanzania,,"","",,"",Other,"","",7,7,6,7,7,7,1,7,1,1,1,1,,,,,,,,,,,,,,7,1,7,7,3,3,7,2,7,3,2,2,7,2,3,7,7,7,5,2,,,,,,,1,6,1,1,1,1,1,7,7,7,6,6,4,7,6,5.8
+TZA258,Tanzania,,"","",,"",Other,"","",,,,,,,,,,,,,7,6,7,1,5,1,7,6,7,6,5,5,5,,,,,,,,,,,,,,,,,,,,,7,7,7,4,7,7,1,,,2,1,2,1.5,7,7,7,2,3,3,5,2,3
+TZA259,Tanzania,,"","",,Christian: Other,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA260,Tanzania,,"","",,Muslim: Shia,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA261,Tanzania,,"","",,"",Other,"","",7,7,7,7,7,7,7,7,7,7,7,7,,,,,,,7,7,7,7,6,5,7,,,,,,,,,,,,,,,,,,,,,7,7,7,7,7,7,1,,,1,1,1,1,7,7,7,,,,,,
+TZA262,Tanzania,,"","",,"",Other,"","",7,7,7,6,6,6,3,2,5,6,6,6,,,,,,,,,,,,,,,,,,,,,,,,,,6,2,7,7,7,6,7,7,,,,,,,,4,4,,,,,,,,7,7,7,7,7,7
+TZA263,Tanzania,25,Male,Middle,2,"",Unmarried,Diploma,Mnyamwezi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA264,Tanzania,25,Male,Middle,2,"",Unmarried,Diploma,Mnyamwezi,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA265,Tanzania,,"","",,"",Other,"","",7,7,7,6,6,6,3,2,5,6,6,6,,,,,,,,,,,,,,,,,,,,,,,,,,6,2,7,7,7,6,7,7,,,,,,,,4,4,,,,,,,,,,,,,
+TZA266,Tanzania,,"","",,"",Other,"","",7,7,7,7,7,7,7,7,7,7,7,7,,,,,,,7,7,7,7,6,5,7,,,,,,,,,,,,,,,,,,,,,7,7,7,7,7,7,1,,,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA267,Tanzania,,"","",,Muslim: Shia,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA268,Tanzania,,"","",,Christian: Other,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA269,Tanzania,,"","",,"",Other,"","",7,7,6,7,7,7,1,7,1,1,1,1,7,6,7,1,5,1,7,6,7,6,5,5,5,7,1,7,7,3,3,7,2,7,3,2,2,,,,,,,,,7,7,7,4,7,7,1,,,2,1,2,1.5,7,7,7,2,3,3,5,2,3
+TZA270,Tanzania,84,Male,Lower middle,1,"",Other,Lanne Mkoloni,Mnyaturu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7,2,3,7,7,7,5,2,,,,,,,1,6,1,1,1,1,1,7,7,7,6,6,4,7,6,5.8
+TZA271,Tanzania,36,Male,Middle,2,Christian: Catholic,Married,Chuo kikuu,Mzanaki,7,7,7,6,6,7,2,2,2,1,1,1,6,2,2,5,5,6,7,7,7,7,7,6,6,1,7,6,6,5,3,6,7,6,5,6,3,7,2,3,2,7,7,6,1,7,7,6,7,7,7,1,7,1,2,1,1,1,7,7,7,6,6,6,6,6,6
+TZA272,Tanzania,,"","",,Muslim: Shia,Other,"","",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+TZA273,Tanzania,43,Male,Lower middle,1,Christian: Catholic,Unmarried,La 7,Mlugulu,7,7,7,7,7,7,6,6,7,4,5,6,7,7,7,7,7,7,7,7,7,7,7,7,5,1,7,7,7,2,2,7,5,7,7,3,2,7,1,1,7,7,7,1,1,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA274,Tanzania,37,Male,Upper middle,3,Muslim: Sunni,Married,Kidato cha nne,Matum,7,7,7,7,7,7,2,2,2,2,2,2,6,2,2,6,5,5,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,2,7,7,3,7,1,7,7,7,7,3,3,7,7,7,7,7,7,2,7,1,2,2,2,2,7,7,7,6,6,7,7,7,6.6
+TZA275,Tanzania,79,Male,Lower middle,1,Christian: Other,Other,La nne,Mnyiramba,6,7,7,7,7,7,2,2,2,2,2,2,7,6,7,7,7,6,7,7,7,7,7,7,7,1,7,7,7,7,7,2,6,1,,7,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,7,7,7,6,6.8
+TZA276,Tanzania,21,Male,Lower middle,1,Christian: Catholic,Married,Darasa 7,Muwa,7,7,7,7,7,7,7,1,7,1,1,1,7,7,7,1,7,1,7,1,7,7,7,7,7,7,1,7,7,,1,7,7,7,7,1,1,7,1,7,7,7,7,7,1,7,7,7,7,7,7,1,7,7,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA277,Tanzania,52,Male,Middle,2,Muslim: Sunni,Married,Chuo kikuu,Msukuma,7,7,7,7,6,7,7,6,7,7,6,7,7,6,7,5,7,6,7,7,6,4,6,7,5,1,7,,7,5,7,5,6,6,7,7,6,7,1,7,7,7,7,7,7,7,7,7,7,7,7,5,7,1,7,1,1,1,7,6,6.5,7,7,7,7,4,6.4
+TZA278,Tanzania,30,Male,Lower middle,1,Muslim: Shia,Married,La 7,Mugua,5,7,7,7,7,7,1,1,1,1,1,1,7,7,7,7,7,7,7,2,7,7,7,7,7,7,1,7,7,7,7,7,3,3,6,5,3,7,2,6,5,7,2,1,6,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,6,6,6,7,7,6.4
+TZA279,Tanzania,22,Male,Lower middle,1,Christian: Other,Other,Kidato 4,Muha,6,7,6,7,7,7,4,5,3,2,3,3,7,7,7,7,7,7,7,7,7,6,7,7,7,1,7,7,6,7,6,,5,3,3,7,3,7,1,7,1,7,7,6,7,7,7,7,6,7,7,1,7,1,1,1,3,2,7,7,7,7,6,6,7,6,6.4
+TZA280,Tanzania,61,Male,Middle,2,Muslim: Sunni,Other,La nne (4),Mpogolo,7,7,7,7,7,7,3,5,5,2,2,2,7,7,6,6,7,6,7,7,6,6,7,5,5,1,7,7,7,2,2,7,3,6,6,2,2,7,2,3,7,7,7,7,1,7,7,7,4,7,7,1,6,2,1,2,2,2,7,7,7,6,6,6,6,6,6
+TZA281,Tanzania,48,Male,Lower middle,1,Christian: Other,Married,La saba 7,Msukuma,7,7,7,7,7,7,1,1,7,1,1,1,7,7,7,7,7,7,7,7,7,7,7,5,5,7,7,7,7,7,7,7,3,1,3,6,1,7,2,5,7,7,7,3,3,7,7,7,7,7,7,3,5,2,2,2,2,2,5,5,5,6,3,5,5,4,4.6
+TZA282,Tanzania,42,Male,Middle,2,Muslim: Shia,Other,Darasa 7,Mngoni,7,7,7,7,7,7,7,7,1,1,1,1,7,7,1,2,2,1,7,7,1,7,7,7,7,1,7,7,7,7,7,7,7,7,7,1,1,7,1,7,7,7,7,1,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA283,Tanzania,35,Male,Upper middle,3,Muslim: Sunni,Married,Chuo kikuu,Mngoni,5,7,7,7,7,7,4,5,3,2,5,3,6,7,7,5,5,3,3,7,6,7,7,7,5,1,4,7,7,6,7,7,5,3,5,6,3,7,3,7,6,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,5,6,6,6,5,6,6,5.8
+TZA284,Tanzania,49,Male,Middle,2,Muslim: Shia,Married,Darasa 7,Mlugulu,6,7,7,7,6,7,2,4,5,3,5,4,7,7,6,5,6,3,5,7,6,7,7,6,7,1,7,7,7,6,7,7,3,2,7,6,3,7,3,7,7,7,7,5,2,7,7,7,7,7,7,2,6,1,1,1,1,1,7,7,7,7,6,5,7,7,6.4
+TZA285,Tanzania,31,Male,Middle,2,Muslim: Shia,Married,Kidato cha 4,Mlugulu,5,7,7,7,7,7,2,4,5,1,2,3,7,7,7,4,5,2,6,7,7,7,7,7,6,7,1,7,7,3,5,7,3,2,6,4,3,7,3,7,7,7,7,7,5,7,7,7,7,7,7,2,6,2,1,1,1,1,6,5,5.5,4,7,5,6,6,5.6
+TZA286,Tanzania,39,Male,Lower middle,1,Muslim: Shia,Married,La 4,Mlugulu,7,7,7,7,7,7,1,1,7,1,1,2,7,6,7,6,3,3,7,2,6,7,6,7,3,1,7,7,7,7,7,7,5,5,3,5,3,7,1,6,7,6,7,1,2,7,7,6,7,7,7,1,7,1,1,1,1,1,7,7,7,6,6,7,7,6,6.4
+TZA287,Tanzania,28,Male,Lower middle,1,Muslim: Shia,Unmarried,Form 4,Mngoni,7,7,5,5,7,7,1,1,1,,3,3,1,2,2,4,5,5,5,6,6,6,7,3,3,1,7,6,6,3,6,3,3,7,7,2,1,7,2,5,6,7,5,5,5,7,7,6,4,7,7,1,5,4,2,1,1,1,7,5,6,5,6,6,5,2,4.8
+TZA288,Tanzania,41,Male,Middle,2,Christian: Catholic,Married,Darasa 7,Mhehe,6,7,7,7,7,7,3,3,4,2,3,2,6,7,6,3,5,6,6,7,6,5,6,7,3,,7,7,,7,7,7,3,,,,,7,1,1,1,7,1,1,1,7,7,7,7,7,7,2,6,1,1,1,1,1,7,6,6.5,6,7,6,6,4,5.8
+TZA289,Tanzania,50,Male,Middle,2,Christian: Catholic,Married,Darasa 8,Mnyachusa,7,7,7,7,4,7,6,5,7,1,1,2,7,6,7,3,6,5,7,1,7,7,6,7,7,7,1,7,7,6,7,6,1,1,7,2,3,7,1,7,1,7,1,1,7,7,7,7,7,7,7,1,7,2,1,1,1,1,7,5,6,7,7,7,6,7,6.8
+TZA290,Tanzania,82,Male,Lower middle,1,Christian: Other,Unmarried,La nne,Mpogolo,7,7,7,5,7,6,4,,6,5,7,,6,7,5,7,7,7,7,7,5,6,7,6,7,1,7,7,7,7,7,6,6,7,5,6,7,7,1,7,7,7,7,7,6,7,7,7,7,7,7,5,6,2,6,6,7,6.5,7,6,6.5,6,5,6,6,7,6
+TZA291,Tanzania,32,Male,Lower middle,1,Christian: Catholic,Married,La 4,Msambaa,6,7,7,7,3,7,3,7,5,2,2,3,,,,,,,7,2,7,6,5,5,5,1,7,7,7,6,3,3,5,7,5,1,1,7,1,7,7,7,6,7,1,7,7,7,7,7,7,2,7,1,1,1,1,1,7,6,6.5,6,6,7,6,2,5.4
+TZA292,Tanzania,48,Male,Lower middle,1,Christian: Protestant,Married,Form 4,Mbena,7,7,7,6,6,6,3,3,4,2,3,2,6,7,7,7,7,7,7,5,6,7,7,7,5,7,1,7,7,3,2,7,7,7,7,7,1,7,1,7,7,7,7,4,3,7,7,7,7,7,7,1,6,1,1,1,1,1,7,6,6.5,7,7,7,7,7,7
+TZA293,Tanzania,49,Male,Lower middle,1,Christian: Catholic,Other,Form 5,Mzigua,7,7,7,6,6,6,2,2,2,2,2,2,7,7,1,2,2,1,7,6,7,7,6,6,6,1,7,7,7,2,2,7,7,7,7,3,1,7,1,7,7,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,6,5,7,6,6.2
+TZA294,Tanzania,43,Male,Lower middle,1,Christian: Pentecostal,Married,La saba,Mchaga,7,7,7,5,7,7,5,5,5,5,5,5,7,7,7,7,7,7,6,6,7,6,7,7,6,1,7,7,6,2,3,7,7,6,7,3,1,7,1,7,7,7,7,5,5,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,6,6,5,6,6,5.8
+TZA295,Tanzania,78,Male,Lower middle,1,Muslim: Shia,Married,La nne,Mmakonde,7,7,7,6,6,6,6,6,6,6,6,6,7,6,7,7,6,5,7,7,7,5,6,7,3,1,7,7,7,4,7,7,3,5,3,3,1,7,1,7,7,7,7,2,1,7,7,7,7,7,7,2,7,1,1,2,2,2,7,7,7,7,7,6,7,7,6.8
+TZA296,Tanzania,33,Female,Lower middle,1,Christian: Other,Other,La 7,Mmakua,7,7,7,6,6,6,2,6,2,2,2,2,7,1,1,1,1,6,7,7,6,6,6,6,6,6,3,6,6,2,3,5,6,6,3,6,5,7,1,6,6,6,5,2,3,7,7,6,6,7,7,3,4,4,2,2,2,2,7,7,7,3,2,5,5,3,3.6
+TZA297,Tanzania,34,Male,Lower middle,1,Christian: Catholic,Other,Form 4,Mgogo,7,7,7,7,7,7,3,3,3,2,2,2,7,7,7,7,7,7,7,7,6,7,6,7,5,1,7,7,7,2,2,7,7,7,7,2,2,7,3,3,7,7,7,6,1,7,7,7,7,7,7,1,6,2,1,1,1,1,7,7,7,6,6,5,6,6,5.8
+TZA298,Tanzania,30,Male,Lower middle,1,Muslim: Shia,Unmarried,La saba,Mluguru,7,7,7,6,6,6,3,3,3,2,2,2,7,1,2,6,6,6,7,6,6,6,6,6,5,2,7,6,6,3,3,5,3,6,6,6,2,6,2,7,6,6,5,2,1,7,7,6,6,7,7,1,5,2,1,1,1,1,6,6,6,5,5,3,5,3,4.2
+TZA299,Tanzania,19,Female,Lower middle,1,Christian: Pentecostal,Unmarried,Form 4,Mbondai,7,7,7,7,7,7,5,5,7,3,2,5,7,7,7,7,7,7,7,7,7,7,7,7,1,1,7,3,1,7,7,1,2,1,1,1,1,7,1,7,1,7,1,1,7,7,7,7,7,7,7,7,7,2,3,7,1,4,7,7,7,7,7,5,7,7,6.6
+TZA300,Tanzania,48,Female,Middle,2,Christian: Catholic,Married,Kidato 4,Mnyiramba,6,7,7,7,7,7,2,2,2,2,2,2,7,7,7,3,7,6,7,7,7,6,5,6,6,1,7,7,7,1,5,7,7,5,7,2,2,7,3,7,7,7,7,7,7,7,7,7,7,7,7,1,6,2,1,1,1,1,7,7,7,6,6,7,7,6,6.4
+TZA301,Tanzania,39,Male,Middle,2,Christian: Protestant,Married,Certificate,Mngoni,7,7,7,7,7,7,5,5,5,5,5,5,6,6,7,3,6,6,7,7,6,7,7,5,5,1,7,7,7,3,3,7,5,6,2,2,1,7,1,7,7,7,7,3,3,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,6,7,7,6,6.6
+TZA302,Tanzania,81,Male,Middle,2,Christian: Other,Other,La nne mkoloni,Muhaya,7,7,6,7,7,7,7,7,6,6,6,6,7,7,7,5,5,5,7,7,6,7,7,3,5,1,7,7,7,6,7,7,5,2,4,7,2,7,1,7,7,7,7,6,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA303,Tanzania,62,Male,Middle,2,Muslim: Shia,Unmarried,La saba 7,Msukuma,7,7,7,6,6,6,3,3,3,3,3,5,6,5,6,6,7,6,7,7,7,6,6,6,7,7,1,7,7,3,5,7,7,3,7,3,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7,2,7,1,1,2,2,2,7,7,7,5,6,6,6,7,6
+TZA304,Tanzania,40,Male,Middle,2,Christian: Other,Married,Form 4,Mtipa,6,6,6,7,7,7,2,2,2,1,3,3,7,7,7,6,6,5,7,7,6,7,6,6,3,7,1,7,7,5,5,7,3,3,6,5,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7,1,7,,1,1,1,1,7,7,7,7,7,7,7,6,6.8
+TZA305,Tanzania,42,Female,Middle,2,Christian: Other,Married,Shahada yai,Mjita,2,5,6,7,7,7,4,7,7,7,7,5,7,7,7,5,6,1,7,2,6,7,7,7,7,1,7,7,7,7,7,7,6,7,7,7,5,7,4,7,7,7,7,7,7,7,7,4,4,7,7,7,5,2,2,4,4,4,7,7,7,7,4,6,7,4,5.6
+TZA306,Tanzania,47,Male,Lower middle,1,Christian: Other,Other,Diploma,Mpare,7,6,6,7,7,7,5,3,6,1,1,1,7,7,5,5,6,6,5,3,7,7,7,7,5,1,7,7,6,7,7,7,5,1,7,6,5,1,7,7,1,7,7,7,1,7,7,7,6,7,7,1,4,4,3,1,1,1,5,5,5,3,5,5,5,3,4.2
+TZA307,Tanzania,32,Female,Middle,2,Christian: Other,Married,StaShahada,Msukuma,7,6,7,7,6,7,5,5,5,5,5,5,7,6,,,6,6,6,7,7,5,6,7,,6,1,6,6,1,6,6,5,6,6,7,6,2,1,7,7,7,7,7,7,7,7,7,7,7,7,6,4,4,1,4,,,5,6,5.5,4,4,4,4,4,4
+TZA308,Tanzania,39,Female,Upper middle,3,Christian: Other,Married,Degree,Mchaga,7,7,7,7,7,7,3,3,1,6,1,2,2,1,1,5,7,7,6,2,7,5,5,3,,1,1,7,7,5,5,5,5,6,7,3,3,7,2,5,6,7,3,7,6,7,7,6,7,7,7,1,4,3,1,1,1,1,6,7,6.5,7,3,6,5,3,4.8
+TZA309,Tanzania,64,Female,Middle,2,Muslim: Shia,Married,Cheti,Msambaa,7,7,7,6,6,6,2,2,2,3,3,3,7,7,7,7,7,7,7,7,6,7,7,5,5,7,1,7,7,5,7,5,5,6,5,6,5,7,2,5,7,7,7,3,3,7,7,7,7,7,7,3,4,2,2,2,2,2,5,5,5,5,2,3,6,4,4
+TZA310,Tanzania,60,Male,Middle,2,Christian: Pentecostal,Married,La 7,Mungulimi,7,7,7,7,7,6,2,6,6,6,2,2,3,2,2,5,5,5,6,6,6,6,5,6,6,6,5,6,6,3,3,5,5,6,5,6,3,7,2,5,6,6,5,2,2,7,7,7,7,7,7,1,5,2,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA311,Tanzania,23,Male,Middle,2,Christian: Pentecostal,Married,Chuo kikuu,Mchaga,3,7,5,5,7,7,5,,6,2,2,2,7,6,5,4,3,1,7,2,7,7,7,6,4,7,1,7,7,7,7,7,5,5,7,5,2,7,1,7,7,6,6,5,7,7,7,7,1,7,7,1,5,3,1,1,1,1,1,5,3,7,5,5,5,4,5.2
+TZA312,Tanzania,48,Female,Lower middle,1,Muslim: Shia,Married,La saba,Msambaa,7,7,5,7,6,6,1,1,3,1,1,1,3,5,2,3,5,5,7,7,7,,7,1,7,1,7,6,7,5,6,5,3,6,7,5,1,7,2,5,7,7,5,7,5,7,7,6,4,7,7,1,4,1,1,1,1,1,6,6,6,3,2,2,5,5,3.4
+TZA313,Tanzania,33,Female,Lower middle,1,Muslim: Shia,Unmarried,Cheti,Mlugulu,7,7,7,7,7,7,3,5,5,2,2,2,7,7,2,2,1,1,7,7,6,6,7,5,5,1,7,7,7,2,2,7,3,6,6,2,2,7,2,3,7,7,7,7,1,7,7,7,4,7,7,1,4,2,1,2,2,2,7,7,7,5,5,6,5,5,5.2
+TZA314,Tanzania,35,Female,Lower middle,1,Christian: Catholic,Married,La saba,Mnyamwezi,7,6,5,7,7,7,2,6,,1,1,1,1,5,5,3,5,5,7,7,7,6,5,6,7,1,7,7,7,7,5,2,7,7,5,5,1,7,2,7,7,7,7,6,5,7,7,7,7,7,7,2,4,1,1,1,1,1,7,5,6,5,5,5,6,5,5.2
+TZA315,Tanzania,39,Female,"",,Christian: Catholic,Unmarried,La saba,Mfipa,6,7,7,7,6,4,3,7,4,2,7,1,7,6,6,5,3,3,6,1,,6,7,5,6,7,7,7,7,7,6,7,7,7,7,7,6,1,1,7,7,7,7,5,1,1,1,7,7,1,1,7,6,1,7,6,6,6,6,5,5.5,6,5,5,5,6,5.4
+TZA316,Tanzania,18,Female,Middle,2,Christian: Other,Other,Kidato 4,Mpare,6,6,6,7,7,7,2,2,2,1,1,1,7,7,7,5,2,3,6,6,6,7,7,5,6,1,7,7,7,3,3,7,7,2,7,2,1,7,1,2,7,7,7,5,1,7,7,7,7,7,7,1,5,2,1,1,1,1,6,2,4,5,6,3,5,5,4.8
+TZA317,Tanzania,30,Female,Middle,2,Christian: Catholic,Married,Form 6,Mlugulu,7,7,6,7,2,7,3,3,2,2,1,3,7,6,7,6,7,6,7,6,3,7,3,6,7,7,1,6,7,2,3,7,7,2,7,1,1,7,1,7,7,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,6,6,7,7,1,5.4
+TZA318,Tanzania,28,Female,Lower middle,1,Muslim: Shia,Other,Chuo kikuu,Mzigua,6,7,7,7,7,7,3,3,3,2,2,2,7,7,2,2,1,1,7,7,7,7,6,6,3,1,7,7,7,1,1,7,2,7,7,1,1,7,3,5,7,7,7,4,4,7,7,7,7,7,7,1,6,2,1,1,1,1,7,7,7,6,6,6,6,5,5.8
+TZA319,Tanzania,29,Female,Middle,2,Christian: Catholic,Unmarried,StaShahada,Mchaga,7,7,7,7,7,7,6,5,5,6,2,2,7,6,7,1,6,1,7,6,7,6,5,5,5,7,1,7,7,5,5,5,5,6,5,6,5,7,6,7,6,5,6,6,6,7,7,7,7,7,7,1,5,3,1,2,2,2,7,7,7,5,6,6,7,4,5.6
+TZA320,Tanzania,27,Female,Lower middle,1,Christian: Catholic,Other,Degree,Mlugulu,7,7,7,7,7,7,1,1,1,6,1,1,6,2,2,5,5,5,7,7,7,6,5,5,5,1,7,7,7,5,5,5,6,6,7,3,3,7,1,5,7,7,5,5,5,7,7,7,7,7,7,3,5,1,1,1,1,1,7,7,7,6,5,5,6,6,5.6
+TZA321,Tanzania,25,Female,Lower middle,1,Muslim: Sunni,Unmarried,Degree,Mnyaturu,5,6,5,5,6,7,3,4,,3,2,1,6,6,3,1,6,5,6,2,7,6,7,6,2,7,2,7,7,6,6,5,5,6,7,6,4,7,2,7,7,7,6,7,7,7,7,7,6,7,7,2,3,1,2,2,2,2,2,4,3,6,4,4,4,4,4.4
+TZA322,Tanzania,34,Female,Middle,2,Muslim: Shia,Married,La saba,Mluguru,6,6,5,7,6,6,1,5,1,1,1,1,1,5,5,6,5,5,6,7,7,6,5,6,6,7,1,7,7,1,5,6,5,7,5,5,1,7,1,7,7,7,7,6,5,7,7,7,4,7,7,3,4,1,1,1,2,1.5,6,5,5.5,5,5,6,5,6,5.4
+TZA323,Tanzania,22,Female,Middle,2,Christian: Pentecostal,Other,Form 4,Mgogo,6,6,7,7,7,7,3,2,1,2,2,3,7,6,7,2,2,2,7,7,7,6,5,7,1,7,1,7,7,6,7,7,3,3,7,7,3,7,1,7,7,7,7,7,7,7,7,7,7,7,7,7,7,1,1,1,7,4,6,7,6.5,6,6,6,2,2,4.4
+TZA324,Tanzania,42,Female,Lower middle,1,Christian: Catholic,Married,Darasa 7,Wanyamwezi,7,7,4,,6,5,5,,6,3,4,1,6,6,7,7,6,7,6,1,7,7,7,7,7,7,7,7,7,7,7,7,6,7,7,4,2,7,1,7,7,7,7,5,2,1,5,4,7,1,1,4,6,2,1,5,7,6,3,4,3.5,5,6,6,6,4,5.4
+TZA325,Tanzania,23,Female,Middle,2,Muslim: Sunni,Unmarried,Form 4,Mpare,7,7,7,2,7,7,5,7,7,3,3,3,6,7,3,5,4,2,5,6,6,6,5,5,5,1,7,6,6,6,6,7,6,7,3,6,2,5,2,6,6,6,6,5,5,7,7,7,7,7,7,6,6,1,6,3,4,3.5,6,6,6,2,3,2,2,2,2.2
+TZA326,Tanzania,23,Female,Lower middle,1,Muslim: Shia,Unmarried,Degree,Mnyaturu,2,3,1,5,3,5,2,2,3,2,3,4,6,5,5,6,6,6,2,7,2,2,2,1,1,5,2,4,5,3,5,6,6,5,5,5,6,6,1,7,7,7,7,7,7,7,6,5,7,7,7,2,3,4,3,2,2,2,5,6,5.5,5,5,5,2,4,4.2
+TZA327,Tanzania,27,Female,Middle,2,Christian: Protestant,Married,Chuo kikuu,Mpare,6,7,7,7,7,7,6,5,4,1,2,3,7,7,4,5,6,2,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,7,7,1,1,1,1,7,1,1,1,7,7,2,1,1,7,4,7,6,6.5,5,6,6,6,5,5.6
+TZA328,Tanzania,41,Female,Lower middle,1,Christian: Catholic,Married,7,Mpogoro,6,5,5,6,6,7,2,2,6,2,2,1,5,2,2,5,5,5,6,6,6,6,5,6,5,1,7,6,6,2,1,3,3,5,3,3,3,7,2,6,,6,2,6,3,7,7,7,7,7,7,2,5,3,1,1,1,1,6,7,6.5,5,5,5,6,4,5
+TZA329,Tanzania,33,Female,Middle,2,Muslim: Shia,Unmarried,Degree,Mngoni,6,4,2,2,6,6,2,3,2,2,,,6,5,2,1,6,2,6,6,6,6,6,5,6,7,3,6,6,5,5,3,2,5,3,5,2,6,2,,2,2,6,6,7,7,7,6,7,7,7,6,3,4,3,,2,,2,2,2,3,4,4,5,4,4
+TZA330,Tanzania,29,Female,Middle,2,Muslim: Shia,Other,Form 4,Mpogoro,7,7,7,7,7,7,7,7,6,2,2,2,5,2,2,6,1,1,6,6,6,6,5,5,5,1,7,6,6,2,2,6,2,7,6,2,2,7,2,6,7,7,5,5,7,7,7,7,7,7,7,7,2,2,2,,7,,7,7,7,2,1,3,1,1,1.6
+TZA331,Tanzania,56,Female,Middle,2,Christian: Catholic,Other,La saba 7,Mngoni,7,7,7,7,7,7,1,1,1,1,1,1,7,3,7,7,7,7,7,1,7,7,7,7,7,1,7,7,7,7,7,7,7,1,6,2,2,7,1,7,7,7,7,7,7,7,7,3,2,7,7,1,2,6,1,1,1,1,1,1,1,2,5,1,1,3,2.4
+TZA332,Tanzania,30,Female,Middle,2,Christian: Other,Other,Chuo kikuu,Mkaguru,6,7,7,6,6,7,3,2,3,3,5,5,7,6,7,5,5,6,6,7,6,7,7,7,7,7,1,7,7,7,7,7,6,2,5,7,5,7,1,7,7,7,7,5,5,7,7,7,7,7,7,2,7,1,1,1,2,1.5,7,5,6,6,6,7,6,7,6.4
+TZA333,Tanzania,68,Female,Lower middle,1,Christian: Catholic,Other,La nne,Mlugulu,7,7,7,7,7,7,7,7,7,7,7,7,6,7,6,3,4,2,7,7,6,5,6,6,7,1,7,7,7,2,6,7,6,7,7,2,1,7,1,7,7,7,7,5,5,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,6,7,6,7,7,6.6
+TZA334,Tanzania,31,Female,Middle,2,Christian: Catholic,Married,Form 4,Mgogo,6,7,6,7,2,7,2,3,1,1,1,1,7,6,6,1,1,2,7,7,7,7,7,7,7,7,1,7,7,5,7,7,5,1,7,5,5,1,1,7,7,7,7,1,1,7,7,7,7,7,7,1,6,1,1,1,3,2,7,5,6,7,7,5,6,7,6.4
+TZA335,Tanzania,32,Female,Middle,2,Christian: Other,Married,Degree,Mchaga,7,7,7,7,7,7,1,6,6,1,1,1,1,3,2,3,1,5,3,5,5,5,5,5,5,7,1,6,6,3,4,2,3,6,5,7,6,7,3,6,7,7,3,7,5,7,7,6,6,7,7,6,4,1,3,7,3,5,3,5,4,3,3,3,3,3,3
+TZA336,Tanzania,60,Female,Lower middle,1,Muslim: Shia,Other,La 7,Mlugulu,6,5,7,7,1,2,7,5,7,3,2,1,7,5,6,7,6,3,7,7,6,7,6,6,7,1,7,7,7,6,7,7,6,3,7,6,7,7,1,7,5,7,7,6,6,7,7,7,1,7,7,1,7,1,1,1,1,1,7,7,7,7,7,5,7,7,6.6
+TZA337,Tanzania,36,Female,Lower middle,1,Christian: Protestant,Married,Form 4,Mlugulu,6,7,7,7,6,5,7,7,7,4,7,6,6,7,4,6,7,6,6,1,5,,6,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,1,7,7,7,7,7,3,1,1,3,5,1,1,6,6,2,6,7,7,7,7,5,6,7,6,6,6,6,6.2
+TZA338,Tanzania,27,Female,Lower middle,1,Muslim: Shia,Other,Certtificate,Muhaya,7,7,7,6,6,6,1,1,1,1,3,3,3,2,2,5,5,6,7,7,6,6,6,7,6,1,7,6,7,2,1,7,7,7,6,3,2,7,3,5,6,7,5,3,3,7,6,7,7,7,7,3,4,3,1,2,1,1.5,6,6,6,2,2,3,3,5,3
+TZA339,Tanzania,23,Female,Lower middle,1,"",Unmarried,Kidato cha 6,Mluguru,6,5,6,6,7,3,6,5,6,5,3,6,6,5,7,6,7,5,7,2,6,5,7,5,6,1,7,7,7,7,7,1,2,7,7,7,7,6,1,7,7,7,7,7,7,7,7,7,,7,7,4,7,1,5,6,5,5.5,4,7,5.5,5,4,5,5,4,4.6
+TZA340,Tanzania,45,Female,Lower middle,1,Muslim: Shia,Unmarried,7,Msambaa,7,7,7,7,7,7,2,2,2,,2,2,7,5,2,6,6,6,7,1,6,6,6,6,6,1,7,6,6,6,3,6,,6,6,3,3,6,1,2,2,6,2,2,7,7,7,7,7,7,7,2,5,4,2,2,2,2,6,6,6,5,5,5,5,5,5
+TZA341,Tanzania,51,Female,Middle,2,Christian: Other,Unmarried,Darasa 7,Mgogo,5,7,6,7,6,7,2,2,2,2,3,3,7,7,7,3,6,3,,,,,,,,,7,7,6,6,3,7,2,6,2,3,1,7,1,7,7,7,7,7,2,,,,,,,1,6,2,1,1,1,1,7,7,7,6,6,,6,7,
+TZA342,Tanzania,25,Female,"",,Christian: Pentecostal,Other,Form 4,Mnyaturu,7,7,7,6,6,7,1,1,1,2,2,2,7,7,6,7,6,6,7,6,7,6,6,6,6,1,7,7,7,7,7,7,7,7,2,7,7,7,1,7,5,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,5,7,6,6,6,7,7,7,6.6
+TZA343,Tanzania,62,Female,Middle,2,Muslim: Shia,Other,Claiasa nne,Mlugulu,5,7,7,7,7,7,3,3,3,2,3,,7,7,7,7,7,7,7,7,6,5,5,6,5,1,7,7,7,7,7,6,5,2,7,6,2,7,1,7,7,7,7,6,5,7,7,7,7,7,7,2,6,2,2,2,2,2,7,7,7,7,6,6,7,6,6.4
+TZA344,Tanzania,54,Female,Middle,2,Christian: Other,Married,Form 4,Mrangi,7,6,7,7,6,6,6,5,5,7,6,6,7,7,6,7,6,7,7,6,6,7,6,7,6,7,1,7,7,6,5,7,5,7,7,3,2,7,1,7,7,7,7,3,2,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,7,7,7,7,7
+TZA345,Tanzania,24,Female,Lower middle,1,Christian: Catholic,Other,Kidato cha 1,Mnyamwezi,7,7,7,7,7,7,3,7,7,3,3,7,7,7,7,6,7,6,6,5,6,7,6,7,5,1,7,7,7,7,3,7,7,6,7,3,1,7,1,7,7,7,7,5,2,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,6,7,6,6,6.4
+TZA346,Tanzania,36,Female,Lower middle,1,Christian: Catholic,Unmarried,Darasa la 7,Miraki,7,6,7,6,6,6,7,6,7,3,5,5,6,7,6,7,6,7,6,7,6,7,7,7,7,1,7,7,7,2,2,7,5,7,7,2,2,7,1,7,7,7,7,7,7,7,7,7,7,7,7,1,7,1,1,1,1,1,7,7,7,7,7,5,7,6,6.4
+TZA347,Tanzania,22,Female,Middle,2,Muslim: Sunni,Unmarried,Kidato cha nne,Mluguru,6,6,6,7,6,6,5,4,5,,4,2,6,5,6,5,2,3,4,7,6,6,7,6,,7,1,6,7,1,6,2,2,7,4,5,4,6,2,7,5,7,6,5,4,7,7,,7,7,7,2,7,1,1,1,1,1,6,6,6,6,5,6,7,6,6
+TZA348,Tanzania,40,Female,Middle,2,Christian: Catholic,Married,Form 4,Mhaya,7,5,5,7,7,7,2,2,2,1,1,1,5,5,5,5,6,5,7,7,6,7,5,7,5,1,7,7,7,5,5,6,6,6,5,3,3,7,2,5,7,7,5,3,3,7,7,6,6,7,7,2,4,4,2,2,6,4,6,6,6,5,6,6,6,6,5.8
+TZA349,Tanzania,30,Female,Middle,2,Christian: Catholic,Unmarried,Degree,Mpare,6,6,6,6,6,7,5,3,3,3,3,3,6,7,5,4,5,6,6,7,6,6,7,6,7,2,7,6,7,7,7,7,5,7,5,7,7,6,2,5,6,7,5,7,6,7,6,5,6,7,7,5,3,4,2,3,4,3.5,2,2,2,5,6,6,6,4,5.4
+TZA350,Tanzania,45,Female,Middle,2,Christian: Other,Unmarried,LA 7,Mgogo,7,7,7,7,7,7,2,2,2,2,2,2,7,7,7,6,7,6,7,6,7,7,7,7,7,1,7,7,7,7,7,7,7,2,7,3,3,7,1,7,7,7,7,5,5,7,7,7,7,7,7,2,6,2,2,2,2,2,7,7,7,6,6,6,6,6,6
+TZA351,Tanzania,43,Female,Lower middle,1,Christian: Catholic,Other,La saba,Mgogo,7,6,7,7,7,7,2,2,2,2,2,2,7,3,3,6,6,6,7,7,6,7,6,6,6,1,7,6,7,7,6,6,7,7,7,3,3,7,2,6,6,7,5,6,6,7,7,7,4,7,7,1,6,2,1,1,1,1,7,7,7,6,6,7,6,6,6.2
+TZA352,Tanzania,25,Female,Middle,2,Christian: Catholic,Unmarried,Form 4,Mchaga,7,5,7,7,7,7,7,7,7,7,7,7,7,3,2,3,2,7,2,7,7,2,4,1,2,7,1,7,7,1,7,4,3,6,1,7,1,7,1,6,6,7,6,7,7,7,7,5,7,7,7,7,6,6,7,7,7,7,7,7,7,7,3,3,3,5,4.2

@@ -723,6 +723,179 @@ Variables of interest in this analysis:
 - Experience of religious freedom
 - Empathic concern
 - Perspective taking
+- Perceived history of discrimination
+- Frequency of positive contact with OG
+- Frequency of negative contact with OG
+- Outgroup cooperation
+- Outgroup hostility
+- Willingness to fight outgroup
+
+- Outgroup affect (made up of five sub-items)
+
+# **Section 3b: Outgroup attitudinal measures **
+
+### Perceived history of discrimination
+
+```{r, error = F, message = F, warning = F}
+
+# single item measure
+
+ogp01 <- ds %>% drop_na(history_discrimination) %>% 
+  ggplot(aes(y = history_discrimination, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Perceived discrimination",
+       x = "",
+       title = "Perceived history of discrimination by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp01
+
+```
+
+
+### Positive contact with outgroup:
+
+```{r, error = F, message = F, warning = F}
+
+# single item measure
+
+ogp02 <- ds %>% drop_na(freq_positive_contact) %>% 
+  ggplot(aes(y = freq_positive_contact, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Positive contact with outgroup by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp02
+
+```
+
+
+### Negative contact with outgroup:
+
+```{r, error = F, message = F, warning = F}
+
+# single item measure
+
+ogp03 <- ds %>% drop_na(freq_negative_contact) %>% 
+  ggplot(aes(y = freq_negative_contact, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Frequency",
+       x = "",
+       title = "Negative contact with outgroup by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp03
+
+```
+
+
+### Willingness to fight outgroup:
+
+```{r, error = F, message = F, warning = F}
+
+# single item measure
+
+ogp04 <- ds %>% drop_na(fight_outgroup) %>% 
+  ggplot(aes(y = fight_outgroup, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Willingness",
+       x = "",
+       title = "Willingness to fight outgroup by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp04
+
+```
+
+
+### Outgroup hostility:
+
+```{r, error = F, message = F, warning = F}
+# 2 items make up full scale:
+# og_host_01
+# og_host_02
+
+ogp05 <- ds %>% drop_na(og_hostility) %>% 
+  ggplot(aes(y = og_hostility, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Hostility",
+       x = "",
+       title = "Outgroup hostility by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp05
+
+```
+
+### Outgroup cooperation:
+
+```{r, error = F, message = F, warning = F}
+
+# 2 items make up full scale:
+# og_coop_01
+# og_coop_02
+
+ogp06 <- ds %>% drop_na(og_cooperation) %>% 
+  ggplot(aes(y = og_cooperation, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Cooperation",
+       x = "",
+       title = "Outgroup cooperation by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp06
+
+```
+
+
+### Outgroup affect:
+
+```{r, error = F, message = F, warning = F}
+
+# 5 items make up full scale:
+
+#NegativeToPositive
+#HostileToFriendly
+#SuspiciousToTrusting
+#ContemptToRespect
+#ThreatenedToRelaxed
+
+
+ogp07 <- ds %>% drop_na(og_affect) %>% 
+  ggplot(aes(y = og_affect, 
+             x = country))+
+geom_boxplot(fill = "grey")+
+  labs(y = "Affect",
+       x = "",
+       title = "Outgroup affect by country")+
+  #facet_wrap(~country, nrow = 2)+
+  coord_flip()+
+  theme_bw()
+
+ogp07
+
+```
+
 
 # **Section 4: TO DO**
 
@@ -861,4 +1034,112 @@ summary(cfa02,
         standardized=TRUE)
 
 ```
+
+# **Section 8: EFA and CFA: Imagistic items (after removing certain items)**
+
+## EFA
+
+```{r, error = F, message = F, warning = F}
+
+imagistic <- cbind.data.frame(ds$event_episodic_recall_01, 
+                              ds$event_episodic_recall_02,
+                              ds$event_shared_perception_01, 
+                              ds$event_shared_perception_02,
+                              ds$event_reflection_01, 
+                              ds$event_reflection_02,
+                              ds$event_transformative_indiv_01,
+                              #ds$event_transformative_indiv_02,
+                              ds$event_transformative_group_01
+                              #ds$event_transformative_group_02
+                              )
+
+```
+
+# **Section 8: EFA: Imagistic items**
+
+```{r, error = F, message = F, warning = F}
+
+imagistic <- cbind.data.frame(ds$event_episodic_recall_01, 
+                              ds$event_episodic_recall_02,
+                              ds$event_shared_perception_01, 
+                              ds$event_shared_perception_02,
+                              ds$event_reflection_01, 
+                              ds$event_reflection_02,
+                              #ds$event_transformative_indiv_01,
+                              ds$event_transformative_indiv_02,
+                              #ds$event_transformative_group_01,
+                              ds$event_transformative_group_02
+                              )
+names(imagistic) <- sub('ds\\$event\\_', '', names(imagistic))
+
+imagistic <- na.omit(imagistic)
+
+mtx <- cor(imagistic[, c(1:8)])
+
+```
+
+### Correlation plot:
+
+```{r, error = F, message = F, warning = F}
+
+corrplot(mtx, method = "number", number.cex = 0.7,
+         col=c("darkred", "red", "red",
+               "darkgrey", "blue", "darkblue"))
+
+```
+
+### Scree plot:
+
+```{r, error = F, message = F, warning = F}
+
+scree(imagistic)
+
+```
+
+### Four factor model:
+
+```{r, error = F, message = F, warning = F}
+
+fit04 <- factanal(imagistic, 4, rotation="promax")
+
+print(fit04$loadings, cutoff = 0.35)
+
+```
+
+### Three factor model:
+
+```{r, error = F, message = F, warning = F}
+
+fit03 <- factanal(imagistic, 3, rotation="promax")
+
+print(fit03$loadings, cutoff = 0.35)
+
+```
+
+# **Section 9: CFA: Imagistic items**
+
+```{r, error = F, message = F, warning = F}
+
+## Remove 'ds$END' from variable names:
+names(imagistic) <- sub(".*\\$", "", names(imagistic))
+
+names(imagistic)
+
+#correlated two factor solution, marker method
+fourfacs <- 'Reflection =~ reflection_01+reflection_02
+             Vivid_recall =~ episodic_recall_01+episodic_recall_02
+             Perceived shareness =~ shared_perception_01+shared_perception_02
+             Defining_experience =~ transformative_indiv_02+transformative_group_02' 
+
+cfa04 <- cfa(fourfacs, 
+             data=imagistic, 
+             std.lv=TRUE) 
+
+summary(cfa04,
+        fit.measures=TRUE,
+        standardized=TRUE)
+
+```
+
+
 
